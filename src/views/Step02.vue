@@ -1,10 +1,12 @@
 <template>
-    <div class="flex flex-col items-center justify-center py-20 font-itim">
-        <img src="/assets/2/zasady.svg" alt="" />
+    <div class="flex flex-col items-center justify-center">
+        <img src="/assets/2/zasady.svg" alt="" width="247px" />
 
-        <ul class="font-itim text-3xl my-6 max-w-md">
+        <ul
+            class="font-itim text-xl md:text-3xl my-6 max-w-lg text-center space-y-4"
+        >
             <li class="py-4 relative">
-                <span class="absolute text-white bg-black px-2 leading-none"
+                <span class="text-white bg-black px-2 leading-none mr-2"
                     >1.</span
                 >
                 <span> To Ty współtworzysz tę książkę </span>
@@ -21,15 +23,15 @@
             </li>
         </ul>
 
-        <div class="flex space-x-4">
-            <LinkButton to="/krok-2" class="mt-10">
-                Poprzednia strona
-            </LinkButton>
-            <LinkButton to="/krok-2" class="mt-10">Ok, super!</LinkButton>
-        </div>
+        <NavButtons
+            next-page="krok-3"
+            next-page-label="Ok, super!"
+            prev-page="/"
+            hide-skip-button
+        />
     </div>
 </template>
 
 <script setup>
-import LinkButton from "@/components/LinkButton.vue";
+import NavButtons from "@/components/NavButtons.vue";
 </script>

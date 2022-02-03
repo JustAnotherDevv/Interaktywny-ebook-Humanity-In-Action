@@ -1,29 +1,23 @@
 <template>
-    <header class="flex justify-between p-8">
-        <div class="w-1/3 hidden 2xl:block"></div>
-        <div class="2xl:w-1/3 w-1/2 text-center">
-            <h1 class="font-medium text-2xl">O mowie nienawiści i hejcie.</h1>
-            <h2>Interaktywna książka przeciw</h2>
-        </div>
-        <div class="2xl:w-1/3 w-1/2">
-            <ul class="flex items-center justify-end">
-                <li>
-                    <a href="#" class="p-6 hover:underline">Spis treści</a>
-                </li>
-                <li>
-                    <a href="#" class="p-6 hover:underline">O nas</a>
-                </li>
-                <li>
-                    <a href="#" class="p-6 hover:underline">Kontakt</a>
-                </li>
-                <li>
-                    <LinkButton to="">Zaloguj się</LinkButton>
-                </li>
-            </ul>
-        </div>
-    </header>
+    <ul
+        class="flex flex-col md:flex-row space-y-4 md:space-y-0 items-center justify-end font-avenir"
+    >
+        <li>
+            <a href="#" class="p-6 hover:underline">Spis treści</a>
+        </li>
+        <li>
+            <a href="#" class="p-6 hover:underline">O nas</a>
+        </li>
+        <li>
+            <a href="#" class="p-6 hover:underline">Kontakt</a>
+        </li>
+        <li>
+            <router-link
+                to="#"
+                class="font-avenir inline-flex items-center justify-center rounded-full border border-transparent px-8 py-1 text-base font-medium leading-7 transition duration-150 ease-in-out focus:outline-none text-center bg-black text-white ml-6"
+            >
+                Zaloguj się</router-link
+            >
+        </li>
+    </ul>
 </template>
-
-<script setup>
-import LinkButton from "@/components/LinkButton.vue";
-</script>

@@ -7,7 +7,10 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ["Roboto", ...defaultTheme.fontFamily.sans],
-                itim: ['"Itim"'],
+                itim: ["Itim"],
+                avenir: ['"Roboto"'],
+                // avenir: ['"Avenir Book"'],
+                amatic: ['"Amatic SC"'],
             },
         },
     },

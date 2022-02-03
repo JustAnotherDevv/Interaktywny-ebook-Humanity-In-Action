@@ -1,5 +1,5 @@
 <template>
-    <ul class="my-4">
+    <ul class="my-4 text-left">
         <li
             v-for="(value, key) in options"
             :key="key"

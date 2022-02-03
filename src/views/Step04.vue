@@ -6,7 +6,13 @@
             Wpisz swoje pierwsze skojarzenia ze słowami/sformułowaniem
         </p>
 
-        <img src="/assets/4/mowa-nienawisci.svg" alt="" class="mt-16" />
+        <img
+            src="/assets/4/mowa-nienawisci.svg"
+            alt=""
+            class="mt-16"
+            width="556"
+            height="194"
+        />
 
         <div class="font-avenir text-center mt-16 max-w-3xl">
             <p class="text-3xl">Pssyt!</p>

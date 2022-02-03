@@ -6,8 +6,20 @@
             Rozdział I
         </p>
 
-        <img src="/assets/3/img.svg" alt="" class="mt-16" />
-        <img src="/assets/3/o-mnie.svg" alt="" class="mt-16" />
+        <img
+            src="/assets/3/img.svg"
+            alt=""
+            class="mt-16"
+            width="496"
+            height="428"
+        />
+        <img
+            src="/assets/3/o-mnie.svg"
+            alt=""
+            class="mt-16"
+            width="346"
+            height="80"
+        />
 
         <p
             class="font-amatic font-bold text-4xl tracking-tighter transform scale-x-95 text-center"

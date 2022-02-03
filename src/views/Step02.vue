@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col items-center justify-center">
-        <img src="/assets/2/zasady.svg" alt="" width="247px" />
+        <img src="/assets/2/zasady.svg" alt="" width="247" height="111" />
 
         <ul
             class="font-itim text-xl md:text-3xl my-6 max-w-lg text-center space-y-4"

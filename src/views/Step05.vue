@@ -9,6 +9,8 @@
             src="/assets/5/kogo-to-zjawisko-dotyczylo.svg"
             alt=""
             class="my-10"
+            width="250"
+            height="94"
         />
 
         <p>Opisz tę osobę lub osoby w 3-5 słowach tutaj:</p>

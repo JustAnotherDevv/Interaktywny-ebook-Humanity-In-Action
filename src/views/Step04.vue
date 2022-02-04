@@ -17,7 +17,7 @@
 
             <div class="-mt-4">
                 <textarea
-                    class="w-full border-dashed rounded-3xl focus:ring-0 focus:border-black z-20"
+                    class="w-full border-dashed rounded-3xl focus:ring-0 focus:border-black z-20 p-6"
                     rows="4"
                 ></textarea>
             </div>

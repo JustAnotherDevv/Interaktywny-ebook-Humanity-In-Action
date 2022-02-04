@@ -18,7 +18,7 @@
                 </span>
             </li>
             <li class="py-4">
-                <span class="text-white bg-black px-2 leading-none">2.</span>
+                <span class="text-white bg-black px-2 leading-none">3.</span>
                 <span> Nie bój się trudnych pytań </span>
             </li>
         </ul>

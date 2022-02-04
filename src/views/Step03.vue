@@ -7,7 +7,7 @@
         </p>
 
         <img
-            src="/assets/3/img.svg"
+            src="/assets/3/img.png"
             alt=""
             class="mt-16"
             width="496"

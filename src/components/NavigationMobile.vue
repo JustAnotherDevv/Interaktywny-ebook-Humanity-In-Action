@@ -37,10 +37,10 @@
         </button>
         <div
             v-show="menu"
-            class="absolute right-0 top-0 mt-10 z-10 w-full sm:w-[300px] p-8 shadow-2xl rounded bg-white"
+            class="absolute right-0 top-0 mt-10 z-50 w-full sm:w-[300px] p-8 shadow-2xl rounded bg-white"
         >
             <ul
-                class="flex flex-col space-y-4 items-center justify-center font-avenir"
+                class="flex flex-col space-y-4 items-center justify-center font-liber"
             >
                 <li>
                     <a href="#" class="p-6 hover:underline">Spis treści</a>
@@ -54,7 +54,7 @@
                 <li>
                     <router-link
                         to="#"
-                        class="font-avenir inline-flex items-center justify-center rounded-full border border-transparent px-8 py-1 text-base font-medium leading-7 transition duration-150 ease-in-out focus:outline-none text-center bg-black text-white"
+                        class="font-liber inline-flex items-center justify-center rounded-full border border-transparent px-8 py-1 text-base font-semibold leading-7 transition duration-150 ease-in-out focus:outline-none text-center bg-black text-white"
                     >
                         Zaloguj się
                     </router-link>

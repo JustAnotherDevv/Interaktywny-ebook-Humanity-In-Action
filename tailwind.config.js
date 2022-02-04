@@ -8,8 +8,8 @@ module.exports = {
             fontFamily: {
                 sans: ["Roboto", ...defaultTheme.fontFamily.sans],
                 itim: ["Itim"],
-                avenir: ['"Roboto"'],
-                // avenir: ['"Avenir Book"'],
+                // avenir: ['"Roboto"'],
+                liber: ["Liber"],
                 amatic: ['"Amatic SC"'],
             },
         },

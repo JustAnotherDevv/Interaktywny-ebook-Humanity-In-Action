@@ -12,7 +12,7 @@
             <router-link
                 v-if="nextPage && !hideSkipButton"
                 :to="nextPage"
-                class="font-avenir px-4 py-2 underline text-lg font-medium leading-7 transition duration-150 ease-in-out focus:outline-none min-w-[190px] text-center"
+                class="font-liber px-4 py-2 underline text-base font-medium leading-7 transition duration-150 ease-in-out focus:outline-none min-w-[190px] text-center"
             >
                 Pomiń ćwiczenie
             </router-link>

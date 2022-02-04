@@ -6,17 +6,26 @@
             Wpisz swoje pierwsze skojarzenia ze słowami/sformułowaniem
         </p>
 
-        <img
-            src="/assets/4/mowa-nienawisci.svg"
-            alt=""
-            class="mt-16"
-            width="556"
-            height="194"
-        />
+        <div class="relative h-[200px] mt-16 max-w-xl">
+            <img
+                src="/assets/4/mowa-nienawisci.svg"
+                alt=""
+                class="bg-white z-30 relative px-8 m-auto max-w-[90%]"
+                width="556"
+                height="194"
+            />
 
-        <div class="font-avenir text-center mt-16 max-w-3xl">
+            <div class="-mt-4">
+                <textarea
+                    class="w-full border-dashed rounded-3xl focus:ring-0 focus:border-black z-20"
+                    rows="4"
+                ></textarea>
+            </div>
+        </div>
+
+        <div class="font-liber text-center mt-16 max-w-3xl">
             <p class="text-3xl">Pssyt!</p>
-            <p class="text-lg mt-2 leading-8">
+            <p class="text-lg mt-2 leading-9">
                 Czy zastanawiałeś/aś się kiedyś nad tym, czym właściwie jest
                 mowa nienawiści? Najpewniej masz intuicję lub/i doświadczenia
                 związane z tym tematem. A może czujesz, że niby wiesz o co
@@ -30,7 +39,7 @@
             </p>
         </div>
 
-        <div class="font-avenir text-lg text-center mt-8 leading-8 max-w-3xl">
+        <div class="font-liber text-lg text-center mt-8 leading-9 max-w-3xl">
             <p>
                 Zapytaj kolegę/koleżankę lub znajomego/znajomą o ich
                 skojarzenia.

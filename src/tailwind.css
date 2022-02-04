@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
+
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Liber";
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+        src: url("/fonts/Liber/LiberGrotesqueFamily-Regular.ttf")
+            format("truetype");
+    }
+    @font-face {
+        font-family: "Liber";
+        font-weight: 600;
+        font-display: swap;
+        font-style: normal;
+        src: url("/fonts/Liber/LiberGrotesqueFamily-SemiBold.ttf")
+            format("truetype");
+    }
+}

@@ -1,5 +1,5 @@
 <template>
-    <div v-cloak>
+    <div v-cloak :style="style">
         <TopBar />
         <main
             class="flex items-center justify-center py-10 md:py-16 px-6 md:px-10 font-itim"
@@ -21,7 +21,16 @@
 </template>
 
 <script setup>
+import { reactive, watch } from "vue";
+import { useRoute } from "vue-router";
 import TopBar from "./components/TopBar.vue";
+const route = useRoute();
+const style = reactive({});
+
+watch(
+    () => route.meta.bg,
+    (val) => (style.backgroundColor = val)
+);
 </script>
 
 <style>

@@ -1,5 +1,5 @@
 <template>
-    <Step hide-skip-button>
+    <Step>
         <img src="/assets/10/dzien-1.svg" alt="" width="151" height="59" />
         <div
             class="flex justify-between items-center w-full flex-col sm:flex-row mb-10"

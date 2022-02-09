@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center">
+    <Step>
         <p
             class="font-amatic font-bold text-4xl tracking-tighter transform scale-x-95 text-center"
         >
@@ -55,13 +55,11 @@
                 rows="4"
             ></textarea>
         </div>
-
-        <NavButtons prev-page="krok-3" next-page="krok-5" />
-    </div>
+    </Step>
 </template>
 
 <script setup>
-import NavButtons from "@/components/NavButtons.vue";
+import Step from "@/components/Step.vue";
 </script>
 
 <style>

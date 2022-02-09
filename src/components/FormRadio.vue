@@ -1,5 +1,8 @@
 <template>
-    <ul class="my-4 text-left">
+    <ul
+        class="my-4 text-left flex"
+        :class="[horizontal ? 'md:space-x-4 flex-col md:flex-row' : 'flex-col']"
+    >
         <li
             v-for="(value, key) in options"
             :key="key"
@@ -26,7 +29,12 @@
                     />
                 </svg>
             </div>
-            <span class="pl-12">{{ value }}</span>
+
+            <div :class="[horizontal ? 'pl-10' : 'pl-12']">
+                <slot :value="value" :key="key">
+                    {{ value }}
+                </slot>
+            </div>
         </li>
     </ul>
 </template>
@@ -36,6 +44,10 @@ import { toRefs } from "vue";
 const props = defineProps({
     options: Object,
     modelValue: String,
+    horizontal: {
+        type: Boolean,
+        default: false,
+    },
 });
 
 const emit = defineEmits(["update:modelValue"]);
@@ -44,5 +56,5 @@ const onClick = (key) => {
     emit("update:modelValue", key);
 };
 
-const { options, modelValue } = toRefs(props);
+const { options, modelValue, horizontal } = toRefs(props);
 </script>

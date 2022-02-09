@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center">
+    <Step>
         <div class="text-xl text-center">
             <p>Zetknąłeś/aś się już kiedyś z mową nienawiści?</p>
             <p>Przypomnij sobie</p>
@@ -19,13 +19,11 @@
             class="w-full border-none notes focus:ring-0 focus:border-none mt-10"
             rows="4"
         ></textarea>
-
-        <NavButtons prev-page="krok-4" />
-    </div>
+    </Step>
 </template>
 
 <script setup>
-import NavButtons from "@/components/NavButtons.vue";
+import Step from "@/components/Step.vue";
 </script>
 
 <style>

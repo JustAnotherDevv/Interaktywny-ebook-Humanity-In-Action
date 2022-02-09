@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center">
+    <Step hide-skip-button>
         <p
             class="font-amatic font-bold text-4xl tracking-tighter transform scale-x-95 text-center"
         >
@@ -26,13 +26,11 @@
         >
             I o polskim społeczeństwie
         </p>
-
-        <NavButtons prev-page="krok-2" next-page="krok-4" hide-skip-button />
-    </div>
+    </Step>
 </template>
 
 <script setup>
-import NavButtons from "@/components/NavButtons.vue";
+import Step from "@/components/Step.vue";
 </script>
 
 <style>

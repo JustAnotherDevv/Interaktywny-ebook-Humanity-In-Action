@@ -1,50 +1,84 @@
 <template>
     <Step>
-        <p class="font-amatic uppercase text-3xl">Wpisz w wyszukiwarkę słowa</p>
+        <p class="font-amatic uppercase text-3xl mb-6">
+            Wpisz w wyszukiwarkę słowa
+        </p>
 
-        <input
-            type="text"
-            class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full focus:ring-0 focus:border-black"
-        />
-
-        <div class="font-liber text-xl text-center">
-            <p class="pb-10">
-                Czy na podstawie Twoich doświadczeń ze szkoły, domu i
-                najróżniejszych kontaktów społecznych, zwłaszcza z rówieśnikami
-                uważasz, że wystarczająco znasz ten temat i wiesz jak reagować
-                na mowę nienawiści?
-            </p>
-            <p class="pb-10">
-                A czego chciałbyś/abyś dowiedzieć się z tej książki?
-            </p>
-            <p>Tu możesz zapisać swoją listę :)</p>
-        </div>
-
-        <div class="flex items-center justify-center w-full my-10">
-            <div class="p-40 bg-gray-300 flex h-96">
-                <span class="uppercase text-xl">Książka</span>
+        <div
+            class="font-liber border rounded-md px-6 py-2 bg-gray-100 w-full max-w-md flex justify-between items-center"
+        >
+            <span>"mowa nienawiści" i "hejt"</span>
+            <div>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
+                </svg>
             </div>
         </div>
-        <!-- <img
-            src="/assets/6/wypisz-3-rzeczy.svg"
-            alt=""
-            width="577"
-            height="192"
-        /> -->
+
+        <div class="max-w-md text-center py-16">
+            <p class="text-xl">
+                Wpisz co najmniej 3 kwestie, które najbardziej zwróciły Twoją
+                uwagę z 10 nagłówków
+            </p>
+        </div>
+
+        <div
+            class="space-y-4 w-full flex flex-col justify-center items-center mb-10"
+        >
+            <input
+                type="text"
+                class="font-liber border rounded-md px-6 py-2 bg-gray-100 max-w-md flex justify-between items-center w-full focus:ring-0 focus:border-black"
+            />
+            <input
+                type="text"
+                class="font-liber border rounded-md px-6 py-2 bg-gray-100 max-w-md flex justify-between items-center w-full focus:ring-0 focus:border-black"
+            />
+            <input
+                type="text"
+                class="font-liber border rounded-md px-6 py-2 bg-gray-100 max-w-md flex justify-between items-center w-full focus:ring-0 focus:border-black"
+            />
+        </div>
+
+        <p class="font-amatic uppercase text-xl mt-6">
+            Jaki jest ich wydźwięk?
+        </p>
+
+        <FormRadio :options="radioOptions" v-model="selectedRadio" horizontal>
+            <template v-slot:default="{ value, key }">
+                <div class="flex items-center justify-between">
+                    <span class="font-amatic text-2xl">{{ value }}</span>
+                    <img
+                        :src="'/assets/8/' + key + '.svg'"
+                        alt=""
+                        class="ml-2 w-8 h-8"
+                    />
+                </div>
+            </template>
+        </FormRadio>
     </Step>
 </template>
 
 <script setup>
+import { ref } from "vue";
 import Step from "@/components/Step.vue";
-import FormTextarea from "@/components/FormTextarea.vue";
-</script>
+import FormRadio from "@/components/FormRadio.vue";
 
-<style>
-.notes {
-    background-image: linear-gradient(to right, white 10px, transparent 10px),
-        linear-gradient(to left, white 10px, transparent 10px),
-        linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
-    background-size: 100% 100%, 100% 100%, 100% 31px;
-    line-height: 31px;
-}
-</style>
+const radioOptions = {
+    pozytywny: "Pozytywny",
+    negatywny: "Negatywny",
+    neutralny: "Neutralny",
+};
+
+const selectedRadio = ref("duzo");
+</script>

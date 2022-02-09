@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center justify-center">
+    <Step hide-skip-button>
         <img src="/assets/2/zasady.svg" alt="" width="247" height="111" />
 
         <ul
@@ -22,16 +22,9 @@
                 <span> Nie bój się trudnych pytań </span>
             </li>
         </ul>
-
-        <NavButtons
-            next-page="krok-3"
-            next-page-label="Ok, super!"
-            prev-page="/"
-            hide-skip-button
-        />
-    </div>
+    </Step>
 </template>
 
 <script setup>
-import NavButtons from "@/components/NavButtons.vue";
+import Step from "@/components/Step.vue";
 </script>

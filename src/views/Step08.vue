@@ -80,5 +80,5 @@ const radioOptions = {
     neutralny: "Neutralny",
 };
 
-const selectedRadio = ref("duzo");
+const selectedRadio = ref();
 </script>

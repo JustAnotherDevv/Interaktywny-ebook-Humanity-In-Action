@@ -32,7 +32,7 @@ import { useStore } from "@/composables/useStore";
 import Step from "@/components/Step.vue";
 import FormRadio from "@/components/FormRadio.vue";
 
-const store = useStore();
+// const store = useStore();
 
 const radioOptions = {
     duzo: "dużo",
@@ -44,10 +44,10 @@ const radioOptions = {
 //     imie: "",
 //     "ile-wiem": "duzo",
 // };
-// const answers = reactive({
-//     imie: "",
-//     "ile-wiem": "duzo",
-// });
+const answers = reactive({
+    imie: "",
+    "ile-wiem": "duzo",
+});
 
-console.log(store["step-1"]);
+// console.log(store["step-1"]);
 </script>

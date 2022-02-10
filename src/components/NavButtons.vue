@@ -3,7 +3,7 @@
         class="flex flex-col md:flex-row space-y-4 md:space-y-0 mt-10 justify-center w-full max-w-2xl items-center"
     >
         <div class="w-1/3 flex justify-center">
-            <LinkButton v-if="!hidePrevPage" :to="prevPage" white>
+            <LinkButton v-if="!hidePrevPage" :to="prevPage" white :dark="dark">
                 Poprzednia strona
             </LinkButton>
         </div>
@@ -24,6 +24,7 @@
                 :to="nextPage"
                 class="hover:translate-x-1"
                 no-animation
+                :dark="dark"
                 >{{ nextPageLabel }}</LinkButton
             >
         </div>
@@ -32,7 +33,7 @@
 
 <script setup>
 import LinkButton from "@/components/LinkButton.vue";
-import { useRouter, useRoute } from "vue-router";
+import { useRoute } from "vue-router";
 const route = useRoute();
 import { toRefs, ref } from "vue";
 const props = defineProps({
@@ -55,6 +56,7 @@ const props = defineProps({
 });
 
 const step = ref(parseInt(route.meta.step) ?? 1);
+const dark = ref(route.meta.dark ?? false);
 
 const nextPage = ref("");
 const prevPage = ref("");

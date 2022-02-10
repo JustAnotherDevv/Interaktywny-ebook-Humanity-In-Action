@@ -6,7 +6,7 @@ const steps = [];
 const lastStep = 15;
 
 const meta = {
-    15: { bg: "#013193" },
+    15: { bg: "#013193", dark: true },
 };
 
 for (let i = 2; i <= lastStep; i++) {

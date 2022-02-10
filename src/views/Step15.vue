@@ -1,94 +1,106 @@
 <template>
     <Step hide-skip-button class="text-white">
-        <div class="flex items-center">
-            <p
-                class="font-amatic font-bold text-4xl transform scale-x-95 text-center tracking-widest"
-            >
-                Mowa nienawiści
-            </p>
-            <img
-                src="/assets/15/co-sie-kryje.svg"
-                alt=""
-                width="309"
-                height="57"
-            />
-        </div>
-
         <div class="relative">
-            <div class="absolute right-[-150px] top-[150px] hidden md:block">
-                <img
-                    src="/assets/14/person-right.svg"
-                    alt=""
-                    width="108"
-                    height="278"
-                />
+            <div class="transform -rotate-90 absolute left-0 top-0">
+                <span class="font-liber text-2xl">
+                    ZOBACZ JAK RÓŻNE ORGANIZACJE MIĘDZYNARODOWE DEFINIUJĄ MOWĘ
+                    NIENAWIŚCI:
+                </span>
             </div>
 
-            <ul class="space-y-8 max-w-xl mt-10">
-                <li class="relative pl-10">
-                    <div
-                        class="absolute top-[50%] transform translate-y-[-50%] left-0 w-5 h-5 rounded-full bg-black"
-                    ></div>
-                    Nie tylko Ty masz trudności ze zdefiniowaniem mowy
-                    nienawiści i hejtu? Są to dość niejednoznaczne zjawiska i
-                    dlatego nie ma jednej powszechnie uznawanej przez wszystkich
-                    międzynarodowo obowiązującej definicji mowy nienawiści?
-                </li>
-                <li class="relative pl-10">
-                    <div
-                        class="absolute top-[50%] transform translate-y-[-50%] left-0 w-5 h-5 rounded-full bg-black"
-                    ></div>
-                    Chociaż w polskim prawie nie ma definicji mowy nienawiści,
-                    to i tak osoby, które używają mowy nienawiści czy hejtu są
-                    za to odpowiedzialne i muszą się liczyć z konsekwencjami w
-                    ramach Kodeksu Cywilnego i Karnego?
-                </li>
-                <li class="relative pl-10">
-                    <div
-                        class="absolute top-[50%] transform translate-y-[-50%] left-0 w-5 h-5 rounded-full bg-black"
-                    ></div>
-                    Z perspektywy osób należących do mniejszości czy grup
-                    dyskryminowanych (regularne) stykanie się z mową nienawiści
-                    ze strony grup większościowych, powoduje szereg poważnych
-                    konsekwencji psychicznych - pogorszony nastrój, objawy lęku
-                    i depresji, a czasem wręcz myśli samobójcze?
-                </li>
-                <li class="relative pl-10">
-                    <div
-                        class="absolute top-[50%] transform translate-y-[-50%] left-0 w-5 h-5 rounded-full bg-black"
-                    ></div>
-                    Im częściej spotykamy mowę nienawiści, tym bardziej się do
-                    niej przyzwyczajamy i bardziej ją akceptujemy? Z czasem nie
-                    tylko już nam nie przeszkadza, ale zaczynamy ją uważać za
-                    “nową normalność”. W konsekwencji może to niestety prowadzić
-                    do tego, że nie zdając sobie do końca z tego sprawy
-                    zaczynamy wykluczać osoby lub grupy. Niektórzy mogą nawet
-                    posunąć się do użycia przemocy w stosunku do tych osób.
-                </li>
-            </ul>
-        </div>
-
-        <div class="mt-10 flex w-full max-w-xl flex-col sm:flex-row">
-            <div class="flex-shrink-0">
-                <img
-                    src="/assets/14/person-left.svg"
-                    alt=""
-                    width="106"
-                    height="275"
-                />
-            </div>
-            <div class="sm:pl-24 mt-10 sm:mt-0">
-                <img
-                    src="/assets/14/podsumowujac.svg"
-                    alt=""
-                    width="270"
-                    height="81"
-                    class="mb-6"
-                />
-                <p class="text-2xl">
-                    czy zdajesz sobie sprawę, że nienawistne słowa mogą realnie
-                    krzywdzić innych ludzi?
+            <div class="flex items-center">
+                <p
+                    class="font-amatic font-bold text-4xl transform scale-x-95 text-center tracking-widest"
+                >
+                    Mowa nienawiści
                 </p>
+                <img
+                    src="/assets/15/co-sie-kryje.svg"
+                    alt=""
+                    width="309"
+                    height="57"
+                />
+            </div>
+
+            <div class="font-liber">
+                <div>
+                    <h2 class="font-amatic text-5xl mb-5">Rada Europy</h2>
+                    <p class="text-lg font-medium">
+                        “Mowa nienawiści obejmuje wszelkie formy wypowiedzi,
+                        które szerzą, propagują czy usprawiedliwiają nienawiść
+                        rasową, ksenofobię, antysemi- tyzm oraz inne formy
+                        nienawiści bazujące na nietoleracji m.in.: nietolerancję
+                        wyrażającą się w agresywnym ancjonalizmie i
+                        etnocentryzmie, dyskryminację i wrogość wobec
+                        mniejszości, imigrantów i ludzi o imigranckim
+                        pochodzeniu.”
+                    </p>
+                    <div class="max-w-md ml-auto py-4 text-sm italic">
+                        <span>
+                            Rekomendacja Komitetu Ministrów Rady Europy z 1997
+                            roku, Rekomendacja R (97) 20.
+                        </span>
+                    </div>
+                </div>
+                <div class="flex justify-between mt-6">
+                    <div class="flex-shrink-0 pr-10">
+                        <h2 class="font-amatic text-5xl mb-5">
+                            Unia Europejska
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="text-lg font-medium">
+                            W decyzji ramowej w sprawie zwalczania pewnych form
+                            i przejawów rasizmu i ksenofobii za pomocą środków
+                            prawnokarnych mowa nienawiści została określona
+                            jako:
+                        </p>
+                    </div>
+                </div>
+
+                <ul class="space-y-8 mt-10">
+                    <li class="relative pl-10">
+                        <div
+                            class="absolute top-[50%] transform translate-y-[-50%] left-0 w-6 h-6 bg-no-repeat bg-contain"
+                            style="background-image: url(assets/15/star.svg)"
+                        ></div>
+                        "publiczne nawoływanie do przemocy lub nienawiści
+                        skierowanej przeciwko grupie osób, którą definiuje się
+                        według rasy, koloru skóry, pochodzenia, wyznawanej
+                        religii lub światopoglądu albo przynależności narodowej
+                        lub etnicznej, lub przeciwko członkowi takiej grupy,
+                    </li>
+                    <li class="relative pl-10">
+                        <div
+                            class="absolute top-[50%] transform translate-y-[-50%] left-0 w-6 h-6 bg-no-repeat bg-contain"
+                            style="background-image: url(assets/15/star.svg)"
+                        ></div>
+                        powyższe czyny, gdy są dokonywane poprzez publiczne
+                        rozpowszechnianie lub rozprowadzanie tekstów, obrazów
+                        lub innych materiałów,
+                    </li>
+                    <li class="relative pl-10">
+                        <div
+                            class="absolute top-[50%] transform translate-y-[-50%] left-0 w-6 h-6 bg-no-repeat bg-contain"
+                            style="background-image: url(assets/15/star.svg)"
+                        ></div>
+                        publiczne aprobowanie, negowanie lub rażące
+                        pomniejszanie zbrodni ludobójstwa, zbrodni przeciwko
+                        ludzkości oraz zbrodni wojennych w rozumieniu art. 6, 7
+                        i 8 statutu Międzynarodowego Trybunału Karnego oraz
+                        zbrodni określonych w art. 6 Karty Międzynarodowego
+                        Trybunału Wojskowego, jeśli czyny takie mogą podburzać
+                        do przemocy lub wzbudzać nienawiść skierowaną przeciwko
+                        takiej grupie lub jej członkowi.""
+                    </li>
+                </ul>
+                <div class="max-w-md pl-10 py-8 text-sm italic">
+                    <span>
+                        Decyzja ramowa Rady 2008/913/WSiSW z dnia 28 listopada
+                        2008 r. w sprawie zwalczania pewnych form i przejawów
+                        rasizmu i ksenofobii za pomocą środków prawnokarnych.
+                    </span>
+                </div>
             </div>
         </div>
     </Step>

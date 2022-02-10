@@ -6,9 +6,9 @@
             class="font-itim text-xl md:text-3xl my-6 max-w-lg text-center space-y-4"
         >
             <li class="py-4 relative">
-                <span class="text-white bg-black px-2 leading-none mr-2"
-                    >1.</span
-                >
+                <span class="text-white bg-black px-2 leading-none mr-2">
+                    1.
+                </span>
                 <span> To Ty współtworzysz tę książkę </span>
             </li>
             <li class="py-4">

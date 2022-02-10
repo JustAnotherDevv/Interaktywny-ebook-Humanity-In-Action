@@ -1,11 +1,17 @@
 <template>
-    <Step next-page-label="Zaczynamy!" hide-prev-page hide-skip-button>
+    <Step
+        next-page-label="Zaczynamy!"
+        hide-prev-page
+        hide-skip-button
+        :answers="answers"
+    >
         <div class="flex flex-col justify-center items-center text-center">
             <p class="text-4xl mb-6">Cześć, fajnie, że tu jesteś!</p>
             <p>Jak masz na imię?</p>
 
             <div class="mb-16 mt-6 w-full max-w-md relative">
                 <input
+                    v-model="answers.imie"
                     type="text"
                     class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full focus:ring-0 focus:border-black"
                 />
@@ -14,17 +20,19 @@
             <p>O mowie nienawiści wiem:</p>
             <FormRadio
                 :options="radioOptions"
-                v-model="selectedRadio"
+                v-model="answers['ile-wiem']"
             ></FormRadio>
         </div>
     </Step>
 </template>
 
 <script setup>
-import { ref } from "vue";
-
+import { reactive } from "vue";
+import { useStore } from "@/composables/useStore";
 import Step from "@/components/Step.vue";
 import FormRadio from "@/components/FormRadio.vue";
+
+const store = useStore();
 
 const radioOptions = {
     duzo: "dużo",
@@ -32,5 +40,14 @@ const radioOptions = {
     "a co to?": "a co to?",
 };
 
-const selectedRadio = ref("duzo");
+// store["step-1"] = {
+//     imie: "",
+//     "ile-wiem": "duzo",
+// };
+// const answers = reactive({
+//     imie: "",
+//     "ile-wiem": "duzo",
+// });
+
+console.log(store["step-1"]);
 </script>

@@ -21,16 +21,35 @@
 </template>
 
 <script setup>
-import { reactive, watch } from "vue";
-import { useRoute } from "vue-router";
+import { reactive, watch, inject } from "vue";
+import { useRoute, useRouter } from "vue-router";
 import TopBar from "./components/TopBar.vue";
 const route = useRoute();
+const router = useRouter();
 const style = reactive({});
+
+const axios = inject("axios");
 
 watch(
     () => route.meta.bg,
     (val) => (style.backgroundColor = val)
 );
+
+const login = () => {
+    axios.get("/sanctum/csrf-cookie").then((response) => {
+        console.log("csrf", { response });
+        axios
+            .post("/login", {
+                email: "m@wp.pl",
+                password: "password",
+            })
+            .then((response) => {
+                router.push("/");
+            });
+    });
+};
+
+login();
 </script>
 
 <style>

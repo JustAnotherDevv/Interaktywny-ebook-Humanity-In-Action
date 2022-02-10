@@ -1,8 +1,12 @@
 <template>
     <div
-        class="flex justify-center sm:justify-end relative p-2 w-full mt-2 sm:mt-0"
+        class="flex justify-center sm:justify-end relative p-2 w-full mt-2 sm:mt-0 text-black"
     >
-        <button type="button" @click="menu = !menu">
+        <button
+            type="button"
+            @click="menu = !menu"
+            :class="[dark ? 'text-white' : 'text-black']"
+        >
             <svg
                 v-show="!menu"
                 xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +58,7 @@
                 <li>
                     <router-link
                         to="#"
-                        class="font-liber inline-flex items-center justify-center rounded-full border border-transparent px-8 py-1 text-base font-semibold leading-7 transition duration-150 ease-in-out focus:outline-none text-center bg-black text-white"
+                        class="font-liber inline-flex items-center justify-center rounded-full border border-transparent px-5 py-1 text-base font-semibold leading-7 transition duration-150 ease-in-out focus:outline-none text-center bg-black text-white"
                     >
                         Zaloguj się
                     </router-link>
@@ -64,7 +68,14 @@
     </div>
 </template>
 <script setup>
-import { ref } from "vue";
+import { ref, toRefs } from "vue";
+const props = defineProps({
+    dark: {
+        type: Boolean,
+        default: false,
+    },
+});
 
+const { dark } = toRefs(props);
 const menu = ref(false);
 </script>

@@ -1,11 +1,16 @@
 <template>
     <Step hide-skip-button class="text-white">
-        <div class="relative">
-            <div class="transform -rotate-90 absolute left-0 top-0">
+        <div class="relative max-w-xl">
+            <!-- <div
+                class="transform rotate-[270deg] absolute bottom-0 left-0 bg-red-300 w-full origin-right-bottom border-left-8"
+            >
                 <span class="font-liber text-2xl">
                     ZOBACZ JAK RÓŻNE ORGANIZACJE MIĘDZYNARODOWE DEFINIUJĄ MOWĘ
                     NIENAWIŚCI:
                 </span>
+            </div> -->
+            <div class="hidden xl:block fixed top-[150px] right-0 w-1/4">
+                <img src="/assets/15/stars.svg" alt="" />
             </div>
 
             <div class="flex items-center">
@@ -42,7 +47,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="flex justify-between mt-6">
+                <div class="flex flex-col md:flex-row justify-between mt-6">
                     <div class="flex-shrink-0 pr-10">
                         <h2 class="font-amatic text-5xl mb-5">
                             Unia Europejska

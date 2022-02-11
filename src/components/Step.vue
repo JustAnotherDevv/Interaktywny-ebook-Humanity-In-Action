@@ -1,7 +1,9 @@
 <template>
-    <div class="flex flex-col items-center">
-        {{ answers }}
-        <div class="max-w-4xl flex flex-col items-center">
+    <div
+        class="flex justify-center py-10 md:py-16 px-6 md:px-10 font-itim flex-col items-center"
+    >
+        <!-- {{ answers }} -->
+        <div class="max-w-4xl w-full flex flex-col items-center">
             <slot></slot>
         </div>
 

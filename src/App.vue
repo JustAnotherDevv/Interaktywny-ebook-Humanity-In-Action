@@ -1,9 +1,7 @@
 <template>
     <div v-cloak :style="style">
         <TopBar />
-        <main
-            class="flex items-center justify-center py-10 md:py-16 px-6 md:px-10 font-itim overflow-hidden"
-        >
+        <main class="overflow-hidden">
             <router-view v-slot="{ Component }">
                 <transition
                     enter-active-class="ease-out duration-1000"

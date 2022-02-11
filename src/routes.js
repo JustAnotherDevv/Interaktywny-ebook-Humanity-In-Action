@@ -10,7 +10,7 @@ const meta = {
     16: { bg: "#3F8BD7", dark: true },
 };
 
-for (let i = 2; i <= lastStep; i++) {
+for (let i = 1; i <= lastStep; i++) {
     const componentName = `Step${i.toString().padStart(2, "0")}`;
     const viewMeta = { title: "Krok " + i, step: i, ...meta[i] };
     // if (meta[i]) {
@@ -27,7 +27,7 @@ export const routes = [
     {
         path: "/",
         component: Home,
-        meta: { title: "Home", step: 1 },
+        meta: { title: "Home", step: 1, hideTopBar: true },
     },
     ...steps,
     { path: "/:path(.*)", component: NotFound },

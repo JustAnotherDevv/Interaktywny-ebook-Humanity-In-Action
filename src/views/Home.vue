@@ -1,53 +1,27 @@
 <template>
-    <Step
-        next-page-label="Zaczynamy!"
-        hide-prev-page
-        hide-skip-button
-        :answers="answers"
-    >
-        <div class="flex flex-col justify-center items-center text-center">
-            <p class="text-4xl mb-6">Cześć, fajnie, że tu jesteś!</p>
-            <p>Jak masz na imię?</p>
-
-            <div class="mb-16 mt-6 w-full max-w-md relative">
-                <input
-                    v-model="answers.imie"
-                    type="text"
-                    class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full focus:ring-0 focus:border-black"
-                />
-            </div>
-
-            <p>O mowie nienawiści wiem:</p>
-            <FormRadio
-                :options="radioOptions"
-                v-model="answers['ile-wiem']"
-            ></FormRadio>
+    <div>
+        <div class="relative w-screen max-h-[90vh] bg-center max-w-full">
+            <img
+                src="/assets/home/img-no-bg.png"
+                alt=""
+                class="relative max-w-[500px] w-[500px] sm:max-w-none sm:w-[800px] md:w-[1000px] lg:w-[1300px] xl:w-[1400px] mx-auto z-10"
+            />
+            <div
+                class="absolute bottom-[33px] sm:bottom-[55px] md:bottom-[70px] lg:bottom-[91px] xl:bottom-[93px] left-[-50px] w-[150%] origin-bottom-left h-full bg-[#E45725] z-0 transform rotate-[357deg]"
+            ></div>
         </div>
-    </Step>
+        <div class="flex justify-center items-center">
+            <LinkButton
+                to="/krok-1"
+                class="hover:translate-x-1"
+                no-animation
+                :dark="dark"
+                >Zaczynamy!</LinkButton
+            >
+        </div>
+    </div>
 </template>
 
 <script setup>
-import { reactive } from "vue";
-import { useStore } from "@/composables/useStore";
-import Step from "@/components/Step.vue";
-import FormRadio from "@/components/FormRadio.vue";
-
-// const store = useStore();
-
-const radioOptions = {
-    duzo: "dużo",
-    "cos-tam-wiem": "coś tam wiem?",
-    "a co to?": "a co to?",
-};
-
-// store["step-1"] = {
-//     imie: "",
-//     "ile-wiem": "duzo",
-// };
-const answers = reactive({
-    imie: "",
-    "ile-wiem": "duzo",
-});
-
-// console.log(store["step-1"]);
+import LinkButton from "@/components/LinkButton.vue";
 </script>

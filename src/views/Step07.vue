@@ -13,31 +13,29 @@
             <p>Tu możesz zapisać swoją listę :)</p>
         </div>
 
-        <div class="flex items-center justify-center w-full my-10">
-            <div class="p-20 bg-gray-300 flex h-96">
-                <span class="uppercase text-xl">Książka</span>
+        <div
+            class="relative w-full h-[600px] lg:bg-[url(/assets/7/ebook.svg)] my-10"
+        >
+            <div
+                class="lg:absolute right-[150px] top-[100px] max-w-md mx-auto lg:h-[400px] lg:w-[350px] lg:transform lg:rotate-[-9deg]"
+            >
+                <textarea
+                    class="w-full border border-none focus:ring-0 focus:border-none focus:border-black notes resize-none"
+                    rows="14"
+                ></textarea>
             </div>
         </div>
+
         <!-- <img
-            src="/assets/6/wypisz-3-rzeczy.svg"
+            src="/assets/7/ebook.svg"
+            width="910"
+            height="736"
             alt=""
-            width="577"
-            height="192"
+            class="my-10"
         /> -->
     </Step>
 </template>
 
 <script setup>
 import Step from "@/components/Step.vue";
-import FormTextarea from "@/components/FormTextarea.vue";
 </script>
-
-<style>
-.notes {
-    background-image: linear-gradient(to right, white 10px, transparent 10px),
-        linear-gradient(to left, white 10px, transparent 10px),
-        linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
-    background-size: 100% 100%, 100% 100%, 100% 31px;
-    line-height: 31px;
-}
-</style>

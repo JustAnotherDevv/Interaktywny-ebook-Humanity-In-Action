@@ -68,7 +68,7 @@ if (step.value === 1) {
 
 nextPage.value = "krok-" + (parseInt(step.value) + 1);
 // console.log(parseInt(step.value) > 1);
-if (parseInt(step.value) > 2) {
+if (parseInt(step.value) > 1) {
     prevPage.value = "krok-" + (parseInt(step.value) - 1);
 } else {
     prevPage.value = "/";

@@ -1,5 +1,6 @@
 <template>
     <header
+        v-if="!hideTopBar"
         class="flex flex-col sm:flex-row justify-center items-center sm:justify-between p-4 sm:p-8"
         :class="{ 'text-white': dark }"
     >
@@ -25,8 +26,13 @@ import { ref, watch } from "vue";
 import { useRoute } from "vue-router";
 const route = useRoute();
 const dark = ref(false);
+const hideTopBar = ref(false);
 watch(
     () => route.meta.dark,
     (val) => (dark.value = val ?? false)
+);
+watch(
+    () => route.meta.hideTopBar,
+    (val) => (hideTopBar.value = val ?? false)
 );
 </script>

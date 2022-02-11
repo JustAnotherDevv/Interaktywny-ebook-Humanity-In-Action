@@ -13,7 +13,7 @@
             </p>
 
             <div
-                class="lg:absolute top-[-80px] right-[-270px] h-[360px] bg-[url(assets/17/text-1.svg)] mx-auto bg-contain bg-no-repeat pl-16 pt-10 pr-12 text-white w-72 mb-10"
+                class="lg:absolute top-[-80px] right-[-270px] h-[360px] bg-[url(/assets/17/text-1.svg)] mx-auto bg-contain bg-no-repeat pl-16 pt-10 pr-12 text-white w-72 mb-10"
             >
                 Czy mowa nienawiści zawsze jest pełna wulgaryzmów?
                 <strong>Nie!</strong> Chociaż najczęściej nam się kojarzy z
@@ -42,7 +42,7 @@
             </p>
 
             <div
-                class="h-[453px] sm:bg-[url(assets/17/text-2.svg)] bg-black sm:bg-transparent rounded-3xl sm:rounded-none bg-contain bg-no-repeat pl-8 pt-16 pr-8 pb-16 text-white max-w-md text-sm my-10 leading-6"
+                class="h-[453px] sm:bg-[url(/assets/17/text-2.svg)] bg-black sm:bg-transparent rounded-3xl sm:rounded-none bg-contain bg-no-repeat pl-8 pt-16 pr-8 pb-16 text-white max-w-md text-sm my-10 leading-6"
             >
                 "Jak uważasz, dlaczego akurat te grupy są atakowane?"" Nie ma
                 jasnej i prostej odpowiedzi na to pytanie. Relacje między

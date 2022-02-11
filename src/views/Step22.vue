@@ -60,10 +60,6 @@
             <p class="text-white bg-black px-4 py-2 inline-block mb-8">
                 Opisz tę sytuację tutaj:
             </p>
-            <textarea
-                class="w-full notes border-none focus:ring-0 focus:border-none resize-none"
-                rows="6"
-            ></textarea>
         </div>
     </Step>
 </template>

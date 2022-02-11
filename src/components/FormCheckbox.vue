@@ -1,10 +1,7 @@
 <template>
-    <div
-        class="flex my-2 p-2 relative cursor-pointer"
-        @click="checked = !checked"
-    >
+    <div class="flex my-2 p-2 relative cursor-pointer" @click="onClick">
         <img src="/assets/checkbox.svg" alt="" class="absolute" />
-        <div class="absolute left-0 top-[-10px] p-2" v-show="checked">
+        <div class="absolute left-0 top-[-10px] p-2" v-show="modelValue">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-10 w-10"
@@ -25,7 +22,15 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { toRefs } from "vue";
+const props = defineProps({
+    modelValue: Boolean,
+});
+const emit = defineEmits(["update:modelValue"]);
 
-const checked = ref(false);
+const onClick = (key) => {
+    emit("update:modelValue", !modelValue.value);
+};
+
+const { modelValue } = toRefs(props);
 </script>

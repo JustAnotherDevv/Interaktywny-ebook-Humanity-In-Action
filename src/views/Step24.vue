@@ -19,7 +19,7 @@
             Opowiedz komuś tę historię, a w zaznaczone miejsce
         </p>
         <img src="/assets/24/wpisz-swoje.svg" alt="" width="434" height="90" />
-        <p class="font-amatic text-2xl md:-mb-2 mt-10 mb-10 md:mb-0">
+        <p class="font-amatic text-2xl md:-mb-2 mt-10 mb-10">
             Czyli co robić, a czego unikać :)
         </p>
 

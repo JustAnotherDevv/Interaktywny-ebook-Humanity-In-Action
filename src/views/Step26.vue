@@ -1,5 +1,5 @@
 <template>
-    <Step>
+    <Step hide-skip-button>
         <div class="w-full max-w-3xl mx-auto">
             <img
                 src="/assets/26/fakty-i-mity.svg"

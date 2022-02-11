@@ -1,5 +1,5 @@
 <template>
-    <Step>
+    <Step hide-skip-button>
         <div class="w-full max-w-3xl mx-auto">
             <div class="flex flex-wrap my-10">
                 <div class="md:w-1/2 p-6">

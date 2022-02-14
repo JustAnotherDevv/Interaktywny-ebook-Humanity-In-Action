@@ -77,7 +77,7 @@
                     class=""
                 >
                     <div
-                        class="md:px-20 px-10 pb-10 pt-20 flex justify-center bg-black"
+                        class="md:px-20 px-5 pb-10 pt-20 flex justify-center bg-black"
                     >
                         <div class="space-y-8 text-center text-white text-lg">
                             <img

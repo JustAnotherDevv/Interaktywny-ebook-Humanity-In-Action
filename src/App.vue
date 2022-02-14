@@ -47,7 +47,7 @@ const login = () => {
     });
 };
 
-login();
+// login();
 </script>
 
 <style>

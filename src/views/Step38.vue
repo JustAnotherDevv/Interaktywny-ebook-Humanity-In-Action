@@ -1,5 +1,5 @@
 <template>
-    <Step class="text-white">
+    <Step class="text-white" hide-skip-button>
         <div class="flex flex-wrap">
             <div class="md:pr-20 space-y-10 w-full md:w-2/3">
                 <p class="font-amatic text-4xl">

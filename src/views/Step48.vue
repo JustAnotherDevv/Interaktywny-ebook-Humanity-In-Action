@@ -2,10 +2,8 @@
     <Step>
         <div class="w-full">
             <img src="/assets/48/jak-wytlumaczyc.svg" alt="" />
-            <div class="flex flex-col text-right items-end -mt-10">
-                <p
-                    class="text-4xl bg-black text-white py-2 px-4 mb-1 float-right"
-                >
+            <div class="flex flex-col text-right items-end md:-mt-10">
+                <p class="text-4xl bg-black text-white py-2 px-4 mb-1 mt-6">
                     Zła wiadomość jest taka,
                 </p>
                 <p class="text-lg bg-black text-white py-2 px-4 tracking-wider">
@@ -15,7 +13,7 @@
             <img
                 src="/assets/48/domino.svg"
                 alt=""
-                class="mx-auto my-20"
+                class="mx-auto my-10 md:my-20"
                 width="526"
                 height="95"
             />

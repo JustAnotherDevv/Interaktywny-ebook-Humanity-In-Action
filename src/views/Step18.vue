@@ -67,7 +67,7 @@ const list = {
     4: "może przyjmować różne formy np. podżeganie do nienawiści i oskarżanie lub szkalowanie danej osoby lub grupy ludzi, a także prześladowanie, obraza, stosowanie negatywnych stereotypów, stygmatyzowanie lub grożenie danej osobie lub grupie ludzi oraz usprawiedliwianie wyżej wymienionych czynów;",
     5: "występuje wtedy, kiedy ktoś kogoś chce skrytykować publicznie;",
     6: "ma na celu odczłowieczenie, poniżenie lub zastraszenie danej osoby lub grupy ze względu na posiadaną przez nie cechę;",
-    7: "jest przejawiem bardziej złozonych zjawisk, jak np. nietolerancja, dyskryminacja, stygmatyzacja, ksnefobia, które w stosunku do wybranych grup mogą przyjmować formę np. antysemityzmu, islamofobii, chrystianofobii. rasizmu, homofobii, ableizmu, ageizmu. adultyzmu, szowinizmu lub klasizmu;",
+    7: "jest przejawiem bardziej złożonych zjawisk, jak np. nietolerancja, dyskryminacja, stygmatyzacja, ksnefobia, które w stosunku do wybranych grup mogą przyjmować formę np. antysemityzmu, islamofobii, chrystianofobii. rasizmu, homofobii, ableizmu, ageizmu. adultyzmu, szowinizmu lub klasizmu;",
 };
 
 const radioOptions = {

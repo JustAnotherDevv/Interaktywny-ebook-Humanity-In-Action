@@ -1,7 +1,7 @@
 <template>
     <Step hide-skip-button>
         <p
-            class="font-amatic font-bold text-4xl tracking-tighter transform scale-x-95 text-center"
+            class="font-amatic font-bold text-5xl tracking-tighter transform scale-x-95 text-center"
         >
             Rozdział I
         </p>

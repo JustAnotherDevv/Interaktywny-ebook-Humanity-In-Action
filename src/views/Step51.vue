@@ -3,9 +3,16 @@
         <p
             class="font-amatic font-bold text-5xl tracking-tighter transform scale-x-95 text-center"
         >
-            Rozdział II
+            Rozdział III
         </p>
-        <img src="/assets/13/img.svg" alt="" width="491" height="697" />
+
+        <img
+            src="/assets/51/mowa-nienawisci.svg"
+            alt=""
+            class="mt-10"
+            width="600"
+            height="397"
+        />
     </Step>
 </template>
 

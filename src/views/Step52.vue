@@ -17,8 +17,12 @@
                 Pamiętajmy, że wszyscy ludzie są wolni i równi, a każdy i każda
                 z nas zasługuje na szacunek”.
             </p>
-            <div class="flex items-center justify-end space-x-4 mt-4">
-                <div class="text-white bg-black p-2 inline-block font-itim">
+            <div
+                class="flex items-center justify-end space-x-4 mt-4 flex-wrap md:flex-nowrap"
+            >
+                <div
+                    class="text-white bg-black p-2 inline-block font-itim mb-2 md:mb-0"
+                >
                     <p class="text-sm">dr hab., prof. Uniwersytetu</p>
                     <p>SWPS Adam Bodnar</p>
                 </div>

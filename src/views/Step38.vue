@@ -38,7 +38,7 @@
             </div>
         </div>
         <div
-            class="md:bg-[url(/assets/38/frame.svg)] bg-contain bg-no-repeat px-12 pb-32 mt-10 md:text-center"
+            class="md:bg-[url(/assets/38/frame.svg)] bg-contain bg-no-repeat md:px-12 md:pb-48 pt-12 mt-10 md:text-center"
         >
             <div class="max-w-[600px] mx-auto">
                 <p class="bg-white text-black px-6 p-2 mb-2">
@@ -66,7 +66,8 @@
                     Twojego otoczenia, zwróć jej uwagę. Twoja reakcja jest
                     bardzo ważna, może nawet uratować życie. Jak nie wiesz jak
                     zareagować lub sama albo sam doświadczasz nienawiści, szukaj
-                    wsparcia u zaufanych osób lub zadzwoń pod numer 116 111.
+                    wsparcia u zaufanych osób lub zadzwoń pod numer
+                    <strong>116 111</strong>.
                 </p>
             </div>
         </div>

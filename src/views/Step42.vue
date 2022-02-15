@@ -1,15 +1,20 @@
 <template>
-    <Step no-max-width no-padding>
+    <Step no-max-width no-padding class="pb-10">
         <div class="w-full bg-black h-full">
             <img src="/assets/42/img.svg" alt="" class="mx-auto p-10" />
             <div class="w-full flex justify-center">
                 <div class="mb-4">
-                    <span class="block text-center">scroll</span>
+                    <span class="block text-center text-white">scroll</span>
                     <img src="/assets/42/scroll.svg" alt="" />
                 </div>
             </div>
         </div>
-        <div class="max-w-4xl py-10 md:py-16 px-6 md:px-10">
+        <div class="max-w-4xl pt-10 md:pt-16 px-6 md:px-10 relative">
+            <img
+                src="/assets/42/glasses.svg"
+                class="absolute top-[400px] right-[-270px] hidden md:block"
+                alt=""
+            />
             <div class="flex flex-wrap md:flex-nowrap">
                 <img
                     src="/assets/42/pewnie-sobie-myslisz.svg"

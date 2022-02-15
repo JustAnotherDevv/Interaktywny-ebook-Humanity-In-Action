@@ -14,6 +14,7 @@ const meta = {
     40: { bg: "#000", dark: true },
     41: { bg: "#000", dark: true },
     42: { mainClass: "bg-black", topBarClass: "bg-black", darkTopBar: true },
+    44: { bg: "#000", dark: true },
 };
 
 for (let i = 1; i <= lastStep; i++) {

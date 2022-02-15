@@ -1,9 +1,13 @@
 <template>
     <div
-        class="flex justify-center py-10 md:py-16 px-6 md:px-10 font-itim flex-col items-center"
+        class="flex justify-center font-itim flex-col items-center"
+        :class="{ 'py-10 md:py-16 px-6 md:px-10': !noPadding }"
     >
         <!-- {{ answers }} -->
-        <div class="max-w-4xl w-full flex flex-col items-center">
+        <div
+            class="w-full flex flex-col items-center"
+            :class="{ 'max-w-4xl': !noMaxWidth }"
+        >
             <slot></slot>
         </div>
 
@@ -43,6 +47,14 @@ const props = defineProps({
         default: "Czytam dalej",
     },
     hideSkipButton: {
+        type: Boolean,
+        default: false,
+    },
+    noPadding: {
+        type: Boolean,
+        default: false,
+    },
+    noMaxWidth: {
         type: Boolean,
         default: false,
     },

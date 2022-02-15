@@ -11,6 +11,7 @@ module.exports = {
                 // avenir: ['"Roboto"'],
                 liber: ["Liber"],
                 amatic: ['"Amatic SC"'],
+                montserrat: ['"Montserrat"'],
             },
         },
     },

@@ -1,5 +1,5 @@
 <template>
-    <Step class="font-montserrat" hide-skip-button>
+    <Step class="font-montserrat">
         <img src="/assets/58/cwiczenie.svg" alt="" height="44" />
         <img
             src="/assets/58/kiedy-dochodzi.svg"

@@ -1,5 +1,5 @@
 <template>
-    <Step class="font-montserrat text-white">
+    <Step class="font-montserrat text-white" hide-skip-button>
         <img
             src="/assets/65/top.svg"
             alt=""

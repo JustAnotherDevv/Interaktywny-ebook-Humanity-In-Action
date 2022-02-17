@@ -23,6 +23,7 @@ const meta = {
             "bg-[url(/assets/63/nav-bg.svg)] bg-no-repeat bg-cover bg-top sm:pb-48 pb-24",
         darkTopBar: true,
     },
+    64: { bg: "#000", dark: true },
 };
 
 for (let i = 1; i <= lastStep; i++) {

@@ -96,7 +96,9 @@
                 alt=""
                 class="mx-auto mb-6"
             />
-            <ul class="space-y-6">
+            <ul
+                class="space-y-6 border-dashed sm:border sm:p-10 rounded-xl border-black"
+            >
                 <li class="flex items-start">
                     <img src="/assets/63/1.svg" alt="" class="mr-4" />
                     <p>

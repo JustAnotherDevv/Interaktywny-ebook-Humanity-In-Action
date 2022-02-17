@@ -72,6 +72,90 @@
         <div>
             <img src="/assets/62/czy-wiesz-ze.svg" alt="" height="342" />
         </div>
+
+        <div
+            class="p-6 pt-10 md:p-10 md:pt-16 border-2 border-black relative mt-20"
+        >
+            <div
+                class="sm:absolute top-0 transform -translate-y-1/2 md:left-[150px] left-[10px] bg-black text-white p-2 font-itim text-xl md:text-3xl inline-block mt-4 sm:mt-0"
+            >
+                II Sposób - pociągnięcie do odpwiedzialności karnej
+            </div>
+            <p class="text-lg max-w-md mx-auto text-center font-itim mb-6">
+                Na mocy art. 119, 256 i 257 Kodeksu karnego oraz art. 190
+                Kodeksu karnego
+            </p>
+            <div class="border border-black p-6 md:text-center mb-6">
+                <p>
+                    <span class="underline">Art. 119 Kodeksu Karnego</span>
+                    <br />
+                    § 1. Kto stosuje przemoc lub groźbę bezprawną wobec grupy
+                    osób lub poszczególnej osoby z powodu jej przynależności
+                    narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub
+                    z powodu jej bezwyznaniowości, podlega karze pozbawienia
+                    wolności od 3 miesięcy do lat 5.<br />
+                    § 2. (uchylony).
+                </p>
+            </div>
+            <p>
+                Istotne jest w tym przepisie, by zwrócić uwagę, że jest to
+                zamknięty katalog cech osób, które są nim chronione. W tej
+                grupie nie ma osób z niepełnosprawnościami, nie ma też osób
+                LGBT+. Ważny jest też zaimek „jej”, przez który ściganie tego
+                przestępstwa jest możliwe wyłącznie, gdy przemoc lub groźba była
+                skierowana do osoby, która ma tę cechę chronioną. Możemy sobie
+                wyobrazić sytuację, że ktoś grozi człowiekowi, bo myśli, że
+                grozi osobie narodowości niemieckiej (bo sprawca usłyszał jak ta
+                osoba mówi w j. niemieckim), ale okazuje się, że groźba była
+                skierowana do Polaka mówiącego akurat w j. niemieckim. Wtedy
+                przestępstwo będzie traktowane jako groźba z
+                <strong> art. 190 Kodeksu karnego </strong>, a nie przestępstwo
+                dyskryminacji z <strong> art. 119 Kodeksu karnego </strong>.
+            </p>
+        </div>
+
+        <div class="border border-black p-6 md:text-center mb-6 mt-6 space-y-6">
+            <p class="underline">Art. 256 Kodeksu Karnego</p>
+            <p>
+                § 1. Kto publicznie propaguje faszystowski lub inny totalitarny
+                ustrój państwa lub nawołuje do nienawiści na tle różnic
+                narodowościowych, etnicznych, rasowych, wyznaniowych albo ze
+                względu na bezwyznaniowość, podlega grzywnie, karze ograniczenia
+                wolności albo pozbawienia wolności do lat 2.
+            </p>
+            <p>
+                § 2. Tej samej karze podlega, kto w celu rozpowszechniania
+                produkuje, utrwala lub sprowadza, nabywa, przechowuje, posiada,
+                prezentuje, przewozi lub przesyła druk, nagranie lub inny
+                przedmiot, zawierające treść określoną w § 1 albo będące
+                nośnikiem symboliki faszystowskiej, komunistycznej lub innej
+                totalitarnej.
+            </p>
+            <p>
+                § 3. Nie popełnia przestępstwa sprawca czynu zabronionego
+                określonego w § 2., jeżeli dopuścił się tego czynu w ramach
+                działalności artystycznej, edukacyjnej, kolekcjonerskiej lub
+                naukowej.
+            </p>
+            <p>
+                § 4. W razie skazania za przestępstwo określone w § 2. sąd
+                orzeka przepadek przedmiotów, o których mowa w § 2., chociażby
+                nie stanowiły własności sprawcy.
+            </p>
+        </div>
+        <div
+            class="p-10 md:px-10 md:py-10 bg-black md:bg-transparent md:bg-[url(/assets/62/bottom.svg)] bg-contain bg-no-repeat text-white md:h-[386px]"
+        >
+            <p class="md:text-center">
+                Warunkiem karalności w przypadku niniejszego artykułu jest
+                publiczny charakter działania sprawcy, czyli propagowanie
+                faszyzmu lub innego totalitarnego ustroju, a także nawoływanie
+                do nienawiści wobec większej liczby osób. Robienie tego za
+                pomocą środków masowego komunikowania się, np. Facebook,
+                Twitter, YouTube etc. spełnia te kryteria. Jest to przestępstwo
+                z <strong>art. 256 § 1 Kodeksu karnego</strong>.
+            </p>
+        </div>
     </Step>
 </template>
 

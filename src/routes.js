@@ -24,6 +24,7 @@ const meta = {
         darkTopBar: true,
     },
     64: { bg: "#000", dark: true },
+    65: { bg: "#000", dark: true },
 };
 
 for (let i = 1; i <= lastStep; i++) {

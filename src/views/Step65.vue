@@ -1,84 +1,65 @@
 <template>
-    <Step class="font-montserrat">
-        <div class="flex flex-wrap">
-            <div class="w-full md:w-1/2">
-                <img
-                    src="/assets/64/co-jesli.svg"
-                    alt=""
-                    height="305"
-                    class="mx-auto mb-10 md:mb-0"
-                />
-            </div>
-            <div class="w-full md:w-1/2">
-                <img
-                    src="/assets/64/w-takiej.svg"
-                    alt=""
-                    height="326"
-                    class="mx-auto"
-                />
+    <Step class="font-montserrat text-white">
+        <img
+            src="/assets/65/top.svg"
+            alt=""
+            height="513"
+            width="558"
+            class="mx-auto mb-10 md:mb-0"
+        />
+        <div class="relative mt-10">
+            <img
+                src="/assets/65/co-mozesz.svg"
+                alt=""
+                class="md:absolute top-0 left-0 mx-auto mb-10 md:mb-0"
+            />
+            <div class="md:pl-72 space-y-8">
+                <p>
+                    1. Zbierz dowody na mowę nienawiści. Mogą to być wydrukowane
+                    zrzuty ekranu postów, zdjęć, memów, komentarzy itp. Jeżeli
+                    mowa nienawiści ma miejsce na wstawionym przez kogoś filmie
+                    – zapisz go (np. na dysku, pendrivie lub płycie CD). Ważnym
+                    jest, aby ze zrzutów ekranu lub z filmu z dołączonym zrzutem
+                    ekranu wynikała data ich wstawienia. Jest to konieczne, by
+                    sporządzić poprawny akt oskarżenia.
+                </p>
+                <p>
+                    2. Z uwagi na to, że jest to przestępstwo ścigane z
+                    oskarżenia prywatnego, należy napisać prywatny akt
+                    oskarżenia i wnieść go do sądu. Można to zrobić za
+                    pośrednictwem poczty (wyślij akt oskarżenia z załączonymi
+                    dowodami i potwierdzeniem opłaty na adres wydziału karnego
+                    sądu, który znajdziesz w Internecie na stronie sądu albo
+                    złóż go bezpośrednio w sądzie w wydziale karnym). Ważne
+                    jest, by w akcie oskarżenia wskazać dokładną datę czynu (np.
+                    data wstawienia komentarza, postu, zdjęcia etc.), a także
+                    dane sprawcy.
+                </p>
+                <p>
+                    W przypadku, gdy nie posiadamy danych sprawcy, warto zwrócić
+                    się do właściciela strony internetowej chociażby o adres IP,
+                    z którego zostały zamieszczone przestępne treści i następnie
+                    w akcie oskarżenia należy wnieść o ustalenie sprawcy po
+                    adresie IP. Z prywatnym aktem oskarżenia wiąże się opłata w
+                    wysokości 300 zł. Potwierdzenie wniesienia opłaty należy
+                    dołączyć do aktu oskarżenia.
+                </p>
             </div>
         </div>
-
-        <div
-            class="lg:bg-[url(/assets/64/bg-1.svg)] bg-white lg:bg-transparent bg-contain bg-no-repeat lg:h-[690px] flex flex-col p-10 lg:p-20 justify-center space-y-4 md:text-center mt-10"
-        >
-            <p class="font-bold">Art. 212 Kodeks karnego</p>
+        <div class="mt-10 bg-white text-black p-10 md:text-center">
             <p>
-                § 1. Kto pomawia inną osobę, grupę osób, instytucję, osobę
-                prawną lub jednostkę organizacyjną niemającą osobowości prawnej
-                o takie postępowanie lub właściwości, które mogą poniżyć ją w
-                opinii publicznej lub narazić na utratę zaufania potrzebnego dla
-                danego stanowiska, zawodu lub rodzaju działalności, podlega
-                grzywnie albo karze ograniczenia wolności.
+                Możesz napisać wniosek do prokuratora o wszczęcie danego
+                postępowania z urzędu ze względu na ważny interes społeczny lub
+                aby prokurator dołączył do postępowania, które już
+                uruchomiłeś/aś prywatnym aktem oskarżenia. Wynika to z
+                <strong> art. 60 Kodeksu postępowania karnego </strong>. Wniosek
+                taki musi zawierać uzasadnienie, że istnieje interes społeczny w
+                tym, aby dany czyn ścigać z oskarżenia publicznego. Jeżeli
+                prokurator obejmie ściganie danego czynu z urzędu odpada
+                obowiązek ww. opłaty. Wzory prywatnego aktu oskarżenia oraz
+                wniosku o wszczęcie postępowania prywatnoskargowego z urzędu są
+                łatwo dostępne w Internecie.
             </p>
-            <p>
-                § 2. Jeżeli sprawca dopuszcza się czynu określonego w § 1 za
-                pomocą środków masowego komunikowania, podlega grzywnie, karze
-                ograniczenia wolności albo pozbawienia wolności do roku.
-            </p>
-            <p>
-                § 3. W razie skazania za przestępstwo określone w § 1 lub 2 sąd
-                może orzec nawiązkę na rzecz pokrzywdzonego, Polskiego
-                Czerwonego Krzyża albo na inny cel społeczny wskazany przez
-                pokrzywdzonego.
-            </p>
-            <p>
-                § 4. Ściganie przestępstwa określonego w § 1. lub 2. odbywa się
-                z oskarżenia prywatnego. Dla zaistnienia przestępstwa
-                wystarczające jest, by dana wypowiedź narażała pomówionego na
-                utratę zaufania niezbędnego dla wykonywania przez niego zawodu
-                lub prowadzenia działalności. Wypowiedź nie musi być dobitna,
-                czy cechująca się ostrością.
-            </p>
-        </div>
-
-        <div
-            class="lg:bg-[url(/assets/64/bg-2.svg)] bg-white lg:bg-transparent bg-contain bg-no-repeat lg:h-[600px] flex flex-col p-10 lg:p-20 justify-center space-y-4 md:text-center mt-10"
-        >
-            <p class="font-bold">Art. 216 Kodeksu karnego</p>
-            <p>
-                § 1. Kto znieważa inną osobę w jej obecności albo choćby pod jej
-                nieobecność, lecz publicznie lub w zamiarze, aby zniewaga do
-                osoby tej dotarła, podlega grzywnie albo karze ograniczenia
-                wolności.
-            </p>
-            <p>
-                § 2. Kto znieważa inną osobę za pomocą środków masowego
-                komunikowania, podlega grzywnie, karze ograniczenia wolności
-                albo pozbawienia wolności do roku.
-            </p>
-            <p>
-                § 3. Jeżeli zniewagę wywołało wyzywające zachowanie się
-                pokrzywdzonego albo jeżeli pokrzywdzony odpowiedział naruszeniem
-                nietykalności cielesnej lub zniewagą wzajemną, sąd może odstąpić
-                od wymierzenia kary.
-            </p>
-            <p>
-                § 4. W razie skazania za przestępstwo określone w § 2 sąd może
-                orzec nawiązkę na rzecz pokrzywdzonego, Polskiego Czerwonego
-                Krzyża albo na inny cel społeczny wskazany przez pokrzywdzonego.
-            </p>
-            <p>§ 5. Ściganie odbywa się z oskarżenia prywatnego.</p>
         </div>
     </Step>
 </template>

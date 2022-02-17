@@ -1,6 +1,6 @@
 <template>
     <div
-        class="flex flex-col md:flex-row space-y-4 md:space-y-0 mt-10 justify-center w-full max-w-2xl items-center"
+        class="flex flex-col md:flex-row space-y-4 md:space-y-0 mt-10 justify-center w-full max-w-2xl items-center z-50 relative"
     >
         <div class="w-1/3 flex justify-center">
             <LinkButton v-if="!hidePrevPage" :to="prevPage" white :dark="dark">

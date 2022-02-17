@@ -18,6 +18,11 @@ const meta = {
     45: { bg: "#000", dark: true },
     46: { mainClass: "bg-black", topBarClass: "bg-black", darkTopBar: true },
     61: { bg: "#000", dark: true },
+    63: {
+        topBarClass:
+            "bg-[url(/assets/63/nav-bg.svg)] bg-no-repeat bg-cover bg-top sm:pb-48 pb-24",
+        darkTopBar: true,
+    },
 };
 
 for (let i = 1; i <= lastStep; i++) {

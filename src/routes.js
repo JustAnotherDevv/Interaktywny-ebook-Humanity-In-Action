@@ -3,7 +3,7 @@ import NotFound from "./views/NotFound.vue";
 
 const steps = [];
 
-const lastStep = 71;
+const lastStep = 72;
 
 const meta = {
     15: { bg: "#013193", dark: true },
@@ -25,6 +25,7 @@ const meta = {
     },
     64: { bg: "#000", dark: true },
     65: { bg: "#000", dark: true },
+    72: { topBarClass: "bg-black", darkTopBar: true },
 };
 
 for (let i = 1; i <= lastStep; i++) {

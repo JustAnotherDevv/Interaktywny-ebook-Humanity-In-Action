@@ -27,7 +27,7 @@
             naiwnie lub idealistycznie, to marzymy to tym, by tak było. Ale…
         </p>
 
-        <div class="relative mx-auto xl:w-[800px]">
+        <div class="relative mx-auto lg:w-[800px]">
             <img
                 src="/assets/80/zmiana-sama.svg"
                 width="561"
@@ -50,7 +50,9 @@
                     </p>
                 </div>
             </div>
-            <div class="xl:absolute top-[200px] right-[100px]">
+            <div
+                class="lg:absolute top-[200px] right-[100px] flex flex-col items-center lg:items-baseline sm:flex-row lg:flex-col my-10 lg:my-0"
+            >
                 <img
                     src="/assets/80/magda.svg"
                     width="259"
@@ -65,7 +67,9 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center left-[200px] ml-[160px]">
+            <div
+                class="flex sm:flex-row-reverse lg:flex-row lg:justify-start items-center justify-end lg:ml-[160px] flex-col-reverse lg:mt-10"
+            >
                 <div class="">
                     <p class="font-amatic text-3xl">Gosia Kot</p>
                     <p>

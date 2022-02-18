@@ -3,7 +3,7 @@ import NotFound from "./views/NotFound.vue";
 
 const steps = [];
 
-const lastStep = 72;
+const lastStep = 80;
 
 const meta = {
     15: { bg: "#013193", dark: true },

@@ -31,14 +31,14 @@
                 <div>
                     <h2 class="font-amatic text-5xl mb-5">Rada Europy</h2>
                     <p class="text-lg font-medium">
-                        “Mowa nienawiści obejmuje wszelkie formy wypowiedzi,
-                        które szerzą, propagują czy usprawiedliwiają nienawiść
-                        rasową, ksenofobię, antysemi- tyzm oraz inne formy
-                        nienawiści bazujące na nietoleracji m.in.: nietolerancję
-                        wyrażającą się w agresywnym ancjonalizmie i
-                        etnocentryzmie, dyskryminację i wrogość wobec
+                        &bdquo;Mowa nienawiści obejmuje wszelkie formy
+                        wypowiedzi, które szerzą, propagują czy usprawiedliwiają
+                        nienawiść rasową, ksenofobię, antysemityzm oraz inne
+                        formy nienawiści bazujące na nietoleracji, m.in.:
+                        nietolerancję wyrażającą się w agresywnym nacjonalizmie
+                        i etnocentryzmie, dyskryminację i wrogość wobec
                         mniejszości, imigrantów i ludzi o imigranckim
-                        pochodzeniu.”
+                        pochodzeniu&ldquo;.
                     </p>
                     <div class="max-w-md ml-auto py-4 text-sm italic">
                         <span>
@@ -69,7 +69,7 @@
                             class="absolute top-[50%] transform translate-y-[-50%] left-0 w-6 h-6 bg-no-repeat bg-contain"
                             style="background-image: url(assets/15/star.svg)"
                         ></div>
-                        "publiczne nawoływanie do przemocy lub nienawiści
+                        &bdquo;publiczne nawoływanie do przemocy lub nienawiści
                         skierowanej przeciwko grupie osób, którą definiuje się
                         według rasy, koloru skóry, pochodzenia, wyznawanej
                         religii lub światopoglądu albo przynależności narodowej
@@ -96,7 +96,7 @@
                         zbrodni określonych w art. 6 Karty Międzynarodowego
                         Trybunału Wojskowego, jeśli czyny takie mogą podburzać
                         do przemocy lub wzbudzać nienawiść skierowaną przeciwko
-                        takiej grupie lub jej członkowi.""
+                        takiej grupie lub jej członkowi&ldquo;.
                     </li>
                 </ul>
                 <div class="max-w-md pl-10 py-8 text-sm italic">

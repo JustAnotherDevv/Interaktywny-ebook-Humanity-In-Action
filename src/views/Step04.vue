@@ -41,14 +41,12 @@
 
         <div class="font-liber text-lg text-center mt-8 leading-9 max-w-3xl">
             <p>
-                Zapytaj kolegę/koleżankę lub znajomego/znajomą o ich
+                Zapytaj swojego kolegę/koleżankę lub znajomego/znajomą o ich
                 skojarzenia.
                 <br />
                 Czy ich skojarzenia bardzo różnią się od Twoich?
             </p>
-            <p class="text-2xl font-medium">
-                Jak myślisz, z czego może to wynikać?
-            </p>
+            <p class="text-2xl font-medium">Jak myślisz, z czego to wynika?</p>
 
             <textarea
                 class="w-full border-none notes focus:ring-0 focus:border-none mt-10"

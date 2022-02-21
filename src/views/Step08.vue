@@ -28,8 +28,11 @@
 
         <div class="max-w-md text-center py-16">
             <p class="text-xl">
-                Wpisz co najmniej 3 kwestie, które najbardziej zwróciły Twoją
-                uwagę z 10 nagłówków
+                <span class="text-white bg-black py-1 px-2 uppercase"
+                    >Wypisz</span
+                >
+                co najmniej 3 kwestie, na które najbardziej zwróciłeś/łaś uwagę,
+                przeglądając 10 wyników wyszukiwania
             </p>
         </div>
 

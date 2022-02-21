@@ -9,17 +9,17 @@
                 <span class="text-white bg-black px-2 leading-none mr-2">
                     1.
                 </span>
-                <span> To Ty współtworzysz tę książkę </span>
+                <span> To Ty współtworzysz tę książkę.</span>
             </li>
             <li class="py-4">
                 <span class="text-white bg-black px-2 leading-none">2.</span>
                 <span>
-                    Każda strona to miejsce do Twoich refleksji i notatek
+                    Każda strona to miejsce do Twoich refleksji i notatek.
                 </span>
             </li>
             <li class="py-4">
                 <span class="text-white bg-black px-2 leading-none">3.</span>
-                <span> Nie bój się trudnych pytań </span>
+                <span> Nie bój się trudnych pytań.</span>
             </li>
         </ul>
     </Step>

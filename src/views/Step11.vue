@@ -2,8 +2,9 @@
     <Step>
         <div class="max-w-xl mb-10 text-center">
             <p class="font-amatic text-3xl">
-                Na podstawie tych doniesień spróbuj własnymi słowami podać
-                najważniejsze cechy zjawisk "mowa nienawiści" i "hejt".
+                Na podstawie tych materiałów spróbuj własnymi słowami opisać
+                najważniejsze cechy &bdquo;Mowy nienawiści&ldquo; i
+                &bdquo;Hejtu&ldquo;.
             </p>
         </div>
         <img
@@ -23,7 +24,7 @@
         <div class="flex w-full mt-10 flex-wrap">
             <div class="w-full sm:w-1/2 p-4">
                 <p class="font-amatic text-2xl md:text-4xl text-center mb-4">
-                    "Mowa nienawiści"
+                    &bdquo;Mowa nienawiści&ldquo;
                 </p>
                 <textarea
                     class="w-full border border-dashed focus:ring-0 focus:border-dashed focus:border-black"
@@ -32,7 +33,7 @@
             </div>
             <div class="w-full sm:w-1/2 p-4">
                 <p class="font-amatic text-2xl md:text-4xl text-center mb-4">
-                    "Hejt"
+                    &bdquo;Hejt&ldquo;
                 </p>
                 <textarea
                     class="w-full border border-dashed focus:ring-0 focus:border-dashed focus:border-black"

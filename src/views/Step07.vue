@@ -3,14 +3,14 @@
         <div class="font-liber text-xl text-center break-words">
             <p class="pb-10">
                 Czy na podstawie Twoich doświadczeń ze szkoły, domu i
-                najróżniejszych kontaktów społecznych, zwłaszcza z rówieśnikami
+                najróżniejszych kontaktów społecznych, zwłaszcza z rówieśnikami,
                 uważasz, że wystarczająco znasz ten temat i wiesz jak reagować
                 na mowę nienawiści?
             </p>
             <p class="pb-10">
                 A czego chciałbyś/abyś dowiedzieć się z tej książki?
             </p>
-            <p>Tu możesz zapisać swoją listę :)</p>
+            <p>Tu możesz stworzyć swoją listę :)</p>
         </div>
 
         <div

@@ -7,19 +7,19 @@
                 </h2>
                 <p class="text-lg">
                     W Strategii Narodów Zjednoczonych i w Planie Działania w
-                    Sprawie Mowy Nienawiści z 10.06.2019 r. nie ma prawnej
+                    Sprawie Mowy Nienawiści z 20.06.2019 r. nie ma prawnej
                     definicji mowy nienawiści, natomiast przyjęto, że na
-                    potrzeby ww. dokumentów mowa nienawiści to “wszelki rodzaj
-                    komunikacji w mowie, piśmie czy zachowaniu, w ramach którego
-                    atakuje się albo używa pejoratywnego lub dyskryminującego
-                    języka w odniesieniu do osoby lub grupy na podstawie tego
-                    kim ona jest/one są, czyli innymi słowy na podstawie ich
-                    religii, narodowości, przynależności etnicznej, rasy, koloru
-                    skóry, pochodzenia, płci czy innych czynników
-                    determinujących tożsamość.” W ramach ONZ zamiast zakazywać
-                    mowy nienawiści jako takiej, uregulowania prawne koncentrują
-                    się raczej na zakazie nawoływania lub podżegania do
-                    dyskryminacji, wrogości czy przemocy, a nie na każdym
+                    potrzeby ww. dokumentów mowa nienawiści to &bdquo;wszelki
+                    rodzaj komunikacji w mowie, piśmie czy zachowaniu, w ramach
+                    którego atakuje się albo używa pejoratywnego lub
+                    dyskryminującego języka w odniesieniu do osoby lub grupy na
+                    podstawie tego kim ona jest/one są, czyli innymi słowy na
+                    podstawie ich religii, narodowości, przynależności
+                    etnicznej, rasy, koloru skóry, pochodzenia, płci czy innych
+                    czynników determinujących tożsamość&ldquo;. W ramach ONZ
+                    zamiast zakazywać mowy nienawiści, uregulowania prawne
+                    koncentrują się raczej na zakazie nawoływania lub podżegania
+                    do dyskryminacji, wrogości czy przemocy, a nie na każdym
                     rodzaju mowy nienawiści, choć niewątpliwie dostrzegany jest
                     toksyczny jej wpływ skali globalnej.
                 </p>
@@ -36,10 +36,10 @@
                 />
                 <div class="max-w-md">
                     <p class="mt-10">
-                        Może są one dla Ciebie niezrozumiałe, czy wręcz nudne.
+                        Może są one dla Ciebie niezrozumiałe czy wręcz nudne.
                         Faktycznie są one sformułowane w języku prawniczym,
                         który nie jest najłatwiejszy. Dlatego spróbujmy je razem
-                        “ROZPAKOWAĆ”
+                        &bdquo;ROZPAKOWAĆ&ldquo; :)
                     </p>
                     <img
                         src="/assets/16/separator.svg"
@@ -49,7 +49,7 @@
                         class="py-10 mx-auto"
                     />
                     <p>
-                        Pamiętaj, że w tym ćwiczeniu nie chodzi nam o to, abyś
+                        Pamiętaj, że w tym ćwiczeniu nie chodzi nam o to, byś
                         starał/a się na pamięć nauczyć którejkolwiek z nich.
                         Najistotniejsze jest dla nas to, abyś mógł/mogła
                         zrozumieć istotę zjawiska, czyli o co w nim chodzi.

@@ -20,15 +20,20 @@
                     nienawiści i hejtu? Są to dość niejednoznaczne zjawiska i
                     dlatego nie ma jednej powszechnie uznawanej przez wszystkich
                     międzynarodowo obowiązującej definicji mowy nienawiści?
+                    Jednocześnie istnieją definicje wypracowane m.in. w ramach
+                    rekomendacji Rady Europy i rezolucji Unii Europejskiej,
+                    które krajom członkowskim pozwalają tworzyć normy prawne
+                    dotyczące mowy nienawiści.
                 </li>
                 <li class="relative pl-10">
                     <div
                         class="absolute top-[50%] transform translate-y-[-50%] left-0 w-5 h-5 rounded-full bg-black"
                     ></div>
                     Chociaż w polskim prawie nie ma definicji mowy nienawiści,
-                    to i tak osoby, które używają mowy nienawiści czy hejtu są
-                    za to odpowiedzialne i muszą się liczyć z konsekwencjami w
-                    ramach Kodeksu Cywilnego i Karnego?
+                    to i tak osoby, które używają mowy nienawiści czy hejtu mogą
+                    zostać pociągnięte do odpwiedzialności i tym samym muszą się
+                    liczyć z konsekwencjami prawnymi w ramach Kodeksu Cywilnego
+                    i Karnego?
                 </li>
                 <li class="relative pl-10">
                     <div
@@ -37,8 +42,8 @@
                     Z perspektywy osób należących do mniejszości czy grup
                     dyskryminowanych (regularne) stykanie się z mową nienawiści
                     ze strony grup większościowych, powoduje szereg poważnych
-                    konsekwencji psychicznych - pogorszony nastrój, objawy lęku
-                    i depresji, a czasem wręcz myśli samobójcze?
+                    konsekwencji psychicznych - obniżony nastrój, objawy lęku i
+                    depresji, a czasem wręcz myśli samobójcze?
                 </li>
                 <li class="relative pl-10">
                     <div
@@ -49,8 +54,11 @@
                     tylko już nam nie przeszkadza, ale zaczynamy ją uważać za
                     “nową normalność”. W konsekwencji może to niestety prowadzić
                     do tego, że nie zdając sobie do końca z tego sprawy
-                    zaczynamy wykluczać osoby lub grupy. Niektórzy mogą nawet
-                    posunąć się do użycia przemocy w stosunku do tych osób.
+                    zaczynamy wykluczać osoby lub grupy. W konsekwencji może to
+                    niestety prowadzić do sytuacji, kiedy nie zdając sobie do
+                    końca z tego sprawy, zaczynamy wykluczać osoby lub grupy.
+                    Niektórzy mogą nawet posunąć się do użycia przemocy w
+                    stosunku do tych osób.
                 </li>
             </ul>
         </div>

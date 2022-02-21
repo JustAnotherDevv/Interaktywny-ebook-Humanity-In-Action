@@ -1,6 +1,6 @@
 <template>
-    <Step hide-skip-button>
-        <img src="/assets/12/img.svg" alt="" width="582" height="810" />
+    <Step>
+        <img src="/assets/12/img.svg" alt="" width="534" height="732" />
 
         <textarea
             class="w-full border-none notes focus:ring-0 focus:border-none mt-10"

@@ -17,15 +17,15 @@
             Z jednej strony są to niewątpliwie zjawiska wzajemnie powiązane,
             częściowo do siebie podobne i często współistniejące. Z drugiej
             jednak strony atak na osoby z powodu ich tożsamości jest naruszeniem
-            praw człowieka, stawia je znacznie trudniejszej sytuacji, dlatego
+            praw człowieka, stawia je w znacznie trudniejszej sytuacji, dlatego
             wymaga odrębnego potraktowania i specjalnej ochrony. Ich pozycja w
             społeczeństwie i możliwości obrony dobrego imienia czy praw są
             zupełnie inne w porównaniu do osób publicznych. Oczywiście część
             osób publicznych również należy do grup mniejszościowych, które są
             często dyskryminowane - wiec one również mogą doświadczać zarówno
-            mowy nienawiści, jak też hejtu. Jak podkreślają aktywiści i
-            aktywistki praw człowieka rozróżnienie obu zjawisk jest potrzebne,
-            bo umożliwia też właściwą reakcję.
+            mowy nienawiści, jak i hejtu. Jak podkreślają aktywiści i aktywistki
+            na rzecz praw człowieka, rozróżnienie obu zjawisk jest potrzebne, bo
+            umożliwia też właściwą reakcję.
         </p>
     </Step>
 </template>

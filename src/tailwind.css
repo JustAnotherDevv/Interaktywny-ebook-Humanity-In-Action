@@ -29,3 +29,10 @@
     background-size: 100% 100%, 100% 100%, 100% 31px;
     line-height: 31px;
 }
+.notes-dark {
+    background-image: linear-gradient(to right, black 10px, transparent 10px),
+        linear-gradient(to left, black 10px, transparent 10px),
+        linear-gradient(black 30px, #ccc 30px, #ccc 31px, black 31px);
+    background-size: 100% 100%, 100% 100%, 100% 31px;
+    line-height: 31px;
+}

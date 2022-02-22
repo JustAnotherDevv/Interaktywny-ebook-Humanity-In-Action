@@ -48,7 +48,8 @@
                     Fundacja Dajemy Dzieciom Siłę
                 </p>
                 <p class="mt-6 font-sans">
-                    Ze zgłoszeń do telefonu zaufania dla dzieci i młodzieży
+                    &bdquo;Ze zgłoszeń do telefonu zaufania dla dzieci i
+                    młodzieży
                     <strong>116 111</strong>
                     wiemy, że mowa nienawiści bywa niezwykle krzywdzącym
                     doświadczeniem. Szczególnie, że kierowana jest najczęściej
@@ -67,7 +68,7 @@
                     bardzo ważna, może nawet uratować życie. Jak nie wiesz jak
                     zareagować lub sama albo sam doświadczasz nienawiści, szukaj
                     wsparcia u zaufanych osób lub zadzwoń pod numer
-                    <strong>116 111</strong>.
+                    <strong>116 111</strong>&ldquo;.
                 </p>
             </div>
         </div>

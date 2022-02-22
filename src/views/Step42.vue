@@ -36,11 +36,11 @@
             <div class="w-full mt-10">
                 <div class="max-w-2xl">
                     <p class="mb-6">
-                        Wróć na stronę książki „Obcy w/z domu” i badania
-                        dotyczące mowy nienawiści przeprowadzone przez Centrum
-                        Badań nad Uprzedzeniami. Czy dostrzegasz związek
+                        Wróć na stronę książki „Obcy w/z domu” i badań
+                        dotyczących mowy nienawiści przeprowadzonych przez
+                        Centrum Badań nad Uprzedzeniami. Czy dostrzegasz związek
                         pomiędzy kampaniami nienawiści zainicjowanymi przez
-                        władzę opartymi na insynuacjach, półprawdach,
+                        władzę, opartymi na insynuacjach, półprawdach,
                         stereotypach i uprzedzeniach, a potem kontynuowanymi
                         przez niektórych/e obywateli/ki?
                     </p>

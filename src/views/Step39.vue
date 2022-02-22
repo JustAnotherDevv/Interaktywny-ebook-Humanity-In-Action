@@ -11,13 +11,15 @@
         <div class="mt-10">
             <p class="text-xl max-w-sm text-center">
                 Telefon zaufania dla dzieci i młodzieży Fundacji Dajemy Dzieciom
-                Siłę (całodobowo):
+                Siłę<br />
+                (całodobowo):
             </p>
             <a href="tel:116111" class="text-3xl text-center block">116 111</a>
         </div>
         <div class="mt-10">
             <p class="text-xl max-w-sm text-center">
-                Telefon zaufania Grupy Ponton (pt. 16:00 - 20:00):
+                Telefon zaufania Grupy Ponton <br />
+                (pt. 16:00 - 20:00):
             </p>
             <a href="tel:226359392" class="text-3xl text-center block"
                 >22 635 93 92</a
@@ -25,7 +27,8 @@
         </div>
         <div class="mt-10">
             <p class="text-xl max-w-sm text-center">
-                Telefon zaufania Grupy Ponton (pt. 16:00 - 20:00):
+                Antydepresyjny Telefon Forum Przeciw Depresji: <br />
+                (śr. i czw. 17:00 - 19:00)
             </p>
             <a href="tel:225949100" class="text-3xl text-center block"
                 >22 594 91 00</a
@@ -33,11 +36,12 @@
         </div>
         <div class="mt-10">
             <p class="text-xl max-w-sm text-center">
-                Ogólnopolski telefon dla ofiar przemocy w rodzinie “Niebieska
-                Linia” (całodobowo)
+                Ogólnopolski telefon dla ofiar przemocy w rodzinie
+                &bdquo;Niebieska Linia”<br />
+                (całodobowo)
             </p>
-            <a href="tel:22120002" class="text-3xl text-center block"
-                >22 12 00 02</a
+            <a href="tel:800120002" class="text-3xl text-center block"
+                >800 12 00 02</a
             >
         </div>
     </Step>

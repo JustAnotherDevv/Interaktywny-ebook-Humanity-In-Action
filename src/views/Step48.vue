@@ -22,24 +22,23 @@
                     <h3 class="text-4xl">Dobra zaś jest taka,</h3>
                     <p>
                         że można to zrobić, ale Twój komunikat powinien być
-                        dostosowany do odbiorcy i okoliczności. Na przykład:
-                        jeśli wiesz, jakie wartości są istotne dla takiej osoby,
-                        postaraj się użyć adekwatnych argumentów czy porównań.
-                        Na przykład, jeśli znasz daną osobę, to postaraj się
-                        użyć argumentów czy porównań z zakresu jej zainteresowań
-                        i pasji.
+                        dostosowany do odbiorcy i okoliczności. Jeśli wiesz,
+                        jakie wartości są istotne dla takiej osoby, postaraj się
+                        użyć adekwatnych argumentów czy porównań. Na przykład,
+                        jeśli znasz daną osobę, to postaraj się użyć argumentów
+                        czy porównań z zakresu jej zainteresowań i pasji.
                     </p>
                     <p>
                         Dlaczego? Bo będą jej bliskie i będą budzić pozytywne
                         emocje, a przecież właśnie o to chodzi,
                         <span class="underline">
-                            by trafić i do serca i do rozumu </span
+                            by trafić i do serca, i do rozumu </span
                         >.
                     </p>
                 </div>
                 <div class="w-full md:w-1/2 space-y-4 p-4">
                     <p>
-                        Słowa mogą zmieniać świat. I na dobre i na złe. Zobacz
+                        Słowa mogą zmieniać świat. I na dobre, i na złe. Zobacz
                         jak znane osoby i YouTuberzy/YouTuberki odnoszą się do
                         tematu w ramach kampanii Fundacji Humanity in Action
                         Polska przeciwko mowie nienawiści i hejtowi. Zastanów

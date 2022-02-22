@@ -7,13 +7,12 @@
         <div class="mt-10 relative">
             <img src="/assets/59/center.svg" alt="" />
             <p class="absolute w-[200px] top-[75px] right-[-220px]">
-                Aplikantka Adwokacka <br /><span class="font-bold"
-                    >Katarzyna Cimek</span
-                >
+                <span class="font-bold">Katarzyna Cimek,</span><br />
+                aplikantka Adwokacka
             </p>
             <p class="absolute w-[200px] top-[175px] left-[-210px]">
                 <span class="font-bold">Eliza Rutynowska</span><br />
-                absolwentka Akademii Praw Człowieka Humanity in Action 2017
+                absolwentka Humanity in Action John Lewis Fellowship 2017
             </p>
             <p class="absolute w-[200px] bottom-[175px] right-[-220px]">
                 <span class="font-bold">Magdalena Pająk</span><br />

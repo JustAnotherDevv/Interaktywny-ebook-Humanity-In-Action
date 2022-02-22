@@ -8,23 +8,17 @@
             class="my-8"
         />
         <p>
-            <strong>rozmawiam</strong> z adresatem/ką hejtu o tym, jak się
-            czuje;<strong>zwracam</strong> bezpośrednio
-            <strong>uwagę</strong> osobie atakującej; głośno
-            <strong>mówię</strong> „stop”; <strong>piszę mail</strong> z opisem
-            sytuacji, kiedy doszło do sytuacji hejtu, do instytucji, która może
-            temu zaradzić; <strong>piszę skargę</strong>;
-            <strong>podpisuję petycję</strong>;
-            <strong>usuwam</strong> hejterskie komentarze w mediach
-            społecznościowych; <strong>zgłaszam</strong> nienawistne komentarze,
-            posty, profile w mediach społecznościowych;
-            <strong>piszę artykuł</strong> na temat hejtu lub konkretnej
-            sytuacji, w której doszło do hejtu;
-            <strong>nie śmieję się</strong> z obraźliwych żartów;
-            <strong>zadaję pytania</strong> hejter(k)om, dlaczego to robią;
-            dociekam, co ktoś chciał powiedzieć, kiedy używa obraźliwego języka;
-            <strong>opuszczam</strong> konwersację;
-            <strong>mówię o</strong> odpowiedzialności za język.
+            Rozmawiam z adresatem/ką hejtu o tym, jak się czuje;zwracam
+            bezpośrednio uwagę osobie atakującej; głośno mówię „stop”; piszę
+            mail z opisem sytuacji, kiedy doszło do hejtu, do instytucji, która
+            może temu zaradzić; piszę skargę; podpisuję petycję; usuwam
+            hejterskie komentarze w mediach społecznościowych; zgłaszam
+            nienawistne komentarze, posty, profile w mediach społecznościowych;
+            piszę artykuł na temat hejtu lub konkretnej sytuacji, w której
+            doszło do hejtu; nie śmieję się z obraźliwych żartów; zadaję pytania
+            hejter(k)om, dlaczego to robią; dociekam, co ktoś chciał powiedzieć,
+            kiedy używa obraźliwego języka; opuszczam konwersację; mówię o
+            odpowiedzialności za język.
         </p>
 
         <div
@@ -36,6 +30,8 @@
                 sytuację, w której byłeś/aś świadkiem/świadkinią hejtu lub mowy
                 nienawiści i przeciwstawiłeś/aś się temu. Co sprawiło, że
                 zdecydowałeś/aś się na reakcję?
+                <br />
+                <strong>Wypisz te okoliczności tutaj.</strong>
             </p>
             <div class="w-full lg:w-2/3 lg:px-10">
                 <textarea

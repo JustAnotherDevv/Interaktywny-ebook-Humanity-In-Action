@@ -25,7 +25,7 @@
                 height="122"
                 class="mx-auto"
             />
-            <p class="text-xl text-center mt-8 font-bold">
+            <p class="text-xl text-center mt-8 font-bold uppercase">
                 stanowczy komunikat, którym pokażesz brak zgody na nienawistne
                 wypowiedzi w Twoim otoczeniu.
             </p>
@@ -36,7 +36,10 @@
             swoje własne przykłady. Niezależnie od tego, co zdecydujesz się
             powiedzieć, ważne że
         </p>
-        <img src="/assets/57/pokazesz-jasno.svg" alt="" height="82" />
+        <p class="font-amatic text-center text-4xl mb-8">
+            Pokażesz jasno swój sprzeciw i nazwiesz przejawy mowy nienawiści
+            wprost.
+        </p>
         <p class="text-xl text-center mb-8">
             Możesz odwoływać się do źródeł, np. badań na dany temat. W każdej
             chwili możesz też uciąć rozmowę, jeśli osoba/osoby, z którą/którymi

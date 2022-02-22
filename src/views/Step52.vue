@@ -4,7 +4,7 @@
 
         <div class="font-montserrat leading-7 max-w-3xl my-10">
             <p>
-                „Każdy z nas, niezależnie od wieku powinien bezwzględnie
+                „Każdy z nas, niezależnie od wieku, powinien bezwzględnie
                 reagować na przypadki mowy nienawiści, zarówno w najbliższym
                 otoczeniu, jak i w Internecie. Kiedy słyszymy obraźliwe i
                 dyskryminujące wypowiedzi, powinniśmy zastanowić się, jak sami
@@ -23,10 +23,12 @@
                 <div
                     class="text-white bg-black p-2 inline-block font-itim mb-2 md:mb-0"
                 >
-                    <p class="text-sm">dr hab., prof. Uniwersytetu</p>
-                    <p>SWPS Adam Bodnar</p>
+                    <p>
+                        dr hab. Adam Bodnar<br />
+                        prof. Uniwersytetu SWPS
+                    </p>
                 </div>
-                <p class="italic text-sm">
+                <p class="text-sm">
                     Rzecznik Praw Obywatelskich w latach 2015-21, <br />
                     dziekan Wydziału Prawa Uniwersytetu SWPS
                 </p>
@@ -37,7 +39,7 @@
             >
                 <div>
                     <p class="font-itim mb-4 text-xl">
-                        Jedna z najmilszych stron internetu, <br />
+                        Jedna z najmilszych stron Internetu, <br />
                         czyli rady od
                         <span class="text-white bg-black p-1">
                             Janiny Bąk

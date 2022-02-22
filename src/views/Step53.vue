@@ -28,7 +28,7 @@
                     <p>
                         „Myślę, że każdy przed napisaniem w sieci jakiegokolwiek
                         komentarza powinien sobie szczerze zadać jedno pytanie:
-                        «czy powiedział(a)bym to tej osobie prosto w twarz?”»
+                        «czy powiedział(a)bym to tej osobie prosto w twarz?»
                         Jeśli nie, to nie powinniśmy tego również pisać. W
                         Internecie znacznie łatwiej jest krzywdzić innych, bo
                         czujemy się anonimowi, a przez to odważniejsi. Musimy
@@ -64,6 +64,18 @@
                     </p>
                 </div>
             </div>
+            <div class="mt-10 font-montserrat max-w-2xl">
+                <p>
+                    Ponadto w Internecie nic nie ginie - nawet gdy my skasujemy
+                    swój komentarz, to ktoś może posiadać jego skrin. Bądźmy
+                    życzyliwi dla innych osób w sieci i pamiętajmy, że w
+                    odwrotnym przypadku możemy kogoś bardzo skrzywdzić, a także
+                    zostać pociągnięci do odpowiedzialnośći za swoje zachowanie.
+                    Nie mówmy też innym niczego, czego sami nie chcielibyśmy
+                    usłyszeć.”
+                </p>
+            </div>
+
             <div class="max-w-md mx-auto mt-10">
                 <p class="text-xl">
                     Na podstawie swoich obserwacji wypisz top pięć zasad,

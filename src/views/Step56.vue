@@ -13,13 +13,19 @@
                     class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
                 >
                     <ol class="list-decimal">
-                        <li>
-                            Naciśnij i przytrzymaj Snapa do momentu pojawienia
-                            się przycisku <img src="/assets/56/flag.svg" />
+                        <li class="">
+                            <p class="">
+                                Naciśnij i przytrzymaj Snapa do momentu
+                                pojawienia się przycisku
+                            </p>
+                            <img
+                                src="/assets/56/flag.svg"
+                                class="float-left"
+                            />.
                         </li>
                         <li>
-                            Kliknij Story, aby ją zgłosić i poinformować o nim
-                            administrację Snapchata.
+                            Kliknij &bdquo;Story&ldquo;, aby ją zgłosić i
+                            poinformować o nim administrację Snapchata.
                         </li>
                     </ol>
                 </div>
@@ -37,8 +43,11 @@
             >
                 <ol class="list-decimal">
                     <li>
-                        Naciśnij i przytrzymaj Snapa do momentu pojawienia się
-                        przycisku <img src="/assets/56/flag.svg" />
+                        <p class="">
+                            Naciśnij i przytrzymaj Snapa do momentu pojawienia
+                            się przycisku
+                        </p>
+                        <img src="/assets/56/flag.svg" class="float-left" />.
                     </li>
                     <li>
                         Kliknij Story, aby ją zgłosić i poinformować o nim
@@ -82,8 +91,8 @@
                 >
                     <ol class="list-decimal">
                         <li>
-                            Kliknij ikonę “Udostępnij” w prawym dolnym rogu
-                            strony.
+                            Kliknij ikonę &bdquo;Udostępnij&ldquo; w prawym
+                            dolnym rogu strony.
                         </li>
                         <li>
                             Wybierz opcję „Zgłoś” i wybierz powód zgłoszenia.
@@ -125,7 +134,7 @@
                         Wejdź na profil Użytkownika/czki, którego/którą chcesz
                         zgłosić.
                     </li>
-                    <li>Kliknij … i wybierz opcję ”Zgłoś”.</li>
+                    <li>Kliknij … i wybierz opcję &bdquo;Zgłoś&ldquo;.</li>
                     <li>Wybierz powód zgłoszenia.</li>
                 </ol>
             </div>

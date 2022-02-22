@@ -13,7 +13,7 @@
                 <p>
                     Zazwyczaj najlepiej najpierw poinformować kogoś o swojej
                     niezgodzie na mowę nienawiści i hejt. Jeśli spotykasz się z
-                    taką sytuacją w sieci to poza poinformowaniem, możesz
+                    taką sytuacją w sieci, to poza poinformowaniem, możesz
                     zgłosić takie treści lub konto jako naruszenie w mediach
                     społecznościowych. W drugim kroku warto ostrzec, że zamierza
                     się podjąć kroki prawne. A w trzecim kroku, jeśli te
@@ -41,8 +41,7 @@
                 na stronie, którą obserwuje tylko 200 osób”.
             </p>
             <p class="p-2 border mt-8 text-center">
-                Jak zgłosić treści lub konto jako naruszenie w mediach
-                społecznościowych?
+                Jak zgłosić treści lub konto jako naruszenie regulaminu?
             </p>
         </div>
         <!-- INSTRAGRAM -->
@@ -59,7 +58,7 @@
                 >
                     <ol class="list-decimal">
                         <li>Kliknij … nad postem.</li>
-                        <li>Kliknij opcję Zgłoś.</li>
+                        <li>Kliknij opcję &bdquo;Zgłoś&ldquo;.</li>
                         <li>Postępuj zgodnie z instrukcjami na ekranie.</li>
                     </ol>
                 </div>
@@ -141,7 +140,7 @@
                 <ol class="list-decimal">
                     <li>Znajdź komentarz, który chcesz zgłosić.</li>
                     <li>Kliknij ... obok komentarza.</li>
-                    <li>Wybierz Zgłoś.</li>
+                    <li>Wybierz &bdquo;Zgłoś&ldquo;.</li>
                     <li>Wybierz powód zgłoszenia.</li>
                 </ol>
             </div>
@@ -169,7 +168,7 @@
                     <ol class="list-decimal">
                         <li>Wyświetl film, który chcesz zgłosić.</li>
                         <li>Kliknij „Więcej” u góry filmu.</li>
-                        <li>Wybierz opcję Zgłoś.</li>
+                        <li>Wybierz opcję &bdquo;Zgłoś&ldquo;.</li>
                         <li>Wybierz powód zgłoszenia.</li>
                     </ol>
                 </div>

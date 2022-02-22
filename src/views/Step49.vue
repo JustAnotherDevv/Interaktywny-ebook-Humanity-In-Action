@@ -11,8 +11,8 @@
                 „Pamiętajcie tylko, że żeby zmienić świat najpierw trzeba zacząć
                 od samego siebie. Nie generalizujcie, nie wierzcie w te
                 stereotypy, uprzedzenia, bo to nie jest tak, że jak jedna osoba
-                coś zrobiła to na pewno już cała społeczność z nią związana robi
-                tak samo. Każdy z nas jest inny i dlatego też każdemu z nas
+                coś zrobiła, to na pewno już cała społeczność z nią związana
+                robi tak samo. Każdy z nas jest inny i dlatego też każdemu z nas
                 należy się szacunek. Nie musimy wszystkiego akceptować.
                 Oczywiście, każdy z nas ma prawo do własnego zdania, ale miejmy
                 w sobie coś takiego jak tolerancja”.
@@ -20,7 +20,7 @@
             <div class="flex justify-center items-center space-x-4 mt-4">
                 <img src="/assets/49/yt.svg" width="51" height="41" alt="" />
                 <a
-                    href="#"
+                    href="https://www.youtube.com/watch?v=SswuLXtc5Ak"
                     target="_blank"
                     class="bg-black text-white py-2 px-4 rounded-full"
                     >Obejrzyj film</a
@@ -57,7 +57,7 @@
             <div class="flex justify-center items-center space-x-4 mt-4">
                 <img src="/assets/49/yt.svg" width="51" height="41" alt="" />
                 <a
-                    href="#"
+                    href="https://www.youtube.com/watch?v=dmns67F-S40&feature=emb_title"
                     target="_blank"
                     class="bg-black text-white py-2 px-4 rounded-full"
                     >Obejrzyj film</a

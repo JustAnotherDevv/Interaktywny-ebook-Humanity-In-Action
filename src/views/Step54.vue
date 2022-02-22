@@ -27,7 +27,7 @@
                     siebie za kilka lat
                 </p>
                 <p>
-                    Jesteś popularną i znaną osobą z powodu działalności na
+                    Jesteś popularną i znaną osobą z powodu działalności w
                     mediach społecznościowych, zwłaszcze ze względu na ilość
                     interakcji młodzieży, która uważnie śledzi co masz do
                     powiedzenia.

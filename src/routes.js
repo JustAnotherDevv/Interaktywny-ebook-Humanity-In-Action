@@ -1,4 +1,5 @@
 import Home from "./views/Home.vue";
+import About from "./views/About.vue";
 import NotFound from "./views/NotFound.vue";
 
 const steps = [];
@@ -51,6 +52,11 @@ export const routes = [
         path: "/",
         component: Home,
         meta: { title: "Home", step: 1, hideTopBar: true },
+    },
+    {
+        path: "/o-nas",
+        component: About,
+        meta: { title: "O nas" },
     },
     ...steps,
     { path: "/:path(.*)", component: NotFound },

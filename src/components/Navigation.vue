@@ -4,7 +4,7 @@
             <a href="#" class="p-3 2xl:p-4 hover:underline">Spis treści</a>
         </li>
         <li>
-            <a href="#" class="p-3 2xl:p-4 hover:underline">O nas</a>
+            <a href="/o-nas" class="p-3 2xl:p-4 hover:underline">O nas</a>
         </li>
         <li>
             <a href="#" class="p-3 2xl:p-4 hover:underline">Kontakt</a>

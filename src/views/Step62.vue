@@ -71,6 +71,7 @@
         </div>
         <div>
             <img src="/assets/62/czy-wiesz-ze.svg" alt="" height="342" />
+            <img src="/assets/62/dymki.svg" alt="" height="398" />
         </div>
 
         <div
@@ -85,7 +86,7 @@
                 Na mocy art. 119, 256 i 257 Kodeksu karnego oraz art. 190
                 Kodeksu karnego
             </p>
-            <div class="border border-black p-6 md:text-center mb-6">
+            <div class="border-black p-6 md:text-center mb-6 space-y-4">
                 <p>
                     <span class="underline">Art. 119 Kodeksu Karnego</span>
                     <br />
@@ -94,10 +95,10 @@
                     narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub
                     z powodu jej bezwyznaniowości, podlega karze pozbawienia
                     wolności od 3 miesięcy do lat 5.<br />
-                    § 2. (uchylony).
                 </p>
+                <p>§ 2. (uchylony).</p>
             </div>
-            <p>
+            <p class="md:text-center">
                 Istotne jest w tym przepisie, by zwrócić uwagę, że jest to
                 zamknięty katalog cech osób, które są nim chronione. W tej
                 grupie nie ma osób z niepełnosprawnościami, nie ma też osób
@@ -112,6 +113,21 @@
                 <strong> art. 190 Kodeksu karnego </strong>, a nie przestępstwo
                 dyskryminacji z <strong> art. 119 Kodeksu karnego </strong>.
             </p>
+            <div class="border border-black p-6 md:text-center mt-6 space-y-4">
+                <p>Art. 126a Kodeksu karnego</p>
+                <p>
+                    Publiczne pochwalanie przestępstw lub nawoływanie do ich
+                    popełnienia.
+                </p>
+                <p>
+                    Kto publicznie nawołuje do popełnienia czynu określonego w
+                    art. 118 (eksterminacji), 118a (zamach przeciwko ludzkości),
+                    119 § 1 (groźba bezprawna),art. 120-125 (masowe zamachy na
+                    osoby, środki masowej zagłady) lub publicznie pochwala
+                    popełnienie czynu określonego w tych przepisach, podlega
+                    karze pozbawienia wolności od 3 miesięcy do lat 5.
+                </p>
+            </div>
         </div>
 
         <div class="border border-black p-6 md:text-center mb-6 mt-6 space-y-6">

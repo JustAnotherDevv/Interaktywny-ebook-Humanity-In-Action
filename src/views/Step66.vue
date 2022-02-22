@@ -28,8 +28,8 @@
         <div class="mt-10 max-w-3xl mx-auto px-6 md:px-10">
             <img
                 src="/assets/66/co-mozna-zrobic.svg"
-                width="513"
-                height="132"
+                width="432"
+                height="111"
                 alt=""
                 class="mx-auto mb-6"
             />

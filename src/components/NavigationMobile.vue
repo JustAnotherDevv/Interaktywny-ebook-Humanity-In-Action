@@ -50,7 +50,7 @@
                     <a href="#" class="p-6 hover:underline">Spis treści</a>
                 </li>
                 <li>
-                    <a href="#" class="p-6 hover:underline">O nas</a>
+                    <a href="o-nas" class="p-6 hover:underline">O nas</a>
                 </li>
                 <li>
                     <a href="#" class="p-6 hover:underline">Kontakt</a>

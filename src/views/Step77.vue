@@ -5,7 +5,7 @@
                 <span class="font-bold text-white p-1 bg-black px-2">{{
                     item.name
                 }}</span>
-                - {{ item.desc }}
+                - <span v-html="item.desc"></span>
                 <div class="mt-4 text-sm">
                     <p v-if="item.sources.length > 1">Źródła:</p>
                     <p v-else>Źródło:</p>
@@ -38,7 +38,7 @@ import Step from "@/components/Step.vue";
 const list = [
     {
         name: "Ksenofobia",
-        desc: "pochodzące od greckich słów: xenos (dziwny, obcy) oraz phobos (strach, awersja) zjawisko oznaczające niechęć wobec obcych, nieznanych i innych, np. cudzoziemców, osób o innym kolorze skóry niż dominujący na danym terenie, wyznawców mniejszościowych religii itp.",
+        desc: "pochodzące od greckich słów: <span class='italic'>xenos</span> (dziwny, obcy) oraz <span class='italic'>phobos</span> (strach, awersja) zjawisko oznaczające niechęć wobec obcych, nieznanych i innych, np. cudzoziemców, osób o innym kolorze skóry niż dominujący na danym terenie, wyznawców mniejszościowych religii itp.",
         sources: ["https://www.merriam-webster.com/dictionary/xenophobia"],
     },
     {

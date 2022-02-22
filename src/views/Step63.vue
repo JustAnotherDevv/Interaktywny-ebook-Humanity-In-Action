@@ -96,44 +96,47 @@
                 alt=""
                 class="mx-auto mb-6"
             />
-            <ul
-                class="space-y-6 border-dashed sm:border sm:p-10 rounded-xl border-black"
+            <div
+                class="border-dashed sm:border sm:p-10 rounded-xl border-black"
             >
-                <li class="flex items-start">
-                    <img src="/assets/63/1.svg" alt="" class="mr-4" />
-                    <p>
-                        Zbierz dowody na mowę nienawiści. Mogą to być
-                        wydrukowane zrzuty ekranu postów, zdjęć, memów,
-                        komentarzy itp. Jeżeli mowa nienawiści ma miejsce na
-                        wstawionym przez kogoś filmie – zapisz go na pendrivie
-                        lub płycie CD. Ważnym jest, aby ze zrzutów ekranu lub
-                        filmu z dołączonym zrzutem ekranu wynikała data ich
-                        wstawienia. Jest to konieczne, by organy ścigania mogły
-                        wnieść do sądu akt oskarżenia.
-                    </p>
-                </li>
-                <li class="flex items-start">
-                    <img src="/assets/63/2.svg" alt="" class="mr-4" />
-                    <p>
-                        Przekaż dowody policji. Dla uproszczenia możesz wypełnić
-                        gotowy wzór zawiadomienia o możliwości popełnienia
-                        przestępstwa, który znajdziesz w Internecie i dołączyć
-                        do niego zebrane dowody.
-                    </p>
-                </li>
-                <li class="flex items-start">
-                    <img src="/assets/63/3.svg" alt="" class="mr-4" />
-                    <p>
-                        Po złożeniu zawiadomienia policja lub prokuratura
-                        powinny ścigać dane przestępstwo z urzędu, więc na nich
-                        spoczywa obowiązek ewentualnego uzupełnienia materiału
-                        dowodowego i wniesienia do sądu aktu oskarżenia.
-                    </p>
-                </li>
-            </ul>
-            <p class="text-center font-bold mt-6">
-                Na mocy art. 212 oraz 216 Kodeksu karnego
-            </p>
+                <ul class="space-y-6">
+                    <li class="flex items-start">
+                        <img src="/assets/63/1.svg" alt="" class="mr-4" />
+                        <p>
+                            Zbierz dowody na mowę nienawiści. Mogą to być
+                            wydrukowane zrzuty ekranu postów, zdjęć, memów,
+                            komentarzy itp. Jeżeli mowa nienawiści ma miejsce na
+                            wstawionym przez kogoś filmie – zapisz go na
+                            pendrivie lub płycie CD. Ważnym jest, aby ze zrzutów
+                            ekranu lub filmu z dołączonym zrzutem ekranu
+                            wynikała data ich wstawienia. Jest to konieczne, by
+                            organy ścigania mogły wnieść do sądu akt oskarżenia.
+                        </p>
+                    </li>
+                    <li class="flex items-start">
+                        <img src="/assets/63/2.svg" alt="" class="mr-4" />
+                        <p>
+                            Przekaż dowody policji. Dla uproszczenia możesz
+                            wypełnić gotowy wzór zawiadomienia o możliwości
+                            popełnienia przestępstwa, który znajdziesz w
+                            Internecie i dołączyć do niego zebrane dowody.
+                        </p>
+                    </li>
+                    <li class="flex items-start">
+                        <img src="/assets/63/3.svg" alt="" class="mr-4" />
+                        <p>
+                            Po złożeniu zawiadomienia policja lub prokuratura
+                            powinny ścigać dane przestępstwo z urzędu, więc na
+                            nich spoczywa obowiązek ewentualnego uzupełnienia
+                            materiału dowodowego i wniesienia do sądu aktu
+                            oskarżenia.
+                        </p>
+                    </li>
+                </ul>
+                <p class="text-center font-bold mt-6">
+                    Na mocy art. 212 oraz 216 Kodeksu karnego
+                </p>
+            </div>
         </div>
     </Step>
 </template>

@@ -8,15 +8,16 @@
                     zdaniem ważny?
                 </p>
                 <p>
-                    "Aktywizm to działanie wspierające konkretny cel, idee lub
-                    sprawę. Można zaangażować się w sprawy, które bezpośrednio
-                    nas dotyczą lub też wspierać te, które oddziałują na nasze
-                    otoczenie lub naszych bliskich. Mogą być to zarówno tematy
-                    polityczne, społeczne. Takie działania podejmowane są
-                    zazwyczaj z potrzeby wyrażenia swojego głosu, manifestowania
-                    opinii. Nie jest to związane z żadnym zyskiem finansowym lub
-                    pracą. Robimy to, bo chcemy to robić. Chcemy zmienić świat i
-                    wyrazić swoje wsparcie dla tych, którzy tego potrzebują”.
+                    &bdquo;Aktywizm to działanie wspierające konkretny cel, idee
+                    lub sprawę. Można zaangażować się w sprawy, które
+                    bezpośrednio nas dotyczą lub też wspierać te, które
+                    oddziałują na nasze otoczenie lub naszych bliskich. Mogą być
+                    to zarówno tematy polityczne, społeczne. Takie działania
+                    podejmowane są zazwyczaj z potrzeby wyrażenia swojego głosu,
+                    manifestowania opinii. Nie jest to związane z żadnym zyskiem
+                    finansowym lub pracą. Robimy to, bo chcemy to robić. Chcemy
+                    zmienić świat i wyrazić swoje wsparcie dla tych, którzy tego
+                    potrzebują”.
                 </p>
             </div>
         </div>

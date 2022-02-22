@@ -1,12 +1,25 @@
 <template>
     <Step class="font-montserrat text-white" hide-skip-button>
-        <img
-            src="/assets/65/top.svg"
-            alt=""
-            height="513"
-            width="558"
-            class="mx-auto mb-10 md:mb-0"
-        />
+        <div>
+            <img
+                src="/assets/65/top.svg"
+                alt=""
+                height="586"
+                width="686"
+                class="mx-auto mb-10 md:mb-0"
+            />
+            <p
+                class="md:text-black md:-mt-[230px] md:w-[440px] md:ml-[80px] md:text-[15px] md:mb-[100px]"
+            >
+                Pojęcie zniewagi na gruncie art. 216 Kodeksu karnego, jest takie
+                samo jak to z art. 257 Kodeksu karnego, o którym była mowa
+                wcześniej. Różnica pomiędzy art. 216 i 257Kodeksu karnego jest
+                to, że art. 257 chroni konkretne grupy osób. Jeżeli zniewaga nie
+                ma związku z przynależnością narodową, etniczną, rasową,
+                wyznaniową albo z bezwyznaniowością, wtedy sprawca ponosi
+                odpowiedzialność z art. 216 Kodeksu karnego.
+            </p>
+        </div>
         <div class="relative mt-10">
             <img
                 src="/assets/65/co-mozesz.svg"
@@ -52,7 +65,7 @@
                 postępowania z urzędu ze względu na ważny interes społeczny lub
                 aby prokurator dołączył do postępowania, które już
                 uruchomiłeś/aś prywatnym aktem oskarżenia. Wynika to z
-                <strong> art. 60 Kodeksu postępowania karnego </strong>. Wniosek
+                <strong> art. 60 Kodeksu postępowania karnego. </strong> Wniosek
                 taki musi zawierać uzasadnienie, że istnieje interes społeczny w
                 tym, aby dany czyn ścigać z oskarżenia publicznego. Jeżeli
                 prokurator obejmie ściganie danego czynu z urzędu odpada

@@ -79,7 +79,7 @@ const list = [
     },
     {
         name: "Zniewaga",
-        desc: "wypowiedź godząca w cześć i godność danej osoby, która jest obelżywa, ośmieszająca i nie da się jej zracjonalizować. Może być dokonana słowem, pismem, znakiem, gestem. O zaistnieniu zniewagi decyduje kryterium obiektywne, czyli to, czy określone działanie wpisuje się w obowiązujące w społeczeństwie oceny i normy obyczajowe. Nie jest tu ważne kryterium subiektywne, czyli osobiste przekonanie danej osoby o urażeniu danymi słowami, gestem itp. Dla zaistnienia przestępstwa zniewagi nie jest konieczny żaden skutek. Adresat zniewagi nie musi się poczuć nią dotknięty, zniewaga nie musi nawet do niego dotrzeć.",
+        desc: "obelżywa, ośmieszająca i niedająca się zracjonalizować wypowiedź, godząca w cześć i godność danej osoby, która jest obelżywa, ośmieszająca i nie da się jej zracjonalizować. Może być dokonana słowem, pismem, znakiem, gestem. O zaistnieniu zniewagi decyduje kryterium obiektywne, czyli to, czy określone działanie wpisuje się w obowiązujące w społeczeństwie oceny i normy obyczajowe. Nie jest tu ważne kryterium subiektywne, czyli osobiste przekonanie danej osoby o urażeniu danymi słowami, gestem itp. Dla zaistnienia przestępstwa zniewagi nie jest konieczny żaden skutek. Adresat zniewagi nie musi się poczuć nią dotknięty, zniewaga nie musi nawet do niego dotrzeć.",
 
         sources: [
             {

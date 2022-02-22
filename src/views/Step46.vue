@@ -84,9 +84,12 @@
                     Na większości platform społecznościowych czy gamingowych
                     standardowym
                     <strong>sposobem moderowania</strong> agresywnych zachowań
-                    użytkowników jest ostrzeganie (warning), ściszanie (mute)
-                    czy banowanie (ban). Krótko mówiąc, użytkownicy są karani
-                    lub wykluczani za przejawy antyspołecznych zachowań.
+                    użytkowników jest ostrzeganie (<span class="italic"
+                        >warning</span
+                    >), ściszanie (<span class="italic">mute</span>) czy
+                    banowanie (<span class="italic">ban</span>). Krótko mówiąc,
+                    użytkownicy są karani lub wykluczani za przejawy
+                    antyspołecznych zachowań.
                 </p>
                 <p>
                     <strong>Dziesiątki badań</strong> z zakresu wpływu
@@ -110,43 +113,42 @@
                     <strong> moduł sztucznej inteligencji </strong> zdolny
                     wykrywać ataki personalne (obraźliwe, bezpośrednie zwroty do
                     innych użytkowników) z prawie 100% skutecznością. Badacze
-                    społeczni natomiast, stworzyli plan eksperymentu oraz
-                    wyróżnili dwa rodzaje interwencji, które będą wysyłane w
-                    odpowiedzi na ataki personalne: okazując komuś empatię albo
-                    odnosząc się do norm i reguł.
+                    społeczni natomiast plan eksperymentu oraz wyróżnili dwa
+                    rodzaje interwencji, które będą wysyłane w odpowiedzi na
+                    ataki personalne: okazując komuś empatię albo odnosząc się
+                    do norm i reguł.
                 </p>
                 <p>
                     Jako miejsce eksperymentu wybraliśmy platformę
                     <strong>Reddit</strong>, z której wyłoniliśmy dwie
-                    społeczności, czy inaczej subreddity, w których poziom
-                    ataków personalnych był odpowiednio wysoki. Wybrane
-                    subreddity były monitorowane przez nasz system 24 godziny na
-                    dobę, dostarczając na bieżąco informacje o wygenerowanym
-                    hejcie.
+                    społeczności czy inaczej subreddity, w których poziom ataków
+                    personalnych był odpowiednio wysoki. Wybrane subreddity były
+                    monitorowane przez nasz system 24 godziny na dobę,
+                    dostarczając na bieżąco informacje o wygenerowanym hejcie.
                 </p>
                 <p>
                     Pozostawało znaleźć kogoś, kto na każde zawołanie systemu
                     będzie reagował interwencją, jednocześnie nie wzbudzając
                     podejrzeń członków, że mogą uczestniczyć w eksperymencie. Ze
-                    względu na naturę badania, oraz ponieważ manipulacja
-                    polegała na wyrażaniu współczucia i szacunku, uzyskaliśmy
-                    zgodę Komisji Etyki do poinformowania uczestników po
-                    zakończeniu eksperymentu. Jednak w zdecydowanej większości
-                    badań wymagana jest zgoda uczestnika przed ich rozpoczęciem.
+                    względu na naturę badania oraz ponieważ manipulacja polegała
+                    na wyrażaniu współczucia i szacunku, uzyskaliśmy zgodę
+                    Komisji Etyki do poinformowania uczestników po zakończeniu
+                    eksperymentu. Jednak w zdecydowanej większości badań
+                    wymagana jest zgoda uczestnika przed ich rozpoczęciem.
                 </p>
 
                 <img src="/assets/46/tak-wlasnie.svg" alt="" height="146" />
 
                 <p>
-                    – poczciwego bota, wyposażony w sztuczną inteligencję oraz
-                    bazę 100 tysięcy unikatowych interwencji. Zależało nam, by
-                    James wtopił się w wybrane społeczności, a jak wiemy – boty
-                    nie są zbyt lubiane, ponieważ często wykorzystywane są w
+                    – poczciwy bot, wyposażony w sztuczną inteligencję oraz bazę
+                    100 tysięcy unikatowych interwencji. Zależało nam, by James
+                    wtopił się w wybrane społeczności, a jak wiemy – boty nie są
+                    zbyt lubiane, ponieważ często wykorzystywane są w
                     szkodliwych celach. Urozmaiciliśmy więc jego aktywność o
                     wpisy na grupach zrzeszających fanów jazzu, ośmiornic czy
                     rzeźbienia w drewnie. W ten sposób JamesWalker43 stał się
                     spokojnym mężczyzną przed pięćdziesiątką, zachwyconym naturą
-                    i sztuką i wypełnionym niezłomnym szacunkiem do drugiego
+                    i sztuką, wypełnionym niezłomnym szacunkiem do drugiego
                     człowieka.
                 </p>
                 <p>
@@ -159,7 +161,7 @@
                 </p>
                 <p>
                     Przez osiem miesięcy James pracowicie rozdawał wyrazy
-                    współczucia i życzliwe porady, wszystkim, którzy stracili
+                    współczucia i życzliwe porady wszystkim, którzy stracili
                     głowę i zapomnieli o człowieku po drugiej stronie. W tym
                     czasie nie tylko został przyjęty przez dość radykalną
                     społeczność, ale nawet otrzymał propozycję bycia jej

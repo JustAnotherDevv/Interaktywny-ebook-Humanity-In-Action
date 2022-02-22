@@ -19,8 +19,8 @@ const meta = {
     40: { bg: "#000", dark: true },
     41: { bg: "#000", dark: true },
     42: { mainClass: "bg-black", topBarClass: "bg-black", darkTopBar: true },
-    44: { bg: "#000", dark: true },
-    45: { bg: "#000", dark: true },
+    // 44: { bg: "#000", dark: true },
+    // 45: { bg: "#000", dark: true },
     46: { mainClass: "bg-black", topBarClass: "bg-black", darkTopBar: true },
     61: { bg: "#000", dark: true },
     63: {

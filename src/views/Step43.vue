@@ -107,7 +107,7 @@
             <!--  -->
 
             <div class="flex flex-wrap md:flex-nowrap justify-between">
-                <div>
+                <div class="">
                     <p>
                         Czy zawiera wiele wykrzykników? Czy zawiera
                         sformułowania takie jak:

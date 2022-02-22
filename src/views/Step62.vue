@@ -35,7 +35,7 @@
                 sytuacji należy wstąpić na drogę cywilnoprawną, czyli wnieść
                 pozew do sądu cywilnego. W przypadku naruszenia dóbr osobistych
                 danej osoby fizycznej lub prawnej, osoba, której dobro osobiste
-                jest zagrożone cudzym działaniem może żądać, aby dana osoba
+                jest zagrożone cudzym działaniem, może żądać, aby dana osoba
                 zaniechała takiego działania. Żądanie zaniechania działania nie
                 dotyczy działań już dokonanych, ale sytuacji, gdy występuje
                 zagrożenie bezprawnego działania naruszającego dobro osobiste.

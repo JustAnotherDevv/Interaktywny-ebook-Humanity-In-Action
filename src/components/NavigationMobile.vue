@@ -47,14 +47,18 @@
                 class="flex flex-col space-y-4 items-center justify-center font-liber"
             >
                 <li>
-                    <a href="#" class="p-6 hover:underline">Spis treści</a>
+                    <router-link to="/spis-tresci" class="p-6 hover:underline"
+                        >Spis treści</router-link
+                    >
                 </li>
                 <li>
-                    <a href="o-nas" class="p-6 hover:underline">O nas</a>
+                    <router-link to="/o-nas" class="p-6 hover:underline"
+                        >O nas</router-link
+                    >
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#" class="p-6 hover:underline">Kontakt</a>
-                </li>
+                </li> -->
                 <li>
                     <router-link
                         to="#"

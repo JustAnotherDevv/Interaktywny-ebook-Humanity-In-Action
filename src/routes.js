@@ -1,5 +1,6 @@
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
+import TableOfContents from "./views/TableOfContents.vue";
 import NotFound from "./views/NotFound.vue";
 
 const steps = [];
@@ -57,6 +58,11 @@ export const routes = [
         path: "/o-nas",
         component: About,
         meta: { title: "O nas" },
+    },
+    {
+        path: "/spis-tresci",
+        component: TableOfContents,
+        meta: { title: "Spis treści" },
     },
     ...steps,
     { path: "/:path(.*)", component: NotFound },

@@ -1,14 +1,18 @@
 <template>
     <ul class="flex flex-col md:flex-row items-center justify-end font-liber">
         <li>
-            <a href="#" class="p-3 2xl:p-4 hover:underline">Spis treści</a>
+            <router-link to="/spis-tresci" class="p-3 2xl:p-4 hover:underline"
+                >Spis treści</router-link
+            >
         </li>
         <li>
-            <a href="/o-nas" class="p-3 2xl:p-4 hover:underline">O nas</a>
+            <router-link to="/o-nas" class="p-3 2xl:p-4 hover:underline"
+                >O nas</router-link
+            >
         </li>
-        <li>
+        <!-- <li>
             <a href="#" class="p-3 2xl:p-4 hover:underline">Kontakt</a>
-        </li>
+        </li> -->
         <li>
             <router-link
                 to="#"

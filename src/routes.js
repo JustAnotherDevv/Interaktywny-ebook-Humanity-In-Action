@@ -8,7 +8,12 @@ const lastStep = 80;
 const meta = {
     15: { bg: "#013193", dark: true },
     16: { bg: "#3F8BD7", dark: true },
-    37: { darkTopBar: true },
+    37: {
+        topBarClass: "bg-black",
+        darkTopBar: true,
+        dark: true,
+        bg: "#000",
+    },
     38: { bg: "#000", dark: true },
     39: { bg: "#000", dark: true },
     40: { bg: "#000", dark: true },

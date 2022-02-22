@@ -14,6 +14,28 @@
             height="447"
             class="mb-10"
         />
+        <div class="max-w-md">
+            <p class="font-amatic text-3xl text-center mb-4">
+                Przeciętny młody Polak lub Polka ma kontakt z mową nienawiści w
+                większej liczbie sytuacji niż dorosły.
+            </p>
+            <p class="font-montserrat">
+                Coraz częsciej widzimy, że mowa nienawiści rozwija się w sposób
+                epidemiczny. Ludzie &#xab;zarażają się&#xbb; mową nienawiści
+                podobnie jak wirusami - im więcej widzimy jej w otoczeniu, tym
+                częściej zaczynamy gardzić grupami padającymi ofiarą mowy
+                nienawiści, a w efekcie sami zaczynamy stosować taki język. W
+                tej epidemii mamy też jednak skuteczną &#xab;szczepionkę&#xbb; -
+                jest nią empatia. Jeśli potrafimy zrozumieć, jak czują się
+                ofiary mowy nienawiści, jeśli mamy świadomość ich bólu i
+                doświadczeń, wówczas trudniej nam się zarazić - za to chętniej
+                deklarujemy gotowość do walki z mową nienawiści.
+            </p>
+            <p class="mt-2 font-montserrat">
+                dr hab. Michał Bilewicz, prof. UW, Centrum Badań nad
+                Uprzedzeniami
+            </p>
+        </div>
     </Step>
 </template>
 

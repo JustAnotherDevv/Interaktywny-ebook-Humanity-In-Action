@@ -22,31 +22,30 @@
 
         <div class="relative">
             <div
-                class="flex items-center border border-dashed border-black rounded-full p-14 w-[500px] h-[500px] my-12 relative"
+                class="border border-dashed border-black p-8 w-[500px] lg:h-[500px] my-12 relative"
             >
-                <div
-                    class="absolute left-[50%] top-0 w-px h-full bg-black"
-                ></div>
-
-                <p class="absolute left-[-200px] top-0 w-56">
-                    Wypisz w części koła po lewej stronie grupy, które Twoim
-                    zdaniem w Polsce są z różnych względów uprzywilejowane i
-                    wobec których mowa nienawiści występuje rzadko lub nigdy,
-                </p>
-                <p class="absolute right-[-200px] top-0 w-56">
-                    a po prawej te, które Twoim zdaniem częściej są atakowane.
-                </p>
-                <div class="w-1/2 p-2">
+                <div class="border-b border-dashed border-black">
+                    <p class="lg:absolute left-[-250px] top-[50px] lg:w-56 p-2">
+                        W pierwszej części wypisz grupy, które Twoim zdaniem w
+                        Polsce są z różnych względów uprzywilejowane i wobec
+                        których mowa nienawiści występuje rzadko lub nigdy,
+                    </p>
                     <textarea
                         class="w-full notes border-none focus:ring-0 focus:border-none resize-none"
-                        rows="10"
+                        rows="5"
                     ></textarea>
                 </div>
 
-                <div class="w-1/2 p-2">
+                <div class="">
+                    <p
+                        class="lg:absolute left-[-250px] top-[300px] lg:w-56 p-2"
+                    >
+                        a w drugiej te, które Twoim zdaniem częściej są
+                        atakowane.
+                    </p>
                     <textarea
                         class="w-full notes border-none focus:ring-0 focus:border-none resize-none"
-                        rows="10"
+                        rows="5"
                     ></textarea>
                 </div>
             </div>

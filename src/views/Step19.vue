@@ -12,11 +12,11 @@
             <div
                 class="text-lg leading-8 md:bg-[url(assets/19/frame.svg)] bg-contain bg-no-repeat md:p-6"
             >
-                (od angielskiego słowa "hate" czyli nienawiść) to zjawisko
-                społeczne, które najczęściej przejawia się w postaci
-                obraźliwich, agresywnych i często wulgarnych komentarzy
+                (od angielskiego słowa &bdquo;hate&ldquo; czyli nienawiść) to
+                zjawisko społeczne, które najczęściej przejawia się w postaci
+                obraźliwych, agresywnych i często wulgarnych komentarzy
                 słownych, ale też i w formie grafik, memów czy filmów w
-                Internecie na jakiś temat lub o jakiejś osobie (na mediach
+                Internecie na jakiś temat lub o jakiejś osobie (w mediach
                 społecznościowych, forach dyskusyjnych i komunikatorach itp.).
                 Zwykle hejt adresowany jest do osób publicznych, czyli znanych:
                 celebrytów/ek, aktorów/ek, sportowców, polityków/czek i ma na

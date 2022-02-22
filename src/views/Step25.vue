@@ -37,10 +37,10 @@
             </div>
 
             <div v-for="item in list" :key="item.id" class="mb-2 p-3">
-                <p>{{ item.id }}. {{ item.question }}</p>
+                <p>{{ item.id }}. <span v-html="item.question"></span></p>
                 <div v-for="(answer, key) in item.answers" :key="key">
                     <FormCheckbox v-model="answers[item.id][key]">
-                        {{ answer }}
+                        <span v-html="answer"></span>
                     </FormCheckbox>
                 </div>
             </div>
@@ -59,9 +59,9 @@ const list = [
         question:
             "Czy mowa nienawiści i hejt to w zasadzie to samo zjawisko mające róźne nazwy?",
         answers: {
-            a: "Nie. Są to trochę podobne zjawiska, jednak różnią się m.in. tym, że mowa nienawiści dotyka osób ze względu na ich działalność publiczną i/oraz zawodową, a hejt  ze względu na ich jakąś cechę tożsamości.",
-            b: "Poglądy są podzielone: dla jednych to prawie to samo, dla innych nie.",
-            c: "Nie. Są to trochę podobne zjawiska, jednak różnią się m.in. tym że mowa nienawiści dotyka osób ze względu na ich tożsamość, a hejt ze względu na ich działalność publiczną lub/i zawodową.",
+            a: "Nie. Są to trochę podobne zjawiska, jednak różnią się m.in. tym, że mowa nienawiści dotyka osób ze względu na ich działalność publiczną i/lub zawodową, a hejt  ze względu na ich jakąś cechę tożsamości.",
+            b: "Tak, to jest to samo zjawisko.",
+            c: "Nie. Są to trochę podobne zjawiska, jednak różnią się m.in. tym że mowa nienawiści dotyka osób ze względu na ich tożsamość, a hejt ze względu na ich działalność publiczną i/lub zawodową.",
         },
     },
     {
@@ -77,17 +77,17 @@ const list = [
         id: 3,
         question: "Mowa nienawiści i hejt mają:",
         answers: {
-            a: "Ten sam cel, bo są sposobem wyrażania własnych opinii o innych i nieograniczonej wolności słowa",
-            b: "Inne cele: mowa nienawiści ma wyrazić krytykę wobec działań jakiejś osobu. a hejt ma ośmieszyć",
-            c: "Inne cele: mowa nienawiści ma sprawić, że  druga osoba nie będzie traktowana jako równa innym, tylko ktoś gorszy, bo należy do jakiejś grupy; zaś hejt ma ośmieszyć, oskrażyć i zranić",
+            a: "Ten sam cel, bo są sposobem wyrażania własnych opinii o innych i nieograniczonej wolności słowa.",
+            b: "Inne cele: mowa nienawiści ma wyrazić krytykę wobec działań jakiejś osoby, a hejt ma ośmieszyć.",
+            c: "Inne cele: mowa nienawiści ma sprawić, że  druga osoba nie będzie traktowana jako równa innym, tylko ktoś gorszy, bo należy do jakiejś grupy; zaś hejt ma ośmieszyć, oskrażyć i zranić.",
         },
     },
     {
         id: 4,
         question: "Ludzie używają mowy nienawiści i hejtu:",
         answers: {
-            a: "Bez zastanowienia się nad konsekwencjami i po prostu 'dla beki' z różnych powodów: mowy nienawiści, bo są przeciwni różnorodności",
-            b: "",
+            a: "Bez zastanowienia się nad konsekwencjami i po prostu &bdquo;dla beki&ldquo; z różnych powodów: mowy nienawiści, bo są przeciwni różnorodności.",
+            b: "Z różnych powodów: mowy nienawiści, bo są przeciwni różnorodności i gardzą osobami należącymi do wybranych grup, zaś hejtu, bo ogólnie chcą wyładować swoje emocje na kimś.",
             c: "Z poczucia pozornej bezkarności i anonimowości.",
         },
     },
@@ -95,18 +95,18 @@ const list = [
         id: 5,
         question: "Mowa nienawiści i hejt wywołują u osób prześladowanych:",
         answers: {
-            a: "Podobne reakcja, chociaż różne u różnych osób, między innymi: smutek, obniżenie poczucia własnej wartości, stany lękowe, bezsenność, depresja, nerwice, próby samobójcze, a w skrajnych sytuacjach niestety nawet samobójstwa",
+            a: "Podobne reakcje, chociaż różne u różnych osób, między innymi: smutek, obniżenie poczucia własnej wartości, stany lękowe, bezsenność, depresje, nerwice, próby samobójcze, a w skrajnych sytuacjach niestety nawet samobójstwa.",
             b: "Zupełnie różne reakcje, w przypadku mowy nienawiści: smutek, obniżenie poczucia własnej wartości, stany lękowe; zaś w przypadkach hejtu: nerwice, depresje i próby samobójcze w skrajnych sytuacjach.",
-            c: "Znaczny stres, ale w sumie nie wiadomo jaki jest wpływ tych zjawisk, gdyż brakuje danych na ten temat",
+            c: "Znaczny stres, ale w sumie nie wiadomo jaki jest wpływ tych zjawisk, gdyż brakuje danych na ten temat.",
         },
     },
     {
         id: 6,
         question: "Czy jest sens reagować na mowę nienawiści i hejt?",
         answers: {
-            a: "Nie za bardzo, bo te zjawiska zawsze były, sa i będą, a świata się nie zmieni",
+            a: "Nie za bardzo, bo te zjawiska zawsze były, sa i będą, a świata się nie zmieni.",
             b: "Po co? Ludzie muszą się nauczyć sobie radzić z takimi sytuacjami.",
-            c: "Tak.  Przede wszystkim w obronie atakowanych osób. Bez tego wsparcia nie są one czasem w stanie uporać się z daną sytuacją w jakimś konkretnym momencie",
+            c: "Tak.  Przede wszystkim w obronie atakowanych osób. Bez tego wsparcia nie są one czasem w stanie uporać się z daną sytuacją w jakimś konkretnym momencie.",
         },
     },
     {
@@ -120,7 +120,7 @@ const list = [
     },
     {
         id: 8,
-        question: "Jak reagować na mowe nienawiści?",
+        question: "Jak reagować na mowę nienawiści?",
         answers: {
             a: "Zacząć od siebie: poznawać lepiej dany temat, by lepiej rozumieć sytuację atakowanych osób/grup; wspierać tę osobę/te osoby i zachęcać innych, by też reagowali na przypadki mowy nienawiści m.in. poprzez zgłaszanie poszczególnych sytuacji administratorom stron i portali internetowych oraz stosownym służbom.",
             b: "Ogólnie być po prostu dobrym człowiekiem, ale nie wtrącać się w nieswoje sprawy, jeśli dochodzi do jakiejś zaciętej dyskusji  w sieci, to po co się wystawiać na atak?",
@@ -133,17 +133,17 @@ const list = [
             "Kto/jakie grupy w Polsce są najczęściej atakowane mową nienawiści:",
         answers: {
             a: "Chrześcijanie.",
-            b: "Osoby LGBTQIA+, muzułmanie, uchodźcy, migranci i feministki",
-            c: "W sumie nie wiadomo, bo nikt tego nie bada",
+            b: "Osoby LGBTQIA+, muzułmanie, uchodźcy, migranci i feministki.",
+            c: "W sumie nie wiadomo, bo nikt tego nie bada.",
         },
     },
     {
         id: 10,
         question: "Ludzie używający mowy nienawiści i hejtu to:",
         answers: {
-            a: "“Zawodowi” hejterzy, przeważnie osoby pracujące na zlecenie i za pieniądze.",
+            a: "&bdquo;Zawodowi&ldquo; hejterzy, przeważnie osoby pracujące na zlecenie i za pieniądze.",
             b: "Według badań wyłącznie młodzi ludzie.",
-            c: "Osoby z różnych grup wiekowych i zawodowych; są wśród nich osoby używające mowy nienawiści i hejtu intencjonalnie  (w tym też za pieniądze i na zlecenie) i też nieintencjonalnie, czyli z niewiedzy.",
+            c: "Osoby z różnych grup wiekowych i zawodowych; są wśród nich osoby używające mowy nienawiści i hejtu intencjonalnie  (w tym też za pieniądze i na zlecenie) i też nieintencjonalnie, czyli z nieświadomie.",
         },
     },
 ];

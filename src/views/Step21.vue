@@ -7,14 +7,18 @@
             >
                 <p class="max-w-lg">
                     Nie jest łatwo wyznaczyć tę granicę, ale nie każda krytyka
-                    jest hejtem. Każdy/a ma prawo do własnej opinii i ma prawo
-                    do jej wyrażania. Ale każdy/a też ma swoją godność i dlatego
-                    krytyka nie powinna nikogo poniżać. Krytyka powinna raczej
-                    dotyczyć działań innych ludzi czy efektów ich pracy, czyli
-                    spraw na której mają oni wpływ i mogą je zmienić.
-                    Specyficznym rodzajem krytyki jest tzw. konstruktywna
-                    krytyka, która oprócz informacji zwrotnej zawiera jeszcze
-                    sugestie sposobu lub sposobów rozwiązania danego problemu.
+                    jest hejtem. Każdy/a może swobodnie wyrażać własną opinię.
+                    Ale każdy/a też ma swoją godność i dlatego krytyka nie
+                    powinna nikogo poniżać. Krytyka powinna raczej dotyczyć
+                    działań innych ludzi czy efektów ich pracy, czyli spraw na
+                    której mają oni wpływ i mogą je zmienić. Specyficznym
+                    rodzajem krytyki jest tzw. konstruktywna krytyka, która
+                    oprócz informacji zwrotnej zawiera jeszcze sugestie sposobu
+                    lub sposobów rozwiązania danego problemu. Jednocześnie
+                    trzeba pamiętać, że krytyka, która opiera się na uogólnieniu
+                    i niesprawiedliwym obwinianiu całej grupy za czyny
+                    niektórych jej przedstawicieli, jest z kolei mową
+                    nienawiści.
                 </p>
             </div>
         </div>
@@ -31,14 +35,14 @@
             <div class="md:w-1/2 mt-10 md:mt-0">
                 <p class="md:p-4 md:pl-10">
                     które polega na zamierzonym wpływaniu na innych w celu ich
-                    ośmieszenia, obrażenia lub/i podniesienia poziomu emocji w
-                    dyskusji czy sporze poprzez wysyłanie prowokujących,
+                    ośmieszenia, obrażenia i/lub podniesienia poziomu emocji w
+                    dyskusji czy sporu poprzez wysyłanie prowokujących,
                     kontrowersyjnych, często wręcz nieprawdziwych i
                     zmanipulowanych komunikatów. Osoby zamieszczające tego typu
-                    informacje, czy komentarze nazywane są trollami. Część
-                    trolli pracuje na zlecenie wyspecjalizowanych podmiotów
-                    zajmujących się marketingiem politycznym i pobiera z tego
-                    tytułu wynagrodzenie.
+                    informacje czy komentarze nazywane są trollami. Część trolli
+                    pracuje na zlecenie wyspecjalizowanych podmiotów zajmujących
+                    się marketingiem politycznym i pobiera z tego tytułu
+                    wynagrodzenie.
                 </p>
             </div>
         </div>

@@ -8,7 +8,7 @@
             class="mb-10"
         />
         <p class="md:text-center max-w-2xl">
-            Trauma Holocaustu w Polsce nie zakończyła prześladowania osób
+            Trauma Holkcaustu w Polsce nie zakończyła prześladowania osób
             pochodzenia żydowskiego. Prowadzona przez władze PRL kampania
             nienawiści zmusiła do wyjazdu z Polski w marcu 1968 r. ok. 13 tys.
             Żydów i Żydówek. Osoby pochodzenia żydowskiego wyrzucano z pracy,
@@ -16,8 +16,8 @@
             Władze stosowały antysemicką mowę nienawiści: określały polskich
             Żydów i Żydówki „piątą kolumną”, wydawały instrukcje odróżnienia
             Żydów i Żydówek od Polaków i Polek; w prasie pojawiały się
-            nienawistne rysunki a na wiecach poparcia dla partii rządzącej
-            obecne były antysemickie hasła przykłady możesz zobaczyć poniżej:
+            nienawistne rysunki, a na wiecach poparcia dla partii rządzącej
+            obecne były antysemickie hasła - przykłady możesz zobaczyć poniżej:
         </p>
         <div class="flex flex-wrap lg:flex-nowrap my-10 justify-center">
             <div class="p-2">
@@ -60,7 +60,7 @@
             ></div>
             <p class="max-w-lg mx-auto text-center">
                 Muzeum Historii Żydów Polskich Polin w 2018 r. zorganizowało
-                wystawę ”Obcy w domu. Wokół Marca 68” dokumentującą tamte
+                wystawę „Obcy w domu. Wokół Marca 68” dokumentującą tamte
                 wydarzenia. Posłuchaj i przeczytaj historie polskich Żydów i
                 Żydówek, którzy/które zostali/ły zmuszeni/zmuszone do wyjazdu z
                 kraju:

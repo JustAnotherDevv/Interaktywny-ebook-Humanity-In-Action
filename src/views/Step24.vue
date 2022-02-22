@@ -15,9 +15,13 @@
                 </p>
             </div>
         </div>
-        <p class="font-amatic text-2xl mb-10">
+        <p class="font-amatic text-2xl mb-6">
             Opowiedz komuś tę historię, a w zaznaczone miejsce
         </p>
+        <textarea
+            class="w-full border-black focus:ring-0 focus:border-black resize-none max-w-md rounded-xl mb-6"
+            rows="6"
+        ></textarea>
         <img src="/assets/24/wpisz-swoje.svg" alt="" width="434" height="90" />
         <p class="font-amatic text-2xl md:-mb-2 mt-10 mb-10">
             Czyli co robić, a czego unikać :)
@@ -33,7 +37,7 @@
                     class="mx-auto"
                 />
                 <textarea
-                    class="w-full notes border-none focus:ring-0 focus:border-none resize-none max-w-md"
+                    class="w-full notes border-none focus:ring-0 focus:border-none resize-none md:max-w-md mx-auto"
                     rows="6"
                 ></textarea>
             </div>
@@ -47,7 +51,7 @@
                 />
 
                 <textarea
-                    class="w-full notes border-none focus:ring-0 focus:border-none resize-none max-w-md"
+                    class="w-full notes border-none focus:ring-0 focus:border-none resize-none md:max-w-md"
                     rows="6"
                 ></textarea>
             </div>

@@ -4,7 +4,7 @@
         <img
             src="/assets/36/top.svg"
             alt=""
-            class="fixed hidden sm:block top-[100px] sm:left-[-500px] md:left-[-400px] lg:left-[-300px] xl:left-[-200px] 2xl:left-[-100px]"
+            class="fixed hidden sm:block top-[100px] sm:left-[-500px] md:left-[-500px] lg:left-[-400px] xl:left-[-300px] 2xl:left-[-100px]"
         />
         <p class="max-w-md">
             w której z Internetu została wyeliminowana mowa nienawiści. Jak

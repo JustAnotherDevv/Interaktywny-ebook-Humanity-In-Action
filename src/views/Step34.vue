@@ -18,12 +18,12 @@
 
         <div class="bg-red-900 p-16 w-full text-center my-10">Wykresy</div>
 
-        <p class="md:text-center max-w-2xl">
+        <!-- <p class="md:text-center max-w-2xl">
             Jak możesz zobaczyć, w ciągu 2 lat poziom mowy nienawiści wobec
             wszystkich badanych grup znacznie wzrósł, zarówno wśród dorosłych
             jak i młodzieży. W przypadku Ukraińców oraz muzułmanów jest to
             wzrost o aż 24,5%! Dlaczego tak się stało?
-        </p>
+        </p> -->
 
         <div class="bg-red-900 p-16 w-full text-center my-10">Wykresy</div>
 

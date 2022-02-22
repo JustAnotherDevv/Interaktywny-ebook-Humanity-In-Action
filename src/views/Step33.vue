@@ -18,7 +18,7 @@
                 Ponad 50 lat później wciąż możemy zaobserwować „kampanie
                 nienawiści” skierowane przeciwko konkretnym grupom
                 mniejszościowym, które dodatkowo wzmacniają i tak już obecne
-                stereotypy i uprzedzenia ich dotyczące. Wobec jakich grup
+                stereotypy oraz uprzedzenia ich dotyczące. Wobec jakich grup
                 stosowano w ostatnich latach dehumanizujący język, które z nich
                 przedstawiane są publicznie negatywnie? W jaki sposób
                 współczesne kampanie są podobne do tej z 1968 r., a czym się

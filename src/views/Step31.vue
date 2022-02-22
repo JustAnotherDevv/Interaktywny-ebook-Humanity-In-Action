@@ -91,6 +91,11 @@
                                 v-html="paragraph"
                             ></p>
                             <p class="text-[#9ACF00]" v-html="slide.footer"></p>
+                            <p
+                                v-if="slide.copyright"
+                                class="text-sm"
+                                v-html="slide.copyright"
+                            ></p>
                         </div>
                     </div>
                 </Slide>
@@ -113,9 +118,9 @@ const list = [
         img: "klasyfikacja",
         paragraphs: [
             "Podział społeczeństwa na grupy: na „nas” i „ich”, np. Polacy i Żydzi.",
-            "Co można zrobić, by przeciwdziałać podziałom? <br> Szukać tego, co łączy obie grupy, czyli wspólnych wartości i obszarów porozumienia poprzez tworzenie grup wsparcia i inicjatyw walczących z nienawiścią, a nie skupiać się na tym, co je dzieli;",
+            "Co można zrobić, by przeciwdziałać podziałom? <br> Szukać tego, co łączy obie grupy, czyli wspólnych wartości i obszarów porozumienia poprzez tworzenie grup wsparcia i inicjatyw walczących z nienawiścią, a nie skupiać się na tym, co je dzieli.",
         ],
-        footer: "Kim dla Ciebie są tzw. „oni” czy „inni”? Podaj 3 przykłady takich grup, do których Ty nie należysz. Jak myślisz, co mógłbyś/mogłabyś zrobić, aby bliżej poznać ich członków/człon.",
+        footer: "Kim dla Ciebie są tzw. „oni” czy „inni”? Podaj 3 przykłady takich grup, do których Ty nie należysz. Jak myślisz, co mógłbyś/mogłabyś zrobić, aby bliżej poznać ich członków/członkinie?",
     },
     {
         id: 2,
@@ -131,7 +136,7 @@ const list = [
         img: "dyskryminacja",
         paragraphs: [
             "Dominująca grupa łamie prawa innych grup, prowadząc do ich wykluczenia. Ideologia grupy dominującej pomaga w utrzymaniu przywilejów lub pełni władzy, a że jest oparta na istniejących uprzedzeniach, stereotypach i lękach, to zdobywa masowe poparcie.",
-            "Jak należy przeciwdziałać dyskryminacji? <br> Podstawową kwestią jest przyznanie równych praw wszystkim grupom społecznym bez względu na rasę, religię, narodowość oraz inne przesłanki oraz przestrzeganie równości w praktyce.",
+            "Jak należy przeciwdziałać dyskryminacji? <br> Podstawową kwestią jest przyznanie równych praw wszystkim grupom społecznym bez względu na rasę, religię, narodowość czy inne przesłanki oraz przestrzeganie równości w praktyce.",
         ],
         footer: "Czy kiedykolwiek byłeś/aś dyskryminowany/a? Jak się wtedy czułeś/aś? Czy kiedykolwiek zdarzyło Ci się dyskryminować jakąś osobę lub grupę osób? Co wtedy czułeś/aś? Czy z tej sytuacji wyciągnąłeś/aś jakieś wnioski?",
     },
@@ -159,11 +164,11 @@ const list = [
         id: 6,
         img: "polaryzacja",
         paragraphs: [
-            "Wykorzystując media, ekstremiści dzielą ludzi przy pomocy nienawistnej propagandy. W niektórych przypadkach prawo zabrania kontaktów pomiędzy grupami, np. małżeństw mieszanych. Terror jest kierowany w pierwszej kolejności w stosunku do osób o umiarkowanych poglądach z grup sprawców, by je zastraszyć i uciszyć, gdyż to właśnie one mają największe możliwości powstrzymania ludobójstwa. Grupa dominująca przyznaje sobie nieograniczoną władzę i kontrolę nad sytuacją wprowadzając stany wyjątkowe lub rządząc za pomocą dekretów, znosząc prawa i wolności obywatelskie, zaś grupa ofiar jest unieszkodliwiana, by nie mogła się bronić.",
+            "Wykorzystując media, ekstremiści dzielą ludzi przy pomocy nienawistnej propagandy. W niektórych przypadkach prawo zabrania kontaktów pomiędzy grupami, np. małżeństw mieszanych. Terror jest kierowany w pierwszej kolejności w stosunku do osób o umiarkowanych poglądach z grup sprawców, by je zastraszyć i uciszyć, gdyż to właśnie one mają największe możliwości powstrzymania ludobójstwa. Grupa dominująca przyznaje sobie nieograniczoną władzę i kontrolę nad sytuacją, wprowadzając stany wyjątkowe lub rządząc za pomocą dekretów, znosząc prawa i wolności obywatelskie, zaś grupa ofiar jest unieszkodliwiana, by nie mogła się bronić.",
 
-            "Jakie są sposoby przeciwdziałania polaryzacji?  <br>Przede wszystkim wysiłki powinny się skoncentrować na ochronie grup ofiar, polegającej również na jej uzbrojeniu, jeśli jest to niezbędne do zapewnienie ich samoobrony. Ponadto  konieczna jest ochrona umiarkowanych liderów/ek i wspieranie grup działających na rzecz praw człowieka. Niezależnie od tego należy podjąć działania wobec (potencjalnych) sprawców poprzez przejęcie ich majątku i wprowadzenie zakazu wjazdu do innych krajów. Wspólnota międzynarodowa powinna rozważyć i/lub wprowadzić międzynarodowe sankcje w odpowiedzi na ewentualne zamachy stanu, a międzynarodowa opinia publiczna dopominać się o prawa grup opozycyjnych czy grup ofiar i protestować przeciwko ich rozbrojeniu w zdecydowany sposób.",
+            "Jakie są sposoby przeciwdziałania polaryzacji?  <br>Przede wszystkim wysiłki powinny się skoncentrować na ochronie grup ofiar, polegającej również na jej uzbrojeniu, jeśli jest to niezbędne do zapewnienia ich samoobrony. Ponadto  konieczna jest ochrona umiarkowanych liderów/ek i wspieranie grup działających na rzecz praw człowieka. Niezależnie od tego należy podjąć działania wobec (potencjalnych) sprawców poprzez przejęcie ich majątku i wprowadzenie zakazu wjazdu do innych krajów. Wspólnota międzynarodowa powinna rozważyć i/lub wprowadzić międzynarodowe sankcje w odpowiedzi na ewentualne zamachy stanu, a międzynarodowa opinia publiczna dopominać się o prawa grup opozycyjnych czy grup ofiar i protestować przeciwko ich rozbrojeniu w zdecydowany sposób.",
         ],
-        footer: "W stosunku do jakich grup, w jakich mediach i za pomocą jakich przekazów dokonuje się polaryzacja? Czy znasz jakieś przykłady współczesne, z własnego państwa, miejscowości, bliższego otoczenia? Jak je odbierasz? Jak na nie reagujesz? <br> Jak reagujesz na nawoływanie do nienawiści i przemocy wobec grup osób? W jaki sposób możesz się przyczyniać do zmniejszania napięć i nieporozumień w swoim otoczeniu?",
+        footer: "W stosunku do jakich grup, w jakich mediach i za pomocą jakich przekazów dokonuje się polaryzacja? Czy znasz jakieś przykłady współczesne, z własnego państwa, miejscowości, bliższego otoczenia? Jak je odbierasz? Jak na nie reagujesz? <br> Jak Ty reagujesz na nawoływanie do nienawiści i przemocy wobec grup osób? W jaki sposób możesz się przyczyniać do zmniejszania napięć i nieporozumień w swoim otoczeniu?",
     },
     {
         id: 7,
@@ -178,7 +183,7 @@ const list = [
         id: 8,
         img: "przesladowanie",
         paragraphs: [
-            "Grupy ofiar są identyfikowane i zmuszane do noszenia symboli  ułatwiających identyfikację. Sporządza się listy śmierci. Ponadto grupy ofiar są odseparowane od reszty społeczeństwa: często są zmuszane do życia w gettach, deportowane do obozów koncentracyjnych lub zatrzymywane na ograniczonym terenie dotkniętym klęską głodu lub bez dostępu do wody. Ich własność jest skonfiskowana. Ofiary bywają także poddawane przymusowym sterylizacjom lub aborcjom, zaś dzieci są siłą odbierane rodzicom. Są one systematycznie pozbawiane wszelkich praw, poddawane torturom i deportacjom. Rozpoczynają się masowe mordy. Sprawcy uważnie śledzą, czy ich działania wywołują zdecydowane reakcje ze strony międzynarodowej opinii publicznej. Jeśli takiej reakcji nie ma, to sprawcy wiedzą, że mogą na oczach biernych świadków kontynuować swój plan.",
+            "Grupy ofiar są identyfikowane i zmuszane do noszenia symboli ułatwiających identyfikację. Sporządza się listy śmierci. Ponadto grupy ofiar są odseparowane od reszty społeczeństwa: często są zmuszane do życia w gettach, deportowane do obozów koncentracyjnych lub zatrzymywane na ograniczonym terenie dotkniętym klęską głodu lub bez dostępu do wody. Ich własność jest skonfiskowana. Ofiary bywają także poddawane przymusowym sterylizacjom lub aborcjom, zaś dzieci są siłą odbierane rodzicom. Są one systematycznie pozbawiane wszelkich praw, poddawane torturom i deportacjom. Rozpoczynają się masowe mordy. Sprawcy uważnie śledzą, czy ich działania wywołują zdecydowane reakcje ze strony międzynarodowej opinii publicznej. Jeśli takiej reakcji nie ma, to sprawcy wiedzą, że mogą na oczach biernych świadków kontynuować swój plan.",
 
             "Jakie są sposoby przeciwdziałania prześladowaniom? <br> Ze strony społeczności międzynarodowej konieczna jest zdecydowana reakcja: masowa pomoc dla grupy ofiar w celu umożliwienia samoobrony oraz pomoc humanitarna ze strony ONZ lub innych organizacji, a także międzynarodowa interwencja zbrojna, aby zapobiec masowym mordom.",
         ],
@@ -203,14 +208,16 @@ const list = [
             "Jakie są sposoby przeciwdziałania negacji? <br>Kluczowe są działania na rzecz przywrócenia sprawiedliwości, czyli aresztowania i zebrania dowodów przeciwko sprawcom oraz oskarżenie ich i ukaranie przed trybunałami międzynarodowymi czy sądami krajowymi. Niezależnie od tego, ważne jest poszukiwanie mechanizmów na poziomie lokalnym, by przesłuchać i przedstawić dowody zbrodni również szeregowym sprawcom, aby dzięki temu możliwe były pojednanie, przeproszenie ofiar za wyrządzoną krzywdę oraz ewentualny zwrot majątku. Aby zapobiegać występowaniu ludobójstwa w przyszłości konieczna jest edukacja w szkołach i w mediach dotycząca ludobójstwa.",
         ],
         footer: "Czy w Twojej okolicy możesz odnaleźć ślady różnorodności (dotyczące np. mniejszości narodowych, etnicznych czy religijnych), o których się nie mówi, ich historia jest przemilczana lub nawet negowana? Dlaczego tak się dzieje?",
+        copyright:
+            "Opracowano na podstawie: genocidewatch.com © 2016 Gregory H. Stanton",
     },
     {
         id: 11,
         img: "cisza",
         paragraphs: [
-            "Ofiary nie mają już prawa głosu, ślady zbrodni zostały zatarte, ci którzy uciekli stali się pozbawionymi środków do życia uchodźcami, czyli ludźmi starającymi się zadbać o swój podstawowy byt, a często nawet przeżycie. Kluczową rolę w formowaniu się okresu ciszy odgrywa syndrom winy ocalonego.  Dla początkowego okresu ciszy charakterystyczne są próby zmiany tożsamości lub wyparcia traumatycznych doświadczeń. Okres ciszy jest inicjowany poprzez kolejną fazę obojętności świata zewnętrznego względem zjawiska ludobójstwa. Dokonane ludobójstwo staje się stopniowo społecznym tabu i niejednokrotnie pamięć o nim zostaje wymazana z kart historii. Mechanizmy okresu ciszy i zapominania ludobójstwa przyczyniają się do pogłębiania się społecznej obojętności na kolejne, późniejsze fazy radykalizacji języka i ideologii państwa, mogące ponownie prowadzić do wejścia na ścieżkę błędnego koła postępujących po sobie etapów na drodze do kolejnego ludobójstwa.",
+            "Ofiary nie mają już prawa głosu, ślady zbrodni zostały zatarte, ci którzy uciekli stali się pozbawionymi środków do życia uchodźcami, czyli ludźmi starającymi się zadbać o swój podstawowy byt, a często nawet przeżycie. Kluczową rolę w formowaniu się okresu ciszy odgrywa syndrom winy ocalonego.  Dla początkowego okresu ciszy charakterystyczne są próby zmiany tożsamości lub wyparcia traumatycznych doświadczeń. Okres ciszy jest inicjowany poprzez kolejną fazę obojętności świata zewnętrznego względem zjawiska ludobójstwa. Dokonane ludobójstwo staje się stopniowo społecznym tabu i niejednokrotnie pamięć o nim zostaje wymazana z kart historii. Mechanizmy okresu ciszy i zapominania ludobójstwa przyczyniają się do pogłębiania się społecznej obojętności na kolejne, późniejsze fazy radykalizacji języka i ideologii państwa, mogące ponownie prowadzić do wejścia na ścieżkę błędnego koła postępujących po sobie etapów na drodze do kolejnego ludobójstwa.<br><span class='text-sm'>dr Tomasz Cebulski, badacz kultur pamięci, genealog, edukator w miejscach pamięci</span>",
 
-            "Jakie są sposoby przeciwdziałania wymazywania pamięci o ludobójstwie i ciszy wokół tego tematu? <br> Podstawową kwestią jest badanie zbrodni i zbieranie materiałów dowodowych, w tym zbieranie świadectw ocalałych oraz ściganie i przeprowadzanie postępowań sądowych na gruncie prawa międzynarodowego. Ponadto należy poszukiwać ocalałych i działać na rzecz łączenia rodzin oraz wypracowywać mechanizmy opieki ekonomicznej i psychologicznej nad ocalałymi. I wreszcie, niezwykle ważne jest też upamiętnienie ofiar zbrodni i wypracowanie lokalnego języka narracji.",
+            "Jakie są sposoby przeciwdziałania wymazywaniu pamięci o ludobójstwie i ciszy wokół tego tematu? <br> Podstawową kwestią jest badanie zbrodni i zbieranie materiałów dowodowych, w tym zbieranie świadectw ocalałych oraz ściganie i przeprowadzanie postępowań sądowych na gruncie prawa międzynarodowego. Ponadto należy poszukiwać ocalałych i działać na rzecz łączenia rodzin oraz wypracowywać mechanizmy opieki ekonomicznej i psychologicznej nad ocalałymi. I wreszcie, niezwykle ważne jest też upamiętnienie ofiar zbrodni oraz wypracowanie lokalnego języka narracji.",
         ],
         footer: "Czy Twoim zdaniem upamiętnianie jest równoznaczne z pamiętaniem? W jaki sposób można zachowywać pamięć nie tylko stawiając pomniki?",
     },

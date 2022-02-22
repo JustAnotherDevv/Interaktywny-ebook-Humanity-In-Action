@@ -12,7 +12,7 @@
                             class="md:float-left mr-4 mb-6 md:mb-0"
                         />
                         <p class="font-amatic text-3xl mb-6">
-                            Reagowanie na mowę nienawiści niczego nie zmienia
+                            Reagowanie na mowę nienawiści niczego nie zmienia.
                         </p>
                         <p class="text-lg">
                             Twoja stanowcza reakcja może uzmysłowić niczego
@@ -35,7 +35,7 @@
                         />
                         <p class="font-amatic text-3xl mb-6">
                             Dzielenie ludzi na lepszych i gorszych zasila mowę
-                            nienawiści
+                            nienawiści.
                         </p>
                         <p class="text-lg">
                             Mowa nienawiści polega między innymi na ustalaniu
@@ -57,12 +57,12 @@
                         />
                         <p class="font-amatic text-3xl mb-6">
                             Mowa nienawiści on-line jest mniej szkodliwa niż
-                            offline
+                            off-line.
                         </p>
                         <p class="text-lg">
                             Mowa nienawiści to mowa nienawiści. Nie traci swojej
-                            mocy niezależnie od tego, czy występuje w Internecie
-                            czy nie.
+                            mocy niezależnie od tego, czy przekazywana jest
+                            przez Internet czy nie.
                         </p>
                     </div>
                     <div class="mt-16">
@@ -74,7 +74,7 @@
                             class="md:float-left mr-4 mb-6 md:mb-0"
                         />
                         <p class="font-amatic text-3xl mb-6">
-                            Mowa nienawiści to wszelka krytyka
+                            Mowa nienawiści to wszelka krytyka.
                         </p>
                         <p class="text-lg">
                             Istnieje krytyka konstruktywna, czyli taka, która
@@ -99,7 +99,7 @@
                     class="md:float-left mr-4 mb-6 md:mb-0"
                 />
                 <p class="font-amatic text-3xl mb-6">
-                    Mowa nienawiści jest nieodzowną częścią internetu
+                    Mowa nienawiści jest nieodzowną częścią internetu.
                 </p>
                 <p class="text-lg md:text-center">
                     Jest, ale tak być nie musi! To przecież od użytkowników/czek
@@ -151,7 +151,7 @@
                     class="md:float-left mr-4 mb-6 md:mb-0"
                 />
                 <p class="font-amatic text-3xl mb-6">
-                    To media społecznościowe, a nie ich użytkownicy/czki powinni
+                    To media społecznościowe, a nie ich użytkownicy/czki powinny
                     walczyć z internetowym hejtem.
                 </p>
                 <p class="text-lg md:text-center">

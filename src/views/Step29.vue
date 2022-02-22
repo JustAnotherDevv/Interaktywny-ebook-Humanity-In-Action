@@ -15,17 +15,17 @@
                 zdobycie i utrzymanie władzy pod wodzą lidera i jego
                 popleczników realizujących bez skrupułów swój plan. Historia
                 uczy, że nakręcanie spirali nienawiści i pogardy pomiędzy
-                różnymi grupami jest niebezpieczne, często prowadząc do
-                nieodwracalnych skutków.
+                różnymi grupami jest niebezpieczne, a także często nieodwracalne
+                skutki.
             </p>
             <p class="max-w-2xl md:text-center">
                 W niektórych przypadkach doprowadziło do ludobójstwa, jak w
-                przypadku Holokaustu, ludobójstwa w Namibii, Kambodży, Rwandzie,
-                czy b. Jugosławii (w Srebrenicy). Amerykański profesor prawa
-                Gregory Stanton prowadził badania nad ludobójstwami w różnych
-                krajach i na podstawie tych obserwacji stworzył model, zwany
-                teorią 10 etapów prowadzących do ludobójstwa, za pomocą której
-                można lepiej zrozumieć poszczególne fazy przygotowań, by lepiej
+                przypadku Holokaustu, ludobójstwa w Kambodży, Rwandzie, czy b.
+                Jugosławii (w Srebrenicy). Amerykański profesor prawa Gregory
+                Stanton prowadził badania nad ludobójstwami w różnych krajach i
+                na podstawie tych obserwacji stworzył model, zwany teorią 10
+                etapów prowadzących do ludobójstwa, za pomocą którego można
+                lepiej zrozumieć poszczególne fazy przygotowań, by lepiej
                 przewidywać niebezpieczeństwo wystąpienia ludobójstwa, a także
                 skuteczniej mu zapobiegać.
             </p>
@@ -39,10 +39,10 @@
 
             <p class="font-amatic text-3xl max-w-2xl md:text-center">
                 Pewnie sobie pomyślisz: po co mi ta teoria, skoro żyjemy w XXI
-                w. i Polska jest krajemy na ogół przestrzegającym prawa
+                w. i Polska jest krajemy na ogół przestrzegającym praw
                 człowieka?! Przyjrzyj się uważnie pierwszym 4 etapom i zastanów
                 się, czy dostrzegasz jakieś podobieństwa do współczesności i
-                bieżących wydarzeń
+                bieżących wydarzeń?
             </p>
         </div>
     </Step>

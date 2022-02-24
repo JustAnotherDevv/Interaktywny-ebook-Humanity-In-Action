@@ -63,6 +63,7 @@
                     </p>
 
                     <textarea
+                        v-model="answers.first"
                         class="w-full border-none notes focus:ring-0 focus:border-none mt-6"
                         rows="6"
                     ></textarea>
@@ -74,4 +75,9 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    first: "",
+});
 </script>

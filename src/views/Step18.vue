@@ -36,7 +36,7 @@
                         </span>
                         <FormRadio
                             :options="radioOptions"
-                            v-model="selectedRadio[key]"
+                            v-model="answers[key]"
                             horizontal
                             class="flex-shrink-0 md:-mt-1 lg:w-1/4 md:w-1/3"
                         >
@@ -62,6 +62,8 @@ import Step from "@/components/Step.vue";
 import { ref, reactive } from "vue";
 import FormRadio from "@/components/FormRadio.vue";
 
+import { useAnswers } from "@/composables/useAnswers";
+
 const list = {
     1: "to ostra, a czasem wręcz wulgarna krytyka osób publicznych (np. polityków/czek lub celebrytów/ek) dotycząca ich działalności publicznej lub zawodowej;",
     2: "to nie tylko słowa, ale też i grafiki, memy, filmy i żarty, które są odresowane do osób lub grup ze względu na to kim są lub jakie są, czyli ze względu na pewną cechę lyb status danej osoby czy grupy ludzi, jak np. rasę, kolor skóry, język, religię lub wyznanie, narodowość lub pochodzenie narodowe i etniczne, rodowód, wiek, niepełnosprawność, płeć, społeczno-kulturową tożsamość płciową i orientację psychoseksualną;",
@@ -77,13 +79,13 @@ const radioOptions = {
     nieprawda: "Nieprawda",
 };
 
-const selectedRadio = reactive({
-    1: null,
-    2: null,
-    3: null,
-    4: null,
-    5: null,
-    6: null,
-    7: null,
+const { answers } = useAnswers({
+    q_1: "",
+    q_2: "",
+    q_3: "",
+    q_4: "",
+    q_5: "",
+    q_6: "",
+    q_7: "",
 });
 </script>

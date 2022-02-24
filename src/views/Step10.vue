@@ -14,6 +14,7 @@
                 />
             </div>
             <input
+                v-model="answers.firstDay.minutes"
                 type="text"
                 class="sm:ml-6 w-20 rounded-xl border-black border-2"
                 placeholder="minuty"
@@ -34,6 +35,7 @@
                 </div>
                 <div class="w-full sm:w-1/2 sm:py-3 py-2 sm:pl-6">
                     <input
+                        v-model="answers.firstDay[key]"
                         type="text"
                         class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full focus:ring-0 focus:border-black"
                     />
@@ -55,7 +57,7 @@
 
             <FormRadio
                 :options="radioOptions"
-                v-model="selectedRadio"
+                v-model="answers.firstDay.selected"
                 horizontal
                 class="flex-shrink-0"
             >
@@ -88,6 +90,7 @@
                 />
             </div>
             <input
+                v-model="answers.secondDay.minutes"
                 type="text"
                 class="sm:ml-6 w-20 rounded-xl border-black border-2"
                 placeholder="minuty"
@@ -108,6 +111,7 @@
                 </div>
                 <div class="w-full sm:w-1/2 sm:py-3 py-2 sm:pl-6">
                     <input
+                        v-model="answers.secondDay[key]"
                         type="text"
                         class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full focus:ring-0 focus:border-black"
                     />
@@ -129,7 +133,7 @@
 
             <FormRadio
                 :options="radioOptions"
-                v-model="selectedRadio"
+                v-model="answers.secondDay.selected"
                 horizontal
                 class="flex-shrink-0"
             >
@@ -152,6 +156,7 @@
 import { ref } from "vue";
 import Step from "@/components/Step.vue";
 import FormRadio from "@/components/FormRadio.vue";
+import { useAnswers } from "@/composables/useAnswers";
 
 const list = ref({
     "skad-pochodzil-material": "Skąd pochodził materiał?",
@@ -164,10 +169,27 @@ const list = ref({
         "Czy tekstowi towarzyszyło/a zdjęcie/video/grafika? W jaki sposób były przedstawiana/e ta/te osoba/y?",
 });
 
+const answerList = {
+    minutes: "",
+    selected: "",
+    //convert 'list' to {'key': ""}
+    ...Object.keys(list.value).reduce(
+        (acc, curr) => ((acc[curr] = ""), acc),
+        {}
+    ),
+};
+
+const { answers } = useAnswers({
+    firstDay: {
+        ...answerList,
+    },
+    secondDay: {
+        ...answerList,
+    },
+});
+
 const radioOptions = {
     pozytywny: "Pozytywny",
     negatywny: "Negatywny",
 };
-
-const selectedRadio = ref();
 </script>

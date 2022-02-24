@@ -1,10 +1,5 @@
 <template>
-    <Step
-        next-page-label="Zaczynamy!"
-        hide-prev-page
-        hide-skip-button
-        :answers="answers"
-    >
+    <Step next-page-label="Zaczynamy!" hide-prev-page hide-skip-button>
         <div class="flex flex-col justify-center items-center text-center">
             <p class="text-4xl mb-6">Cześć, fajnie, że tu jesteś!</p>
             <p>Jak masz na imię?</p>
@@ -27,27 +22,19 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-import { useStore } from "@/composables/useStore";
+import { ref } from "vue";
 import Step from "@/components/Step.vue";
 import FormRadio from "@/components/FormRadio.vue";
-
-// const store = useStore();
+import { useAnswers } from "@/composables/useAnswers";
 
 const radioOptions = {
     duzo: "dużo",
     "cos-tam-wiem": "coś tam wiem?",
-    "a co to?": "a co to?",
+    "a-co-to?": "a co to?",
 };
 
-// store["step-1"] = {
-//     imie: "",
-//     "ile-wiem": "duzo",
-// };
-const answers = reactive({
+const { answers } = useAnswers({
     imie: "",
-    "ile-wiem": "duzo",
+    "ile-wiem": "",
 });
-
-// console.log(store["step-1"]);
 </script>

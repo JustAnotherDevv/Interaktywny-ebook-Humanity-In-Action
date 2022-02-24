@@ -20,6 +20,7 @@
                 class="lg:absolute right-[150px] top-[100px] max-w-md mx-auto lg:h-[400px] lg:w-[350px] lg:transform lg:rotate-[-9deg]"
             >
                 <textarea
+                    v-model="answers.first"
                     class="w-full border border-none focus:ring-0 focus:border-none focus:border-black notes resize-none"
                     rows="14"
                 ></textarea>
@@ -38,4 +39,8 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+const { answers } = useAnswers({
+    first: "",
+});
 </script>

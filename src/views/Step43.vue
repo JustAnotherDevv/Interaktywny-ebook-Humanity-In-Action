@@ -46,7 +46,7 @@
                 </p>
                 <FormRadio
                     :options="radioOptions"
-                    v-model="selectedRadio['1']"
+                    v-model="answers['1']"
                     horizontal
                     class="flex-shrink-0 ml-4"
                 >
@@ -63,7 +63,7 @@
                 </p>
                 <FormRadio
                     :options="radioOptions"
-                    v-model="selectedRadio['2']"
+                    v-model="answers['2']"
                     horizontal
                     class="flex-shrink-0 ml-4"
                 >
@@ -80,7 +80,7 @@
                 </p>
                 <FormRadio
                     :options="radioOptions"
-                    v-model="selectedRadio['3']"
+                    v-model="answers['3']"
                     horizontal
                     class="flex-shrink-0 ml-4"
                 >
@@ -97,7 +97,7 @@
                 </p>
                 <FormRadio
                     :options="radioOptions"
-                    v-model="selectedRadio['4']"
+                    v-model="answers['4']"
                     horizontal
                     class="flex-shrink-0 ml-4"
                 >
@@ -133,7 +133,7 @@
                 </div>
                 <FormRadio
                     :options="radioOptions"
-                    v-model="selectedRadio['5']"
+                    v-model="answers['5']"
                     horizontal
                     class="flex-shrink-0 ml-4"
                 >
@@ -149,7 +149,7 @@
                 </p>
                 <FormRadio
                     :options="radioOptions"
-                    v-model="selectedRadio['6']"
+                    v-model="answers['6']"
                     horizontal
                     class="flex-shrink-0 ml-4"
                 >
@@ -167,7 +167,7 @@
                 </p>
                 <FormRadio
                     :options="radioOptions"
-                    v-model="selectedRadio['7']"
+                    v-model="answers['7']"
                     horizontal
                     class="flex-shrink-0 ml-4"
                 >
@@ -186,7 +186,7 @@
                 </p>
                 <FormRadio
                     :options="radioOptions"
-                    v-model="selectedRadio['8']"
+                    v-model="answers['8']"
                     horizontal
                     class="flex-shrink-0 ml-4"
                 >
@@ -216,7 +216,9 @@ const radioOptions = {
     nie: "nie",
 };
 
-const selectedRadio = reactive({
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
     1: null,
     2: null,
     3: null,
@@ -226,4 +228,15 @@ const selectedRadio = reactive({
     7: null,
     8: null,
 });
+
+// const selectedRadio = reactive({
+//     1: null,
+//     2: null,
+//     3: null,
+//     4: null,
+//     5: null,
+//     6: null,
+//     7: null,
+//     8: null,
+// });
 </script>

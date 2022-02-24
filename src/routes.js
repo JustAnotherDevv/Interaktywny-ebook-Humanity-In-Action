@@ -1,7 +1,10 @@
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import TableOfContents from "./views/TableOfContents.vue";
+import Login from "./views/Login.vue";
+import Register from "./views/Register.vue";
 import NotFound from "./views/NotFound.vue";
+import { store } from "@/store.js";
 
 const steps = [];
 
@@ -38,8 +41,6 @@ const meta = {
 for (let i = 1; i <= lastStep; i++) {
     const componentName = `Step${i.toString().padStart(2, "0")}`;
     const viewMeta = { title: "Krok " + i, step: i, ...meta[i] };
-    // if (meta[i]) {
-    // }
     steps.push({
         path: "/krok-" + i,
         meta: viewMeta,
@@ -63,6 +64,30 @@ export const routes = [
         path: "/spis-tresci",
         component: TableOfContents,
         meta: { title: "Spis treści" },
+    },
+    {
+        path: "/login",
+        component: Login,
+        meta: { title: "Zaloguj się" },
+        beforeEnter: (to, from, next) => {
+            if (store.user.isLoggedIn) {
+                next("/");
+            } else {
+                next();
+            }
+        },
+    },
+    {
+        path: "/register",
+        component: Register,
+        meta: { title: "Zarejestruj się" },
+        beforeEnter: (to, from, next) => {
+            if (store.user.isLoggedIn) {
+                next("/");
+            } else {
+                next();
+            }
+        },
     },
     ...steps,
     { path: "/:path(.*)", component: NotFound },

@@ -17,6 +17,7 @@
 
             <div class="-mt-4">
                 <textarea
+                    v-model="answers.first"
                     class="w-full border-dashed rounded-3xl focus:ring-0 focus:border-black z-20 p-6"
                     rows="4"
                 ></textarea>
@@ -49,6 +50,7 @@
             <p class="text-2xl font-medium">Jak myślisz, z czego to wynika?</p>
 
             <textarea
+                v-model="answers.second"
                 class="w-full border-none notes focus:ring-0 focus:border-none mt-10"
                 rows="4"
             ></textarea>
@@ -58,14 +60,10 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
-</script>
+import { useAnswers } from "@/composables/useAnswers";
 
-<style>
-.notes {
-    background-image: linear-gradient(to right, white 10px, transparent 10px),
-        linear-gradient(to left, white 10px, transparent 10px),
-        linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
-    background-size: 100% 100%, 100% 100%, 100% 31px;
-    line-height: 31px;
-}
-</style>
+const { answers } = useAnswers({
+    first: "",
+    second: "",
+});
+</script>

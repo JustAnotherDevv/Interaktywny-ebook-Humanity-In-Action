@@ -43,6 +43,7 @@
                         ></div>
                     </div>
                     <textarea
+                        v-model="answers['1']"
                         class="w-full bg-gray-200 border focus:ring-0 border-gray-500 rounded-xl pl-10 focus:border-black"
                         rows="2"
                     ></textarea>
@@ -65,6 +66,7 @@
                         ></div>
                     </div>
                     <textarea
+                        v-model="answers['2']"
                         class="w-full bg-gray-200 border focus:ring-0 border-gray-500 rounded-xl pl-10 focus:border-black"
                         rows="2"
                     ></textarea>
@@ -87,6 +89,7 @@
                         ></div>
                     </div>
                     <textarea
+                        v-model="answers['3']"
                         class="w-full bg-gray-200 border focus:ring-0 border-gray-500 rounded-xl pl-10 focus:border-black"
                         rows="2"
                     ></textarea>
@@ -109,6 +112,7 @@
                         ></div>
                     </div>
                     <textarea
+                        v-model="answers['4']"
                         class="w-full bg-gray-200 border focus:ring-0 border-gray-500 rounded-xl pl-10 focus:border-black"
                         rows="2"
                     ></textarea>
@@ -127,4 +131,12 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    1: "",
+    2: "",
+    3: "",
+    4: "",
+});
 </script>

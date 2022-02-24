@@ -31,6 +31,7 @@
                         których mowa nienawiści występuje rzadko lub nigdy,
                     </p>
                     <textarea
+                        v-model="answers.first"
                         class="w-full notes border-none focus:ring-0 focus:border-none resize-none"
                         rows="5"
                     ></textarea>
@@ -44,6 +45,7 @@
                         atakowane.
                     </p>
                     <textarea
+                        v-model="answers.second"
                         class="w-full notes border-none focus:ring-0 focus:border-none resize-none"
                         rows="5"
                     ></textarea>
@@ -63,4 +65,10 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    first: "",
+    second: "",
+});
 </script>

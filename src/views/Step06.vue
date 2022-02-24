@@ -12,19 +12,31 @@
                 class="relative w-full my-12 sm:pl-28 pl-24 bg-no-repeat bg-contain h-36 bg-left-bottom"
                 style="background-image: url(/assets/6/1.svg)"
             >
-                <FormTextarea class="z-10 relative resize-none" rows="3" />
+                <textarea
+                    v-model="answers.first"
+                    class="w-full border-none notes focus:ring-0 focus:border-none z-10 relative resize-none"
+                    rows="3"
+                ></textarea>
             </div>
             <div
                 class="relative w-full my-12 sm:pr-40 pr-36 bg-no-repeat bg-contain h-36 bg-right-bottom"
                 style="background-image: url(/assets/6/2.svg)"
             >
-                <FormTextarea class="z-10 relative resize-none" rows="3" />
+                <textarea
+                    v-model="answers.second"
+                    class="w-full border-none notes focus:ring-0 focus:border-none z-10 relative resize-none"
+                    rows="3"
+                ></textarea>
             </div>
             <div
                 class="relative w-full my-12 sm:pl-40 pl-32 bg-no-repeat bg-contain h-36 bg-left-bottom"
                 style="background-image: url(/assets/6/3.svg)"
             >
-                <FormTextarea class="z-10 relative resize-none" rows="3" />
+                <textarea
+                    v-model="answers.third"
+                    class="w-full border-none notes focus:ring-0 focus:border-none z-10 relative resize-none"
+                    rows="3"
+                ></textarea>
             </div>
 
             <div
@@ -41,15 +53,11 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
-import FormTextarea from "@/components/FormTextarea.vue";
-</script>
+import { useAnswers } from "@/composables/useAnswers";
 
-<style>
-.notes {
-    background-image: linear-gradient(to right, white 10px, transparent 10px),
-        linear-gradient(to left, white 10px, transparent 10px),
-        linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
-    background-size: 100% 100%, 100% 100%, 100% 31px;
-    line-height: 31px;
-}
-</style>
+const { answers } = useAnswers({
+    first: "",
+    second: "",
+    third: "",
+});
+</script>

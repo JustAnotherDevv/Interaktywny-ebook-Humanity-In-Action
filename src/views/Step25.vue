@@ -148,7 +148,9 @@ const list = [
     },
 ];
 
-const answers = reactive({
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
     1: { a: false, b: false, c: false },
     2: { a: false, b: false, c: false },
     3: { a: false, b: false, c: false },

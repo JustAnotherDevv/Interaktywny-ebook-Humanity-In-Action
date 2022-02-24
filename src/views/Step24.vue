@@ -19,6 +19,7 @@
             Opowiedz komuś tę historię, a w zaznaczone miejsce
         </p>
         <textarea
+            v-model="answers.first"
             class="w-full border-black focus:ring-0 focus:border-black resize-none max-w-md rounded-xl mb-6"
             rows="6"
         ></textarea>
@@ -37,6 +38,7 @@
                     class="mx-auto"
                 />
                 <textarea
+                    v-model="answers.dos"
                     class="w-full notes border-none focus:ring-0 focus:border-none resize-none md:max-w-md mx-auto"
                     rows="6"
                 ></textarea>
@@ -51,6 +53,7 @@
                 />
 
                 <textarea
+                    v-model="answers.donts"
                     class="w-full notes border-none focus:ring-0 focus:border-none resize-none md:max-w-md"
                     rows="6"
                 ></textarea>
@@ -61,4 +64,11 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    first: "",
+    dos: "",
+    donts: "",
+});
 </script>

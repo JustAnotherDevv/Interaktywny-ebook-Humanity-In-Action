@@ -61,7 +61,7 @@
                 </li> -->
                 <li>
                     <router-link
-                        to="#"
+                        to="/login"
                         class="font-liber inline-flex items-center justify-center rounded-full border border-transparent px-5 py-1 text-base font-semibold leading-7 transition duration-150 ease-in-out focus:outline-none text-center bg-black text-white"
                     >
                         Zaloguj się

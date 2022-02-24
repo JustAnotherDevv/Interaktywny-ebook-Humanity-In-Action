@@ -40,14 +40,17 @@
             class="space-y-4 w-full flex flex-col justify-center items-center mb-10"
         >
             <input
+                v-model="answers.first"
                 type="text"
                 class="font-liber border rounded-md px-6 py-2 bg-gray-100 max-w-md flex justify-between items-center w-full focus:ring-0 focus:border-black"
             />
             <input
+                v-model="answers.second"
                 type="text"
                 class="font-liber border rounded-md px-6 py-2 bg-gray-100 max-w-md flex justify-between items-center w-full focus:ring-0 focus:border-black"
             />
             <input
+                v-model="answers.third"
                 type="text"
                 class="font-liber border rounded-md px-6 py-2 bg-gray-100 max-w-md flex justify-between items-center w-full focus:ring-0 focus:border-black"
             />
@@ -57,7 +60,11 @@
             Jaki jest ich wydźwięk?
         </p>
 
-        <FormRadio :options="radioOptions" v-model="selectedRadio" horizontal>
+        <FormRadio
+            :options="radioOptions"
+            v-model="answers.selected"
+            horizontal
+        >
             <template v-slot:default="{ value, key }">
                 <div class="flex items-center justify-between">
                     <span class="font-amatic text-2xl">{{ value }}</span>
@@ -76,12 +83,17 @@
 import { ref } from "vue";
 import Step from "@/components/Step.vue";
 import FormRadio from "@/components/FormRadio.vue";
+import { useAnswers } from "@/composables/useAnswers";
+const { answers } = useAnswers({
+    selected: "",
+    first: "",
+    second: "",
+    third: "",
+});
 
 const radioOptions = {
     pozytywny: "Pozytywny",
     negatywny: "Negatywny",
     neutralny: "Neutralny",
 };
-
-const selectedRadio = ref();
 </script>

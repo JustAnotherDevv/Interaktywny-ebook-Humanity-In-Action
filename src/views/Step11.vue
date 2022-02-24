@@ -27,6 +27,7 @@
                     &bdquo;Mowa nienawiści&ldquo;
                 </p>
                 <textarea
+                    v-model="answers['mowa-nienawisci']"
                     class="w-full border border-dashed focus:ring-0 focus:border-dashed focus:border-black"
                     rows="6"
                 ></textarea>
@@ -48,6 +49,7 @@
                 Może coś Cię zaskoczyło, ucieszyło lub zmartwiło?
             </p>
             <textarea
+                v-model="answers['hejt']"
                 class="w-full border-none notes focus:ring-0 focus:border-none"
                 rows="4"
             ></textarea>
@@ -58,5 +60,9 @@
 <script setup>
 import { ref } from "vue";
 import Step from "@/components/Step.vue";
-import FormTextarea from "@/components/FormTextarea.vue";
+import { useAnswers } from "@/composables/useAnswers";
+const { answers } = useAnswers({
+    "mowa-nienawisci": "",
+    hejt: "",
+});
 </script>

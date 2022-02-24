@@ -16,6 +16,7 @@
         <p>Opisz tę osobę lub osoby w 3-5 słowach tutaj:</p>
 
         <textarea
+            v-model="answers.first"
             class="w-full border-none notes focus:ring-0 focus:border-none mt-10"
             rows="4"
         ></textarea>
@@ -24,14 +25,9 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
-</script>
+import { useAnswers } from "@/composables/useAnswers";
 
-<style>
-.notes {
-    background-image: linear-gradient(to right, white 10px, transparent 10px),
-        linear-gradient(to left, white 10px, transparent 10px),
-        linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
-    background-size: 100% 100%, 100% 100%, 100% 31px;
-    line-height: 31px;
-}
-</style>
+const { answers } = useAnswers({
+    first: "",
+});
+</script>

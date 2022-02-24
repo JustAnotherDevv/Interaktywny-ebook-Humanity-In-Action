@@ -1,5 +1,5 @@
 <template>
-    <Step hide-skip-button>
+    <Step hide-skip-button hide-next-page>
         <img
             src="/assets/80/czy-wiesz-ze.svg"
             width="301"

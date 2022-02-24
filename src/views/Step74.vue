@@ -15,6 +15,7 @@
                     height="101"
                 />
                 <textarea
+                    v-model="answers['5-pytan']"
                     class="border-none notes focus:ring-0 focus:border-none w-full resize-none"
                     rows="10"
                 ></textarea>
@@ -27,6 +28,7 @@
                     height="96"
                 />
                 <textarea
+                    v-model="answers['3-najwazniejsze-rzeczy']"
                     class="border-none notes focus:ring-0 focus:border-none w-full resize-none"
                     rows="10"
                 ></textarea>
@@ -39,6 +41,7 @@
                     height="93"
                 />
                 <textarea
+                    v-model="answers['3-rzeczy']"
                     class="border-none notes focus:ring-0 focus:border-none w-full resize-none"
                     rows="10"
                 ></textarea>
@@ -51,6 +54,7 @@
                     height="103"
                 />
                 <textarea
+                    v-model="answers['1-rzecz']"
                     class="border-none notes focus:ring-0 focus:border-none w-full resize-none"
                     rows="10"
                 ></textarea>
@@ -61,4 +65,12 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    "5-pytan": "",
+    "3-najwazniejsze-rzeczy": "",
+    "3-rzeczy": "",
+    "1-rzecz": "",
+});
 </script>

@@ -64,6 +64,7 @@
 
             <div class="max-w-md mx-auto">
                 <textarea
+                    v-model="answers.first"
                     class="mx-auto w-full border rounded-xl focus:ring-0 focus:border-black mt-10"
                     rows="10"
                 ></textarea>
@@ -81,4 +82,10 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    first: "",
+});
 </script>

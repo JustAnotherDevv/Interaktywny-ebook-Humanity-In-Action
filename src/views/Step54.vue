@@ -15,6 +15,7 @@
                 <div>
                     <div v-for="item in 4" :key="item">
                         <input
+                            v-model="answers.first[item]"
                             type="text"
                             class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full ml-2 focus:ring-0 focus:border-black"
                         />
@@ -37,6 +38,7 @@
                         Prowadzisz mega kanał na:
                     </p>
                     <input
+                        v-model="answers.channel"
                         type="text"
                         class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full ml-2 focus:ring-0 focus:border-black max-w-sm"
                     />
@@ -44,6 +46,7 @@
                 <div class="flex md:items-end mb-4 flex-col md:flex-row">
                     <p class="text-lg">o</p>
                     <input
+                        v-model="answers.about"
                         type="text"
                         class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full mx-2 focus:ring-0 focus:border-black max-w-sm"
                     />
@@ -65,6 +68,7 @@
                         >{{ item }}.</span
                     >
                     <input
+                        v-model="answers.list[item]"
                         type="text"
                         class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full ml-2 focus:ring-0 focus:border-black"
                     />
@@ -76,4 +80,23 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    first: {
+        1: "",
+        2: "",
+        3: "",
+        4: "",
+    },
+    channel: "",
+    about: "",
+    list: {
+        1: "",
+        2: "",
+        3: "",
+        4: "",
+        5: "",
+    },
+});
 </script>

@@ -27,6 +27,7 @@
                 class="lg:bg-[url(/assets/73/frame.svg)] border border-dashed lg:border-transparent border-black bg-contain lg:h-[700px] bg-no-repeat w-full lg:pt-64 lg:pl-12 lg:pb-12 p-10"
             >
                 <textarea
+                    v-model="answers.first"
                     class="border-none notes focus:ring-0 focus:border-none w-full lg:w-[500px] resize-none"
                     rows="10"
                 ></textarea>
@@ -40,6 +41,7 @@
                 najlepiej sprawdziłaby się Twoja supermoc.
             </p>
             <textarea
+                v-model="answers.second"
                 class="border-none notes focus:ring-0 focus:border-none w-full resize-none"
                 rows="10"
             ></textarea>
@@ -49,4 +51,10 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    first: "",
+    second: "",
+});
 </script>

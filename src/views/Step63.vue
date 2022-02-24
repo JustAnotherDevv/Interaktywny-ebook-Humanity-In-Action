@@ -1,5 +1,10 @@
 <template>
-    <Step class="font-montserrat" hide-skip-button no-max-width no-padding>
+    <Step
+        class="font-montserrat md:px-10 py-10"
+        hide-skip-button
+        no-max-width
+        no-padding
+    >
         <div class="flex flex-wrap max-w-5xl px-6 md:px-10 py-10">
             <div class="w-full md:w-1/2 md:pr-4 mb-4">
                 <p>

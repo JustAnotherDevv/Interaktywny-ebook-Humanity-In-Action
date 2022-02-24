@@ -84,6 +84,7 @@
         >
             <p class="md:hidden">miejsce na Twoje przykłady</p>
             <textarea
+                v-model="answers.first"
                 class="w-full border-none notes focus:ring-0 focus:border-none mt-2 resize-none"
                 rows="4"
             ></textarea>
@@ -93,4 +94,9 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    first: "",
+});
 </script>

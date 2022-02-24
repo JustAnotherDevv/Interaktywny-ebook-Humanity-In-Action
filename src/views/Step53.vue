@@ -95,6 +95,7 @@
                     >
                         <img :src="`/assets/53/${item}.svg`" alt="" />
                         <input
+                            v-model="answers[item]"
                             type="text"
                             class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full ml-2 focus:ring-0 focus:border-black"
                         />
@@ -107,4 +108,13 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    1: "",
+    2: "",
+    3: "",
+    4: "",
+    5: "",
+});
 </script>

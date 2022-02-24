@@ -35,6 +35,7 @@
             </p>
             <div class="w-full lg:w-2/3 lg:px-10">
                 <textarea
+                    v-model="answers.first"
                     class="w-full border-none notes focus:ring-0 focus:border-none resize-none"
                     rows="6"
                 ></textarea>
@@ -44,6 +45,7 @@
         <div class="flex flex-wrap mt-10 w-full">
             <p class="w-full md:w-1/2 p-4">
                 <textarea
+                    v-model="answers.second"
                     class="w-full border-none notes focus:ring-0 focus:border-none resize-none"
                     rows="6"
                 ></textarea>
@@ -62,4 +64,10 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    first: "",
+    second: "",
+});
 </script>

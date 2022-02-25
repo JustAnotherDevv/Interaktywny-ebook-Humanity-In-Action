@@ -74,6 +74,7 @@
                 </div>
                 <div class="mt-6">
                     <button
+                        type="button"
                         class="mx-auto flex items-center justify-center"
                         @click="facebookLogin"
                     >

@@ -20,7 +20,7 @@ const router = createRouter({
 // });
 
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = "http://localhost:80/";
+axios.defaults.baseURL = import.meta.env.VITE_API_URL;
 
 app.use(router);
 app.use(VueAxios, axios);

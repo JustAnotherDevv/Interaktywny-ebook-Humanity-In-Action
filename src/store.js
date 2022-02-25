@@ -3,7 +3,8 @@ import { reactive, unref } from "vue";
 export const store = reactive({
     user: {
         user: {},
-        isLoggedIn: localStorage.getItem("isLoggedIn") || false,
+        isLoggedIn:
+            localStorage.getItem("isLoggedIn") === "true" ? true : false,
         setAsLoggedIn() {
             localStorage.setItem("isLoggedIn", true);
             this.isLoggedIn = true;
@@ -15,7 +16,6 @@ export const store = reactive({
     },
     answers: {},
     setAnswers(step, answers) {
-        console.log("set");
         localStorage.setItem(
             "answers." + unref(step),
             JSON.stringify(unref(answers))

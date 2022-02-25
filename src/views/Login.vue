@@ -72,6 +72,15 @@
                         Nie masz konta? Zarejestruj się.
                     </router-link>
                 </div>
+                <div class="mt-6">
+                    <button
+                        class="mx-auto flex items-center justify-center"
+                        @click="facebookLogin"
+                    >
+                        <img src="/assets/fb.svg" alt="" class="mr-4" />
+                        <span> Zaloguj się przez Facebook </span>
+                    </button>
+                </div>
 
                 <div
                     v-show="errorMessage"
@@ -113,7 +122,14 @@ const validate = () => {
 //     console.log("on before route enter");
 // });
 
-const login = () => {
+const facebookLogin = async () => {
+    await axios.get("/sanctum/csrf-cookie");
+    const { data } = await axios.get("/login/facebook");
+    console.log(data);
+    window.location.href = data;
+};
+
+const login = async () => {
     if (loading.value) return;
 
     validate();
@@ -122,23 +138,25 @@ const login = () => {
     emailError.value = "";
     passwordError.value = "";
     loading.value = true;
-    axios.get("/sanctum/csrf-cookie").then((response) => {
-        axios
-            .post("/login", {
-                // email: "m@wp.pl",
-                // password: "password",
-                email: email.value,
-                password: password.value,
-            })
-            .then((response) => {
-                store.user.setAsLoggedIn();
-                loading.value = false;
-                router.back();
-            })
-            .catch(({ response: { data } }) => {
-                loading.value = false;
-                errorMessage.value = data.message;
-            });
-    });
+
+    try {
+        await axios.get("/sanctum/csrf-cookie");
+        await axios.post("/login", {
+            email: email.value,
+            password: password.value,
+        });
+        const { data } = await axios.get("/api/answers");
+        data.forEach((item) => {
+            store.setAnswers(item.step, item.answer);
+        });
+        console.log(data);
+        store.user.setAsLoggedIn();
+        loading.value = false;
+        router.back();
+    } catch ({ response }) {
+        console.log(response);
+        loading.value = false;
+        // errorMessage.value = data.message;
+    }
 };
 </script>

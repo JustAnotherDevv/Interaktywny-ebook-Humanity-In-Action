@@ -61,24 +61,37 @@
                 </li> -->
                 <li>
                     <router-link
+                        v-if="!store.user.isLoggedIn"
                         to="/login"
                         class="font-liber inline-flex items-center justify-center rounded-full border border-transparent px-5 py-1 text-base font-semibold leading-7 transition duration-150 ease-in-out focus:outline-none text-center bg-black text-white"
                     >
                         Zaloguj się
                     </router-link>
+                    <button
+                        v-else
+                        @click="logout"
+                        class="font-liber inline-flex items-center justify-center rounded-full border border-transparent px-5 py-1 text-base font-semibold leading-7 transition duration-150 ease-in-out focus:outline-none text-center bg-black text-white"
+                    >
+                        Wyloguj się
+                    </button>
                 </li>
             </ul>
         </div>
     </div>
 </template>
 <script setup>
-import { ref, toRefs } from "vue";
+import { ref, toRefs, inject } from "vue";
+import { useLogout } from "@/composables/useLogout";
+import { store } from "@/store.js";
 const props = defineProps({
     dark: {
         type: Boolean,
         default: false,
     },
 });
+
+const axios = inject("axios");
+const { logout } = useLogout(axios);
 
 const { dark } = toRefs(props);
 const menu = ref(false);

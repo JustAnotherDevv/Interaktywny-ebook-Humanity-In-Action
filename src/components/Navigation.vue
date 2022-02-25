@@ -34,11 +34,9 @@
 </template>
 
 <script setup>
-import { toRefs, inject, ref, watch } from "vue";
+import { toRefs, inject } from "vue";
+import { useLogout } from "@/composables/useLogout";
 import { store } from "@/store.js";
-const axios = inject("axios");
-import { useRouter } from "vue-router";
-const router = useRouter();
 const props = defineProps({
     dark: {
         type: Boolean,
@@ -46,15 +44,8 @@ const props = defineProps({
     },
 });
 
-const logout = () => {
-    axios
-        .post("/logout")
-        .then((response) => {
-            store.user.setAsLoggedOut();
-            router.push("/login");
-        })
-        .catch(({ response: { data } }) => {});
-};
+const axios = inject("axios");
+const { logout } = useLogout(axios);
 
 const { dark } = toRefs(props);
 </script>

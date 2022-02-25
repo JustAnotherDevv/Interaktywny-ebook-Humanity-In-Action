@@ -5,6 +5,10 @@ import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import NotFound from "./views/NotFound.vue";
 import { store } from "@/store.js";
+import axios from "axios";
+
+axios.defaults.withCredentials = true;
+axios.defaults.baseURL = "http://localhost:80/";
 
 const steps = [];
 
@@ -71,9 +75,29 @@ export const routes = [
         meta: { title: "Zaloguj się" },
         beforeEnter: (to, from, next) => {
             if (store.user.isLoggedIn) {
+                console.log("here logged");
                 next("/");
             } else {
+                console.log("here not logged");
                 next();
+            }
+        },
+    },
+    {
+        path: "/login/facebook",
+        beforeEnter: (to, from, next) => {
+            if (!store.user.isLoggedIn) {
+                axios
+                    .get("/api/user")
+                    .then(({ data }) => {
+                        store.user.setAsLoggedIn();
+                        next("/krok-1");
+                    })
+                    .catch(() => {
+                        next("/login");
+                    });
+            } else {
+                next("/krok-1");
             }
         },
     },

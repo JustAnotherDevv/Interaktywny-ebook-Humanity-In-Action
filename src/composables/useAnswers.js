@@ -17,6 +17,7 @@ export function useAnswers(answersSchema) {
     });
 
     onBeforeRouteLeave((to, from) => {
+        console.log(to);
         if (answers.value && Object.keys(answers.value).length > 0) {
             submitAnswer();
         }

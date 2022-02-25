@@ -100,8 +100,6 @@ import { useRoute, useRouter } from "vue-router";
 const axios = inject("axios");
 const router = useRouter();
 
-console.log({ store });
-
 const email = ref("");
 const password = ref("");
 const loading = ref(false);
@@ -118,14 +116,9 @@ const validate = () => {
     }
 };
 
-// onBeforeRouteEnter((to, from) => {
-//     console.log("on before route enter");
-// });
-
 const facebookLogin = async () => {
     await axios.get("/sanctum/csrf-cookie");
     const { data } = await axios.get("/login/facebook");
-    console.log(data);
     window.location.href = data;
 };
 
@@ -149,14 +142,12 @@ const login = async () => {
         data.forEach((item) => {
             store.setAnswers(item.step, item.answer);
         });
-        console.log(data);
         store.user.setAsLoggedIn();
         loading.value = false;
         router.back();
     } catch ({ response }) {
-        console.log(response);
         loading.value = false;
-        // errorMessage.value = data.message;
+        errorMessage.value = response.data.message;
     }
 };
 </script>

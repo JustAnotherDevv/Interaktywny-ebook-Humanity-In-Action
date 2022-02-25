@@ -10,7 +10,7 @@
                 class="absolute bottom-[33px] sm:bottom-[55px] md:bottom-[70px] lg:bottom-[91px] xl:bottom-[99px] 2xl:bottom-[80px] left-[-50px] w-[150%] origin-bottom-left h-full bg-[#E45725] z-0 transform rotate-[357deg]"
             ></div>
         </div>
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center items-center relative z-10">
             <LinkButton
                 to="/krok-1"
                 class="hover:translate-x-1"

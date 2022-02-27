@@ -9,7 +9,9 @@
                     NIENAWIŚCI:
                 </span>
             </div> -->
-            <div class="hidden xl:block fixed top-[150px] right-0 w-1/4">
+            <div
+                class="hidden xl:block fixed top-[150px] right-0 w-[429px] h-[793px]"
+            >
                 <img src="/assets/15/stars.svg" alt="" />
             </div>
 

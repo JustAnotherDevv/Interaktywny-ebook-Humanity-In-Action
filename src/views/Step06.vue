@@ -40,7 +40,7 @@
             </div>
 
             <div
-                class="lg:absolute relative xl:right-[-100px] lg:right-[-50px] lg:bottom-[50px] mx-auto bg-black text-white p-6 w-64 z-40 transform rotate-6"
+                class="lg:absolute relative xl:right-[-100px] lg:right-[-50px] lg:bottom-[50px] mx-auto bg-black text-white p-6 max-w-[300px] z-40 transform rotate-6"
             >
                 Jak myślisz, czy wiedza, którą wyniosłeś/aś ze szkoły, z
                 podręczników, zajęć i relacji z różnymi ludźmi na temat mowy

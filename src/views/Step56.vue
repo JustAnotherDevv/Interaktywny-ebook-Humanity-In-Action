@@ -24,7 +24,7 @@
                             />.
                         </li>
                         <li>
-                            Kliknij &bdquo;Story&ldquo;, aby ją zgłosić i
+                            Kliknij &bdquo;Story&rdquo;, aby ją zgłosić i
                             poinformować o nim administrację Snapchata.
                         </li>
                     </ol>
@@ -70,8 +70,8 @@
                     <li>Naciśnij i przytrzymaj nazwę Snapchattera.</li>
                     <li>Stuknij przycisk ⚙.</li>
                     <li>
-                        Stuknij „Zgłoś”, aby zgłosić konto i poinformować
-                        administrację Snapchata.
+                        Stuknij &bdquo;Zgłoś&rdquo;, aby zgłosić konto i
+                        poinformować administrację Snapchata.
                     </li>
                 </ol>
             </div>
@@ -91,11 +91,12 @@
                 >
                     <ol class="list-decimal">
                         <li>
-                            Kliknij ikonę &bdquo;Udostępnij&ldquo; w prawym
+                            Kliknij ikonę &bdquo;Udostępnij&rdquo; w prawym
                             dolnym rogu strony.
                         </li>
                         <li>
-                            Wybierz opcję „Zgłoś” i wybierz powód zgłoszenia.
+                            Wybierz opcję &bdquo;Zgłoś&rdquo; i wybierz powód
+                            zgłoszenia.
                         </li>
                     </ol>
                 </div>
@@ -116,7 +117,10 @@
                         Kliknij i przytrzymaj dłużej komentarz, który chcesz
                         zgłosić.
                     </li>
-                    <li>Wybierz opcję „Zgłoś” i wybierz powód zgłoszenia.</li>
+                    <li>
+                        Wybierz opcję &bdquo;Zgłoś&rdquo; i wybierz powód
+                        zgłoszenia.
+                    </li>
                 </ol>
             </div>
         </div>
@@ -134,7 +138,7 @@
                         Wejdź na profil Użytkownika/czki, którego/którą chcesz
                         zgłosić.
                     </li>
-                    <li>Kliknij … i wybierz opcję &bdquo;Zgłoś&ldquo;.</li>
+                    <li>Kliknij … i wybierz opcję &bdquo;Zgłoś&rdquo;.</li>
                     <li>Wybierz powód zgłoszenia.</li>
                 </ol>
             </div>

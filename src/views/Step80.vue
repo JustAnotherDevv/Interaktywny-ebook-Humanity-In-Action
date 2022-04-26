@@ -24,7 +24,7 @@
             32 mln ludzi w Polsce, to wszyscy powinniśmy być zainteresowani tym,
             by ustalić podstawowe zasady funkcjonowania w sieci i potem ich
             przestrzegać. Temu celowi powinno służyć prawo. Choć brzmi to może
-            naiwnie lub idealistycznie, to marzymy to tym, by tak było. Ale…
+            naiwnie lub idealistycznie, to marzymy o tym, by tak było. Ale…
         </p>
 
         <div class="relative mx-auto lg:w-[800px]">
@@ -35,7 +35,7 @@
                 alt=""
                 class="mx-auto"
             />
-            <div class="flex items-center flex-col sm:flex-row">
+            <div class="flex items-center flex-col sm:flex-row mt-10 sm:mt-0">
                 <img
                     src="/assets/80/monika.svg"
                     width="234"

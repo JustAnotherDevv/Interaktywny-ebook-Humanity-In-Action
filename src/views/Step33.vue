@@ -12,7 +12,7 @@
         </div>
 
         <div
-            class="sm:px-20 sm:py-10 sm:bg-[url(/assets/33/phone.svg)] bg-cover bg-no-repeat sm:w-96 h-[500px]"
+            class="sm:px-20 sm:py-10 sm:bg-[url(/assets/33/phone.svg)] bg-cover bg-no-repeat sm:w-96 sm:h-[500px]"
         >
             <p>
                 Ponad 50 lat później wciąż możemy zaobserwować „kampanie

@@ -3,8 +3,8 @@
         <div class="max-w-xl mb-10 text-center">
             <p class="font-amatic text-3xl">
                 Na podstawie tych materiałów spróbuj własnymi słowami opisać
-                najważniejsze cechy &bdquo;Mowy nienawiści&ldquo; i
-                &bdquo;Hejtu&ldquo;.
+                najważniejsze cechy &bdquo;Mowy nienawiści&rdquo; i
+                &bdquo;Hejtu&rdquo;.
             </p>
         </div>
         <img
@@ -24,7 +24,7 @@
         <div class="flex w-full mt-10 flex-wrap">
             <div class="w-full sm:w-1/2 p-4">
                 <p class="font-amatic text-2xl md:text-4xl text-center mb-4">
-                    &bdquo;Mowa nienawiści&ldquo;
+                    &bdquo;Mowa nienawiści&rdquo;
                 </p>
                 <textarea
                     v-model="answers['mowa-nienawisci']"
@@ -34,7 +34,7 @@
             </div>
             <div class="w-full sm:w-1/2 p-4">
                 <p class="font-amatic text-2xl md:text-4xl text-center mb-4">
-                    &bdquo;Hejt&ldquo;
+                    &bdquo;Hejt&rdquo;
                 </p>
                 <textarea
                     class="w-full border border-dashed focus:ring-0 focus:border-dashed focus:border-black"

@@ -1,14 +1,16 @@
 <template>
     <Step hide-skip-button class="text-white">
         <div class="relative max-w-xl">
-            <!-- <div
-                class="transform rotate-[270deg] absolute bottom-0 left-0 bg-red-300 w-full origin-right-bottom border-left-8"
+            <div
+                class="fixed left-0 bg-red-800 border-left-8 transform rotate-[270deg] origin-right-bottom"
             >
                 <span class="font-liber text-2xl">
-                    ZOBACZ JAK RÓŻNE ORGANIZACJE MIĘDZYNARODOWE DEFINIUJĄ MOWĘ
-                    NIENAWIŚCI:
+                    ZOBACZ, JAK WŁADZE RÓŻNYCH PAŃSTW REPREZENTUJĄCYCH SWOICH
+                    OBYWATELI WSPÓLNIE UZGODNILI W RAMACH ORGANIZACJI
+                    MIĘDZYNARODOWYCH, CO STANOWI MOWĘ NIENAWIŚCI, ABY SIĘ PRZED
+                    NIĄ LEPIEJ CHRONIĆ.
                 </span>
-            </div> -->
+            </div>
             <div
                 class="hidden xl:block fixed top-[150px] right-0 w-[429px] h-[793px]"
             >
@@ -37,10 +39,10 @@
                         wypowiedzi, które szerzą, propagują czy usprawiedliwiają
                         nienawiść rasową, ksenofobię, antysemityzm oraz inne
                         formy nienawiści bazujące na nietoleracji, m.in.:
-                        nietolerancję wyrażającą się w agresywnym nacjonalizmie
+                        nietolerancję wyrażającą się w agresywnym nacjonaliźmie
                         i etnocentryzmie, dyskryminację i wrogość wobec
                         mniejszości, imigrantów i ludzi o imigranckim
-                        pochodzeniu&ldquo;.
+                        pochodzeniu&rdquo;.
                     </p>
                     <div class="max-w-md ml-auto py-4 text-sm italic">
                         <span>
@@ -98,7 +100,7 @@
                         zbrodni określonych w art. 6 Karty Międzynarodowego
                         Trybunału Wojskowego, jeśli czyny takie mogą podburzać
                         do przemocy lub wzbudzać nienawiść skierowaną przeciwko
-                        takiej grupie lub jej członkowi&ldquo;.
+                        takiej grupie lub jej członkowi&rdquo;.
                     </li>
                 </ul>
                 <div class="max-w-md pl-10 py-8 text-sm italic">

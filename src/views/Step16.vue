@@ -1,6 +1,11 @@
 <template>
     <Step hide-skip-button class="text-white font-liber">
-        <div>
+        <div class="relative">
+            <div
+                class="hidden xl:block fixed top-[150px] right-0 w-[374px] h-[793px] opacity-50"
+            >
+                <img src="/assets/16/onz.svg" alt="" />
+            </div>
             <div>
                 <h2 class="font-amatic text-5xl mb-5 md:w-64 md:float-left">
                     Organizacja narodów zjednoczonych
@@ -16,7 +21,7 @@
                     podstawie tego kim ona jest/one są, czyli innymi słowy na
                     podstawie ich religii, narodowości, przynależności
                     etnicznej, rasy, koloru skóry, pochodzenia, płci czy innych
-                    czynników determinujących tożsamość&ldquo;. W ramach ONZ
+                    czynników determinujących tożsamość&rdquo;. W ramach ONZ
                     zamiast zakazywać mowy nienawiści, uregulowania prawne
                     koncentrują się raczej na zakazie nawoływania lub podżegania
                     do dyskryminacji, wrogości czy przemocy, a nie na każdym
@@ -39,7 +44,7 @@
                         Może są one dla Ciebie niezrozumiałe czy wręcz nudne.
                         Faktycznie są one sformułowane w języku prawniczym,
                         który nie jest najłatwiejszy. Dlatego spróbujmy je razem
-                        &bdquo;ROZPAKOWAĆ&ldquo; :)
+                        &bdquo;ROZPAKOWAĆ&rdquo; :)
                     </p>
                     <img
                         src="/assets/16/separator.svg"

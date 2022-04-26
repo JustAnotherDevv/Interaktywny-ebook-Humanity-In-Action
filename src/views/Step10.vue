@@ -166,7 +166,7 @@ const list = ref({
     "czego-sie-dowiedziales":
         "Czego się dowiedziałeś/aś o tej/tych osobie/osobach z tego materiału?",
     "czy-tekstowi-towarzyszylo-zdjecie":
-        "Czy tekstowi towarzyszyło/a zdjęcie/video/grafika? W jaki sposób były przedstawiana/e ta/te osoba/y?",
+        "Czy tekstowi towarzyszyło/a zdjęcie/video/grafika? W jaki sposób była/ły przedstawiana/e ta/te osoba/y?",
 });
 
 const answerList = {

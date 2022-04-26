@@ -13,7 +13,7 @@
                 ></div>
                 Nie tylko język mówiony, ale też pisany, rysowany czy filmowy
                 oraz różne zachowania czy gesty (&bdquo;wszelkie formy
-                wypowiedzi&ldquo;);
+                wypowiedzi&rdquo;);
             </div>
 
             <div class="xl:absolute relative xl:top-[100px] xl:right-[-80px]">
@@ -31,10 +31,10 @@
                 >
                     Czy mowa nienawiści zawsze jest pełna wulgaryzmów? Nie!
                     Chociaż najczęściej nam się kojarzy z wulgaryzmami to może
-                    przybierać różne formy, &bdquo;niby-żartu&ldquo;,
-                    &bdquo;niby- pracy naukowej&ldquo;,
-                    &bdquo;niby-badania&ldquo;, czy &bdquo;niby-przyjaznej
-                    rady&ldquo;.
+                    przybierać różne formy, &bdquo;niby-żartu&rdquo;,
+                    &bdquo;niby-pracy naukowej&rdquo;,
+                    &bdquo;niby-badania&rdquo; czy &bdquo;niby-przyjaznej
+                    rady&rdquo;.
                 </div>
             </div>
 
@@ -42,8 +42,8 @@
                 <div
                     class="absolute top-[0px] left-[-30px] w-5 h-5 rounded-full bg-black"
                 ></div>
-                Te &bdquo;wszelkie formy wypowiedzi&ldquo; odnoszą się do osób
-                i/lub grup, które są &bdquo;inne&ldquo; ze względu na swoją
+                Te &bdquo;wszelkie formy wypowiedzi&rdquo; odnoszą się do osób
+                i/lub grup, które są &bdquo;inne&rdquo; ze względu na swoją
                 tożsamość i dlatego są w danym społeczeństwie mniejszością.
                 Dobrze wiesz, że w każdym społeczeństwie ludzie się od siebie
                 różnią pod wieloma względami, na przykład mają inny niż
@@ -95,12 +95,12 @@
                         różnych aspektach przez różne dyscypliny nauk
                         społecznych, gł. socjologię i psychologię społeczną.
                         Niemniej jednak w wielu społeczeństwach funkcjonują
-                        negatywne stereotypy i uprzedzenia w stosunku do grup,
-                        które w stosunku do wybranych grup mogą przyjmować formę
-                        antysemityzmu, islamofobii, chrystianofobii, rasizmu,
-                        seksizmu, homofobii, heterofobii, ableizmu, ageizmu,
-                        adultyzmu, szowinizmu czy klasizmu. Jeśli chcesz się
-                        dowiedzieć, co one oznaczają zerknij do Słowniczka :)
+                        negatywne stereotypy i uprzedzenia, które w stosunku do
+                        wybranych grup mogą przyjmować formę antysemityzmu,
+                        islamofobii, chrystianofobii, rasizmu, seksizmu,
+                        homofobii, heterofobii, ableizmu, ageizmu, adultyzmu,
+                        szowinizmu czy klasizmu. Jeśli chcesz się dowiedzieć, co
+                        one oznaczają, zerknij do Słowniczka :)
                     </div>
                 </div>
 
@@ -140,9 +140,9 @@
                     kategoriach czynów, które można ścigać na mocy prawa. I tak,
                     UE skupia się na zwalczaniu publicznego nawoływania do
                     przemocy lub nienawiści skierowanej przeciwko grupie osób
-                    poprzez publiczne rozpowszechnianie tekstów, obrazów lub
-                    innych materiałów oraz ściga aprobowanie, negowanie lub
-                    rażące pomniejszanie zbrodni ludobójstwa, zbrodni przeciwko
+                    poprzez publiczne rozprowadzanie tekstów, obrazów lub innych
+                    materiałów oraz ściga aprobowanie, negowanie lub rażące
+                    pomniejszanie zbrodni ludobójstwa, zbrodni przeciwko
                     ludzkości oraz zbrodni wojennych. Natomiast Organizacja
                     Narodów Zjednoczonych (ONZ) koncentruje swoje działania na
                     zakazie nawoływania lub podżegania do dyskryminacji,

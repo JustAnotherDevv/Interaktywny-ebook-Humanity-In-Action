@@ -151,8 +151,8 @@
                     class="md:float-left mr-4 mb-6 md:mb-0"
                 />
                 <p class="font-amatic text-3xl mb-6">
-                    To media społecznościowe, a nie ich użytkownicy/czki powinny
-                    walczyć z internetowym hejtem.
+                    To media społecznościowe, a nie ich użytkownicy/czki,
+                    powinny walczyć z internetowym hejtem.
                 </p>
                 <p class="text-lg md:text-center">
                     Na portalach społecznościowych obowiązują regulaminy

@@ -10,7 +10,7 @@
             />
             <p class="md:text-center">
                 to &bdquo;całkowicie sfabrykowana treść, rozprzestrzeniana, by
-                celowo wprowadzać w błąd&ldquo;. Fake newsy mogą mieć wpływ na
+                celowo wprowadzać w błąd&rdquo;. Fake newsy mogą mieć wpływ na
                 decyzje polityczne, gospodarkę, osobiste przekonania i decyzje.
                 Są niebezpieczne, bo bardzo łatwo się rozprzestrzeniająi szybko
                 zyskują popularność.
@@ -78,13 +78,24 @@
                     jaki był kontekst opublikowania tej informacji wtedy, a jaki
                     jest teraz?
                 </p>
-                <FormRadio
+                <!-- <FormRadio
                     :options="radioOptions"
                     v-model="answers['3']"
                     horizontal
                     class="flex-shrink-0 ml-4"
                 >
-                </FormRadio>
+                </FormRadio> -->
+                <!-- <input
+                    v-model="answers['3']"
+                    type="text"
+                    class="flex-shrink-0 md:ml-4 mt-4 rounded border-2 border-black focus:ring-0 focus:border-black w-[150px]"
+                /> -->
+
+                <textarea
+                    v-model="answers['3']"
+                    class="md:ml-4 w-full mt-4 border border-dashed focus:ring-0 focus:border-dashed focus:border-black md:max-w-[300px]"
+                    rows="6"
+                ></textarea>
             </div>
 
             <!--  -->
@@ -176,7 +187,7 @@
 
             <!--  -->
 
-            <div class="flex flex-wrap md:flex-nowrap justify-between">
+            <div class="flex flex-wrap md:flex-nowrap justify-between no-brea">
                 <p>
                     Czy treści zawarte w tym artykule prezentują inny punkt
                     widzenia niż tylko autora/ki? Czego brakuje? Czy artykuł

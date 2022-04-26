@@ -56,9 +56,10 @@
                     </div>
                     <p>
                         „Rówieśnicy prześladowali go od szkoły podstawowej ze
-                        względu na spodnie, jakie nosił, bo lubił „rurki”. A to
-                        dlatego, że „zrobił sobie fryzurę”. Nie przesadnie! Po
-                        prostu dbał o siebie. A oni nazywali go „pedziem”. Były
+                        względu na spodnie, jakie nosił, bo lubił
+                        &laquo;rurki&raquo;. A to dlatego, że &laquo;zrobił
+                        sobie fryzurę&raquo;. Nie przesadnie! Po prostu dbał o
+                        siebie. A oni nazywali go &laquo;pedziem&raquo;. Były
                         dzieci, które go nawet szarpały..”
                     </p>
                     <img

@@ -12,17 +12,17 @@
             <div
                 class="text-lg leading-8 md:bg-[url(assets/19/frame.svg)] bg-contain bg-no-repeat md:p-6"
             >
-                (od angielskiego słowa &bdquo;hate&ldquo; czyli nienawiść) to
+                (od angielskiego słowa &bdquo;hate&rdquo; czyli nienawiść) to
                 zjawisko społeczne, które najczęściej przejawia się w postaci
                 obraźliwych, agresywnych i często wulgarnych komentarzy
                 słownych, ale też i w formie grafik, memów czy filmów w
                 Internecie na jakiś temat lub o jakiejś osobie (w mediach
-                społecznościowych, forach dyskusyjnych i komunikatorach itp.).
-                Zwykle hejt adresowany jest do osób publicznych, czyli znanych:
-                celebrytów/ek, aktorów/ek, sportowców, polityków/czek i ma na
-                celu przedstawienie danej osoby lub/i jej działalności czy
+                społecznościowych, na forach dyskusyjnych i komunikatorach
+                itp.). Zwykle hejt adresowany jest do osób publicznych, czyli
+                znanych: celebrytów/ek, aktorów/ek, sportowców, polityków/czek i
+                ma na celu przedstawienie danej osoby lub/i jej działalności czy
                 zachowania w kompromitujący i poniżający lub ośmieszający
-                sposób. Przyczyną hejtu są emocje, sytuacja osobista,
+                sposób. Przyczyną hejtu są: emocje, sytuacja osobista,
                 doświadczenia hejterów, ale też wykalkulowana strategia, a nie
                 ma działania osób hejtowanych. Anonimowość w sieci sprzyja
                 eskalacji zjawiska.

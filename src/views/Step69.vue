@@ -17,7 +17,7 @@
                     manifestowania opinii. Nie jest to związane z żadnym zyskiem
                     finansowym lub pracą. Robimy to, bo chcemy to robić. Chcemy
                     zmienić świat i wyrazić swoje wsparcie dla tych, którzy tego
-                    potrzebują”.
+                    potrzebują&rdquo;.
                 </p>
             </div>
         </div>
@@ -32,7 +32,8 @@
                 grupy walczą, czego potrzebują, co stoi na ich przeszkodzie.
                 Należy pamiętać aby ich głos był podbijany naszym, a nie
                 zagłuszany. Zadawać pytania, uczyć się, a później przekazywać tą
-                wiedzę innym. Należy być otwartym na inność i różnorodność”.
+                wiedzę innym. Należy być otwartym na inność i
+                różnorodność&rdquo;.
             </p>
             <img
                 src="/assets/69/quote.svg"

@@ -8,7 +8,7 @@
             class="mb-10"
         />
         <p class="md:text-center max-w-2xl">
-            Trauma Holkcaustu w Polsce nie zakończyła prześladowania osób
+            Trauma Holokaustu w Polsce nie zakończyła prześladowania osób
             pochodzenia żydowskiego. Prowadzona przez władze PRL kampania
             nienawiści zmusiła do wyjazdu z Polski w marcu 1968 r. ok. 13 tys.
             Żydów i Żydówek. Osoby pochodzenia żydowskiego wyrzucano z pracy,

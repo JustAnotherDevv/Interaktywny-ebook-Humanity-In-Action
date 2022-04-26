@@ -20,16 +20,17 @@
                 większej liczbie sytuacji niż dorosły.
             </p>
             <p class="font-montserrat">
-                Coraz częsciej widzimy, że mowa nienawiści rozwija się w sposób
-                epidemiczny. Ludzie &#xab;zarażają się&#xbb; mową nienawiści
-                podobnie jak wirusami - im więcej widzimy jej w otoczeniu, tym
-                częściej zaczynamy gardzić grupami padającymi ofiarą mowy
-                nienawiści, a w efekcie sami zaczynamy stosować taki język. W
-                tej epidemii mamy też jednak skuteczną &#xab;szczepionkę&#xbb; -
-                jest nią empatia. Jeśli potrafimy zrozumieć, jak czują się
-                ofiary mowy nienawiści, jeśli mamy świadomość ich bólu i
-                doświadczeń, wówczas trudniej nam się zarazić - za to chętniej
-                deklarujemy gotowość do walki z mową nienawiści.
+                &bdquo;Coraz częściej widzimy, że mowa nienawiści rozwija się w
+                sposób epidemiczny. Ludzie &#xab;zarażają się&#xbb; mową
+                nienawiści podobnie jak wirusami - im więcej widzimy jej w
+                otoczeniu, tym częściej zaczynamy gardzić grupami padającymi
+                ofiarą mowy nienawiści, a w efekcie sami zaczynamy stosować taki
+                język. W tej epidemii mamy też jednak skuteczną
+                &#xab;szczepionkę&#xbb; - jest nią empatia. Jeśli potrafimy
+                zrozumieć, jak czują się ofiary mowy nienawiści, jeśli mamy
+                świadomość ich bólu i doświadczeń, wówczas trudniej nam się
+                zarazić - za to chętniej deklarujemy gotowość do walki z mową
+                nienawiści.&rdquo;
             </p>
             <p class="mt-2 font-montserrat">
                 dr hab. Michał Bilewicz, prof. UW, Centrum Badań nad

@@ -35,7 +35,7 @@
             <div class="md:w-1/2 mt-10 md:mt-0">
                 <p class="md:p-4 md:pl-10">
                     które polega na zamierzonym wpływaniu na innych w celu ich
-                    ośmieszenia, obrażenia i/lub podniesienia poziomu emocji w
+                    ośmieszenia, obrażenia i/lub podniesienia poziomu emocji
                     dyskusji czy sporu poprzez wysyłanie prowokujących,
                     kontrowersyjnych, często wręcz nieprawdziwych i
                     zmanipulowanych komunikatów. Osoby zamieszczające tego typu

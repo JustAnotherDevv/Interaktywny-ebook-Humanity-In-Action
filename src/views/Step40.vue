@@ -6,7 +6,7 @@
             </p>
             <p class="max-w-2xl mt-4">
                 Odpowiedzią na to pytanie może by film &bdquo;Sala samobojców.
-                Hejter&ldquo; w reżyserii Jana Komasy. Reżyser pokazuje w nim,
+                Hejter&rdquo; w reżyserii Jana Komasy. Reżyser pokazuje w nim,
                 jak od kuchni wygląda przemysł tworzenia płatnego hejtu.
             </p>
             <img

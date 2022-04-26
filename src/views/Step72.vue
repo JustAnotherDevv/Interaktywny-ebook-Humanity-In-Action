@@ -62,7 +62,7 @@
                 </p>
                 <img
                     src="/assets/72/quote.svg"
-                    class="hidden md:block absolute bottom-[-40px] right-[-40px]"
+                    class="absolute md:bottom-[-40px] md:right-[-20px] right-0 bottom-[-50px]"
                     alt=""
                 />
             </div>

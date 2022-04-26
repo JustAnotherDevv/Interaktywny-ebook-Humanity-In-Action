@@ -52,13 +52,13 @@
                         Mamy takie przekonanie, że w czasie pandemii
                         spotkałeś/aś się już z fake newsami na niemałą skalę.
                     </p>
-                    <p class="text-black py-1 px-2 bg-[#FA8010] mb-2">
+                    <p class="text-black py-1 px-2 mb-2">
                         A może nie wiedziałeś/aś, że to były fake newsy?
                     </p>
-                    <p class="text-black py-1 px-2 bg-[#FA8010] mb-2">
+                    <p class="text-black py-1 px-2 mb-2">
                         Jak dowiedziałeś/aś się, że to nieprawdziwe informacje?
                     </p>
-                    <p class="text-black py-1 px-2 bg-[#FA8010] mb-2">
+                    <p class="text-black py-1 px-2 mb-2">
                         Jakich treści dotyczyły?
                     </p>
 

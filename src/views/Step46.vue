@@ -82,8 +82,7 @@
             <div class="space-y-6">
                 <p>
                     Na większości platform społecznościowych czy gamingowych
-                    standardowym
-                    <strong>sposobem moderowania</strong> agresywnych zachowań
+                    standardowym sposobem moderowania agresywnych zachowań
                     użytkowników jest ostrzeganie (<span class="italic"
                         >warning</span
                     >), ściszanie (<span class="italic">mute</span>) czy
@@ -92,12 +91,11 @@
                     antyspołecznych zachowań.
                 </p>
                 <p>
-                    <strong>Dziesiątki badań</strong> z zakresu wpływu
-                    społecznego pokazały jednak, że nawet zwykłe przypomnienie o
-                    tym, że po drugiej stronie jest człowiek czy spokojne
-                    zwrócenie uwagi na to, że przekroczone zostały normy danej
-                    społeczności, potrafi pozytywnie odmienić zachowanie
-                    „zagubionego użytkownika”.
+                    Dziesiątki badań z zakresu wpływu społecznego pokazały
+                    jednak, że nawet zwykłe przypomnienie o tym, że po drugiej
+                    stronie jest człowiek czy spokojne zwrócenie uwagi na to, że
+                    przekroczone zostały normy danej społeczności, potrafi
+                    pozytywnie odmienić zachowanie „zagubionego użytkownika”.
                 </p>
                 <p>
                     Dlatego właśnie, w Samurai Labs postanowiliśmy zbadać w
@@ -109,22 +107,21 @@
                     badaczy społecznych przystąpiliśmy do działania.
                 </p>
                 <p>
-                    Programiści i inżynierowie dopracowali
-                    <strong> moduł sztucznej inteligencji </strong> zdolny
-                    wykrywać ataki personalne (obraźliwe, bezpośrednie zwroty do
-                    innych użytkowników) z prawie 100% skutecznością. Badacze
-                    społeczni natomiast plan eksperymentu oraz wyróżnili dwa
-                    rodzaje interwencji, które będą wysyłane w odpowiedzi na
-                    ataki personalne: okazując komuś empatię albo odnosząc się
-                    do norm i reguł.
+                    Programiści i inżynierowie dopracowali moduł sztucznej
+                    inteligencji zdolny wykrywać ataki personalne (obraźliwe,
+                    bezpośrednie zwroty do innych użytkowników) z prawie 100%
+                    skutecznością. Badacze społeczni stworzyli natomiast plan
+                    eksperymentu oraz wyróżnili dwa rodzaje interwencji, które
+                    będą wysyłane w odpowiedzi na ataki personalne: okazując
+                    komuś empatię albo odnosząc się do norm i reguł.
                 </p>
                 <p>
-                    Jako miejsce eksperymentu wybraliśmy platformę
-                    <strong>Reddit</strong>, z której wyłoniliśmy dwie
-                    społeczności czy inaczej subreddity, w których poziom ataków
-                    personalnych był odpowiednio wysoki. Wybrane subreddity były
-                    monitorowane przez nasz system 24 godziny na dobę,
-                    dostarczając na bieżąco informacje o wygenerowanym hejcie.
+                    Jako miejsce eksperymentu wybraliśmy platformę Reddit, z
+                    której wyłoniliśmy dwie społeczności czy inaczej subreddity,
+                    w których poziom ataków personalnych był odpowiednio wysoki.
+                    Wybrane subreddity były monitorowane przez nasz system 24
+                    godziny na dobę, dostarczając na bieżąco informacje o
+                    wygenerowanym hejcie.
                 </p>
                 <p>
                     Pozostawało znaleźć kogoś, kto na każde zawołanie systemu
@@ -191,7 +188,7 @@
                 </p>
                 <p class="text-white bg-black p-1 px-2 inline-block">
                     James odszedł nagle, ale zdążył nas nauczyć czegoś bardzo
-                    ważnego – <strong>warto reagować</strong>.
+                    ważnego – warto reagować.
                 </p>
                 <p class="text-right italic">
                     Patrycja Tempska, Maria Dowgiałło, Samurai Labs

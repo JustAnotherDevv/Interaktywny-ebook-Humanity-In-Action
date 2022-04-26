@@ -22,7 +22,7 @@
 
         <div class="relative">
             <div
-                class="border border-dashed border-black p-8 w-[500px] lg:h-[500px] my-12 relative"
+                class="border border-dashed border-black p-8 lg:w-[500px] lg:h-[500px] my-12 relative"
             >
                 <div class="border-b border-dashed border-black">
                     <p class="lg:absolute left-[-250px] top-[50px] lg:w-56 p-2">

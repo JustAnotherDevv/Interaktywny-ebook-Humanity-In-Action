@@ -13,7 +13,7 @@
             >
                 Pojęcie zniewagi na gruncie art. 216 Kodeksu karnego, jest takie
                 samo jak to z art. 257 Kodeksu karnego, o którym była mowa
-                wcześniej. Różnica pomiędzy art. 216 i 257Kodeksu karnego jest
+                wcześniej. Różnicą pomiędzy art. 216 i 257 Kodeksu karnego jest
                 to, że art. 257 chroni konkretne grupy osób. Jeżeli zniewaga nie
                 ma związku z przynależnością narodową, etniczną, rasową,
                 wyznaniową albo z bezwyznaniowością, wtedy sprawca ponosi

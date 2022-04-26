@@ -6,7 +6,7 @@
             <div class="py-16">
                 <p>
                     Decyzja jak reagować na mowę nienawiści i hejt zależy od
-                    danej sytuacji.<strong>To Ty</strong> decydujesz, co jesteś
+                    danej sytuacji. <strong>To Ty</strong> decydujesz, co jesteś
                     w stanie zrobić – w sposób, który uznasz za najlepszy dla
                     Ciebie.
                 </p>
@@ -58,7 +58,7 @@
                 >
                     <ol class="list-decimal">
                         <li>Kliknij … nad postem.</li>
-                        <li>Kliknij opcję &bdquo;Zgłoś&ldquo;.</li>
+                        <li>Kliknij opcję &bdquo;Zgłoś&rdquo;.</li>
                         <li>Postępuj zgodnie z instrukcjami na ekranie.</li>
                     </ol>
                 </div>
@@ -78,8 +78,8 @@
                     <li>Kliknij nazwę profilu, który chcesz zgłosić.</li>
                     <li>W prawym górnym rogu kliknij ...</li>
                     <li>
-                        Kliknij „Zgłoś”, następnie „Zgłoś konto” i wybierz powód
-                        zgłoszenia.
+                        Kliknij &bdquo;Zgłoś&rdquo;, następnie &bdquo;Zgłoś
+                        konto&rdquo; i wybierz powód zgłoszenia.
                     </li>
                 </ol>
             </div>
@@ -100,10 +100,10 @@
                     <ol class="list-decimal">
                         <li>Kliknij … obok posta.</li>
                         <li>
-                            Kliknij opcję „Uzyskaj wsparcie lub zgłoś post”. FB
-                            umożliwia wybranie przyczyny zgłoszenia, np.:
-                            propagowanie nienawiści, przemoc, nękanie, fałszywa
-                            informacja, terroryzm.
+                            Kliknij opcję &bdquo;Uzyskaj wsparcie lub zgłoś
+                            post&rdquo;. FB umożliwia wybranie przyczyny
+                            zgłoszenia, np.: propagowanie nienawiści, przemoc,
+                            nękanie, fałszywa informacja, terroryzm.
                         </li>
                     </ol>
                 </div>
@@ -122,8 +122,8 @@
                 <ol class="list-decimal">
                     <li>Kliknij … na miniaturze filmiku.</li>
                     <li>
-                        Kliknij opcję „Zgłoś to video” i wybierz przyczynę
-                        zgłoszenia.
+                        Kliknij opcję &bdquo;Zgłoś to video&rdquo; i wybierz
+                        przyczynę zgłoszenia.
                     </li>
                 </ol>
             </div>
@@ -140,7 +140,7 @@
                 <ol class="list-decimal">
                     <li>Znajdź komentarz, który chcesz zgłosić.</li>
                     <li>Kliknij ... obok komentarza.</li>
-                    <li>Wybierz &bdquo;Zgłoś&ldquo;.</li>
+                    <li>Wybierz &bdquo;Zgłoś&rdquo;.</li>
                     <li>Wybierz powód zgłoszenia.</li>
                 </ol>
             </div>
@@ -167,8 +167,8 @@
                 >
                     <ol class="list-decimal">
                         <li>Wyświetl film, który chcesz zgłosić.</li>
-                        <li>Kliknij „Więcej” u góry filmu.</li>
-                        <li>Wybierz opcję &bdquo;Zgłoś&ldquo;.</li>
+                        <li>Kliknij &bdquo;Więcej&rdquo; u góry filmu.</li>
+                        <li>Wybierz opcję &bdquo;Zgłoś&rdquo;.</li>
                         <li>Wybierz powód zgłoszenia.</li>
                     </ol>
                 </div>

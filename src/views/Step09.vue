@@ -15,9 +15,9 @@
                     Zjawiska takie jak mowa nienawiści czy hejt można badać i
                     analizować poprzez obserwacje i notatki. Zapraszamy Cię do
                     przeprowadzenia takich badań :) Przez 2 dni przeglądaj media
-                    społecznościowe, Youtube, TV i przejrzyj informacje na
+                    społecznościowe, YouTube, TV i przejrzyj informacje na
                     wybranych przez Ciebie portalach. Zdecyduj sam/sama, ile
-                    czasu chcesz na to poświęcić np. 15, 20, czy 30 minut.
+                    czasu chcesz na to poświęcić np. 15, 20 czy 30 minut.
                     Skoncentruj się na przykładach mowy nienawiści i hejtu.
                     Swoje spostrzeżenia zapisz w tabelach:
                 </p>

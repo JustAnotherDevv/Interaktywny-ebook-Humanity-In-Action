@@ -86,7 +86,7 @@ const list = [
         id: 4,
         question: "Ludzie używają mowy nienawiści i hejtu:",
         answers: {
-            a: "Bez zastanowienia się nad konsekwencjami i po prostu &bdquo;dla beki&ldquo; z różnych powodów: mowy nienawiści, bo są przeciwni różnorodności.",
+            a: "Bez zastanowienia się nad konsekwencjami i po prostu &bdquo;dla beki&rdquo; z różnych powodów: mowy nienawiści, bo są przeciwni różnorodności.",
             b: "Z różnych powodów: mowy nienawiści, bo są przeciwni różnorodności i gardzą osobami należącymi do wybranych grup, zaś hejtu, bo ogólnie chcą wyładować swoje emocje na kimś.",
             c: "Z poczucia pozornej bezkarności i anonimowości.",
         },
@@ -113,7 +113,7 @@ const list = [
         id: 7,
         question: "Źródłem mowy nienawiści są między innymi:",
         answers: {
-            a: "Stereotypy i uprzedzenia .",
+            a: "Stereotypy i uprzedzenia.",
             b: "Lęki i brak wiedzy.",
             c: "Brak empatii.",
         },
@@ -141,9 +141,9 @@ const list = [
         id: 10,
         question: "Ludzie używający mowy nienawiści i hejtu to:",
         answers: {
-            a: "&bdquo;Zawodowi&ldquo; hejterzy, przeważnie osoby pracujące na zlecenie i za pieniądze.",
+            a: "&bdquo;Zawodowi&rdquo; hejterzy, przeważnie osoby pracujące na zlecenie i za pieniądze.",
             b: "Według badań wyłącznie młodzi ludzie.",
-            c: "Osoby z różnych grup wiekowych i zawodowych; są wśród nich osoby używające mowy nienawiści i hejtu intencjonalnie  (w tym też za pieniądze i na zlecenie) i też nieintencjonalnie, czyli z nieświadomie.",
+            c: "Osoby z różnych grup wiekowych i zawodowych; są wśród nich osoby używające mowy nienawiści i hejtu intencjonalnie  (w tym też za pieniądze i na zlecenie) i też nieintencjonalnie, czyli nieświadomie.",
         },
     },
 ];

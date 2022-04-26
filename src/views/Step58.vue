@@ -8,7 +8,7 @@
             class="my-8"
         />
         <p>
-            Rozmawiam z adresatem/ką hejtu o tym, jak się czuje;zwracam
+            Rozmawiam z adresatem/ką hejtu o tym, jak się czuje; zwracam
             bezpośrednio uwagę osobie atakującej; głośno mówię „stop”; piszę
             mail z opisem sytuacji, kiedy doszło do hejtu, do instytucji, która
             może temu zaradzić; piszę skargę; podpisuję petycję; usuwam
@@ -42,7 +42,7 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap mt-10 w-full">
+        <div class="flex flex-wrap-reverse mt-10 w-full">
             <p class="w-full md:w-1/2 p-4">
                 <textarea
                     v-model="answers.second"

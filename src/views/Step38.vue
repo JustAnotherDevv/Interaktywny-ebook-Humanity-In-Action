@@ -68,7 +68,7 @@
                     bardzo ważna, może nawet uratować życie. Jak nie wiesz jak
                     zareagować lub sama albo sam doświadczasz nienawiści, szukaj
                     wsparcia u zaufanych osób lub zadzwoń pod numer
-                    <strong>116 111</strong>&ldquo;.
+                    <strong>116 111</strong>&rdquo;.
                 </p>
             </div>
         </div>

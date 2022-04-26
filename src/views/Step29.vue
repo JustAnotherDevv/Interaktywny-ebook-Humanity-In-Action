@@ -15,8 +15,8 @@
                 zdobycie i utrzymanie władzy pod wodzą lidera i jego
                 popleczników realizujących bez skrupułów swój plan. Historia
                 uczy, że nakręcanie spirali nienawiści i pogardy pomiędzy
-                różnymi grupami jest niebezpieczne, a także często nieodwracalne
-                skutki.
+                różnymi grupami jest niebezpieczne, a także często ma
+                nieodwracalne skutki.
             </p>
             <p class="max-w-2xl md:text-center">
                 W niektórych przypadkach doprowadziło do ludobójstwa, jak w

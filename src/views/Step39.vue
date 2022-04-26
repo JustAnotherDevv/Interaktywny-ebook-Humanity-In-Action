@@ -37,7 +37,7 @@
         <div class="mt-10">
             <p class="text-xl max-w-sm text-center">
                 Ogólnopolski telefon dla ofiar przemocy w rodzinie
-                &bdquo;Niebieska Linia”<br />
+                &bdquo;Niebieska Linia&rdquo;<br />
                 (całodobowo)
             </p>
             <a href="tel:800120002" class="text-3xl text-center block"

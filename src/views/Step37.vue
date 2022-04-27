@@ -41,10 +41,10 @@
                 </p>
 
                 <div
-                    class="xl:absolute xl:right-[-150px] xl:top-[100px] border border-black relative pl-10 pr-48 py-20 w-[500px] mt-24 xl:mt-0"
+                    class="xl:absolute xl:right-[-150px] xl:top-[100px] border border-black relative pl-10 sm:pr-48 py-10 sm:py-20 sm:w-[500px] mt-24 xl:mt-0"
                 >
                     <div
-                        class="absolute top-[-80px] right-[-100px] bg-white p-8"
+                        class="sm:absolute sm:top-[-80px] sm:right-[-100px] bg-white p-8"
                     >
                         <img
                             src="/assets/37/mama.svg"
@@ -52,7 +52,7 @@
                             width="215"
                             height="282"
                         />
-                        <p class="text-center">Mama Dominika</p>
+                        <p class="text-left sm:text-center">Mama Dominika</p>
                     </div>
                     <p>
                         „Rówieśnicy prześladowali go od szkoły podstawowej ze

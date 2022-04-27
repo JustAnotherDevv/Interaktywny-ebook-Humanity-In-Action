@@ -1,7 +1,7 @@
 <template>
     <Step hide-skip-button class="text-white">
         <div class="relative max-w-xl">
-            <div
+            <!-- <div
                 class="fixed left-0 bg-red-800 border-left-8 transform rotate-[270deg] origin-right-bottom"
             >
                 <span class="font-liber text-2xl">
@@ -10,7 +10,7 @@
                     MIĘDZYNARODOWYCH, CO STANOWI MOWĘ NIENAWIŚCI, ABY SIĘ PRZED
                     NIĄ LEPIEJ CHRONIĆ.
                 </span>
-            </div>
+            </div> -->
             <div
                 class="hidden xl:block fixed top-[150px] right-0 w-[429px] h-[793px]"
             >

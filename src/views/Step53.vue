@@ -40,7 +40,7 @@
                         nauczycieli, a także osób postronnych.
                     </p>
                 </div>
-                <div class="w-full md:w-1/2 md:pl-4">
+                <div class="w-full md:w-1/2 md:pl-4 hidden md:block">
                     <p class="mt-5 md:mt-0">
                         Sprawdź jak w praktyce Janina
                         <a
@@ -73,6 +73,30 @@
                     zostać pociągnięci do odpowiedzialnośći za swoje zachowanie.
                     Nie mówmy też innym niczego, czego sami nie chcielibyśmy
                     usłyszeć.”
+                </p>
+            </div>
+
+            <div class="w-full md:hidden mt-10">
+                <p class="mt-5 md:mt-0">
+                    Sprawdź jak w praktyce Janina
+                    <a
+                        href="https://www.facebook.com/janinadaily/"
+                        target="_blank"
+                        class="text-white bg-black p-1"
+                        >https://www.facebook.com/janinadaily/</a
+                    >
+                    stara się tworzyć treści, które bywają cięte czy są tzw.
+                    „beką”, ale nie są hejtem. W jaki sposób rozmawia, a nawet
+                    spiera się z ludźmi, którzy komentują jej wpisy?
+                </p>
+                <p class="text-white bg-black p-2 mt-5">
+                    Zwróć uwagę, jak ludzie zachowują się na kanałach Janiny i
+                    reagują na krytykę albo trollerskie treści innych? Co Ci się
+                    podoba? Które z tych reakcji warto powtarzać? Na podstawie
+                    swoich obserwacji wypisz top pięć zasad, którymi
+                    chciałbyś/abyś, żeby kierowali się ludzie, gdybyś
+                    prowadził/a mega popularnego vloga, bloga czy inny kanał w
+                    Internecie.
                 </p>
             </div>
 

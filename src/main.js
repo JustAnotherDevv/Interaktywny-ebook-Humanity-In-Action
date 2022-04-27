@@ -10,6 +10,9 @@ const app = createApp(App);
 const router = createRouter({
     history: createWebHistory(),
     routes,
+    scrollBehavior(to, from, savedPosition) {
+        return { top: 0 };
+    },
 });
 
 // router.beforeEach((to, from) => {

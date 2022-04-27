@@ -1,6 +1,7 @@
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import TableOfContents from "./views/TableOfContents.vue";
+import PrivacyPolicy from "./views/PrivacyPolicy.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import NotFound from "./views/NotFound.vue";
@@ -68,6 +69,11 @@ export const routes = [
         path: "/spis-tresci",
         component: TableOfContents,
         meta: { title: "Spis treści" },
+    },
+    {
+        path: "/polityka-prywatnosci",
+        component: PrivacyPolicy,
+        meta: { title: "Polityka Prywatności" },
     },
     {
         path: "/login",

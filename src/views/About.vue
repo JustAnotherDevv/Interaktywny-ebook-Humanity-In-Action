@@ -19,22 +19,30 @@
             </p>
             <p>
                 <strong>Konsultacja merytoryczna</strong>: dr hab. Michał
-                Bilewicz, Dominika Cieślikowska, Ewa Rutkowska
+                Bilewicz, prof. UW, Dominika Cieślikowska, Ewa Rutkowska
             </p>
             <p>
                 <strong>Współpraca w opracowaniu treści</strong>: Magda Bodzan,
                 dr Tomasz Cebulski, Katarzyna Cimek, Natalia Grzankowska, Beata
                 Janus, Hanna Jaśkiewicz, Dominika Kaszewska, Julia Konarska,
-                Zuzanna Krzątała, Nina Łazarczyk-Bilal, Dagmara Magryta, Asia
+                Zuzanna Krzątała, Nina Łazarczyk-Bilal, Dagmara Magryta, Joanna
                 Matera, Julia Mardeusz, Larysa Michalska, Karolina Obońska,
-                Joanna Pasymowska, Magda Pająk, Marcelina Rosińska, Eliza
-                Rutynowska, Artur Wieczorek, Magda Wilczyńska, Joanna Zalewska
+                Joanna Pasymowska, Magdalena Pająk, Marcelina Rosińska, Eliza
+                Rutynowska, Artur Wieczorek, Magdalena Wilczyńska, Joanna
+                Zalewska
             </p>
             <p>
                 <strong>Opracowanie graficzne i ilustracje</strong>: Małgorzata
-                Paluch-Nieżorawska
+                Paluch-Nieżorawska, Emil Jóźwiak
             </p>
+
             <p><strong>Redakcja językowa i korekta</strong>: Dagmara Magryta</p>
+
+            <p>
+                Książka jest adresowana do każdej czytelniczki i każdego
+                czytelnika, bez względu na wiek. Szczególnie polecamy uczniom i
+                uczennicom szkół ponadpodstawowych.
+            </p>
         </div>
         <div class="mt-10 space-y-6">
             <p>
@@ -68,6 +76,13 @@
         </p>
         <img src="/assets/about/pacyfika.png" alt="" class="my-10" />
         <p>Organizacje partnerskie/patronaty</p>
+        <div class="my-10">
+            <p>
+                <strong>Wydawca</strong>: Humanity in Action Polska <br />
+                Wydanie Pierwsze, Warszawa 2022 <br />
+                Numer ISBN: 978-83-941197-9-9
+            </p>
+        </div>
     </div>
 </template>
 

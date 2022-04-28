@@ -14,7 +14,7 @@
                     Puławski Park Naukowo-Techniczny.
                 </p>
                 <a
-                    href="#"
+                    href="https://www.facebook.com/events/249573082075413"
                     target="_blank"
                     class="bg-black text-white rounded-full py-2 px-6 mt-4 font-semibold"
                     >Zobacz na Facebooku</a
@@ -33,7 +33,7 @@
                     dziewczyny przed samobójstwem.
                 </p>
                 <a
-                    href="#"
+                    href="https://wszczecinie.pl/aktualnosci,takiego_escape_roomu_nie_ma_nigdzie_w_polsce_zadanie_to_uratowanie_dziewczyny_przed_samobojstwem,id-33306.html"
                     target="_blank"
                     class="bg-black text-white rounded-full py-2 px-6 mt-4 font-semibold"
                     >Więcej szczegółów</a
@@ -53,7 +53,7 @@
                     nienawistnych komentarzy.
                 </p>
                 <a
-                    href="#"
+                    href="https://gazetacodzienna.pl/artykul/wydarzenia/mlodzi-dla-modych-z-waznym-przekazem"
                     target="_blank"
                     class="bg-black text-white rounded-full py-2 px-6 mt-4 font-semibold"
                     >Więcej szczegółów</a
@@ -71,7 +71,7 @@
                     spektakl dla młodzieży poruszający problem hejtu.
                 </p>
                 <a
-                    href="#"
+                    href="https://kultura.trojmiasto.pl/Teatralna-walka-ze-szkolnym-hejtem-Udany-spektakl-Teatru-Valldal-n130852.html"
                     target="_blank"
                     class="bg-black text-white rounded-full py-2 px-6 mt-4 font-semibold"
                     >Więcej szczegółów</a

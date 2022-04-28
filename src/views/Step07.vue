@@ -7,10 +7,16 @@
                 uważasz, że wystarczająco znasz ten temat i wiesz jak reagować
                 na mowę nienawiści?
             </p>
-            <p class="pb-10">
-                A czego chciałbyś/abyś dowiedzieć się z tej książki?
+            <p class="mb-10">
+                <span class="bg-black p-4 text-white">
+                    A czego chciałbyś/abyś dowiedzieć się z tej książki?
+                </span>
             </p>
-            <p>Tu możesz stworzyć swoją listę :)</p>
+            <p>
+                <span class="bg-black p-4 text-white"
+                    >Tu możesz stworzyć swoją listę :)</span
+                >
+            </p>
         </div>
 
         <div

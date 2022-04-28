@@ -10,16 +10,16 @@
         <img
             src="/assets/11/kogo-dotyczy.svg"
             alt=""
-            width="393"
-            height="190"
+            width="428"
+            height="181"
         />
-        <img
+        <!-- <img
             src="/assets/11/do-czego-moze-doprowadzic.svg"
             class="mt-10"
             alt=""
             width="539"
             height="82"
-        />
+        /> -->
 
         <div class="flex w-full mt-10 flex-wrap">
             <div class="w-full sm:w-1/2 p-4">

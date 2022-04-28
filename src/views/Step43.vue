@@ -37,7 +37,18 @@
                 >
             </p>
         </div>
-        <div class="space-y-10 mt-10">
+
+        <div class="2xl:fixed right-0 z-20 top-[500px] mt-10">
+            <div class="bg-gray-300 p-5 w-[300px] 2xl:rounded-l-xl rounded-xl">
+                <p>
+                    Facebook czy Google nie gwarantują, że źródło jest rzetelne.
+                    Może być to reklama opłacona przez osobę czy instytucję,
+                    która zapłaciła za to, być zobaczył/a konkretną treść.
+                </p>
+            </div>
+        </div>
+
+        <div class="space-y-10 mt-10 max-w-3xl">
             <div class="flex flex-wrap md:flex-nowrap justify-between">
                 <p>
                     Kto jest autorem/ką artykułu? Czy można go/ją odszukać, czy
@@ -72,7 +83,7 @@
 
             <!--  -->
 
-            <div class="flex flex-wrap md:flex-nowrap justify-between">
+            <div class="flex flex-col justify-between">
                 <p>
                     Kiedy został opublikowany artykuł? Jeśli kilka lat temu,
                     jaki był kontekst opublikowania tej informacji wtedy, a jaki
@@ -93,7 +104,7 @@
 
                 <textarea
                     v-model="answers['3']"
-                    class="md:ml-4 w-full mt-4 border border-dashed focus:ring-0 focus:border-dashed focus:border-black md:max-w-[300px]"
+                    class="w-full mt-4 notes border-none"
                     rows="6"
                 ></textarea>
             </div>

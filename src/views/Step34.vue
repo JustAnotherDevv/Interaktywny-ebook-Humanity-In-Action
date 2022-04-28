@@ -16,16 +16,33 @@
             wzrosła, czy zmalała w stosunku do podobnych badań z 2014 r.
         </p>
 
-        <div class="bg-red-900 p-16 w-full text-center my-10">Wykresy</div>
+        <div class="grid grid-cols-3 gap-10 w-full my-10">
+            <img src="/assets/34/zydzi.svg" alt="" class="w-full h-full p-10" />
+            <img
+                src="/assets/34/muzulmanie.svg"
+                alt=""
+                class="w-full h-full p-10"
+            />
+            <img
+                src="/assets/34/romowie.svg"
+                alt=""
+                class="w-full h-full p-10"
+            />
+        </div>
 
-        <!-- <p class="md:text-center max-w-2xl">
-            Jak możesz zobaczyć, w ciągu 2 lat poziom mowy nienawiści wobec
-            wszystkich badanych grup znacznie wzrósł, zarówno wśród dorosłych
-            jak i młodzieży. W przypadku Ukraińców oraz muzułmanów jest to
-            wzrost o aż 24,5%! Dlaczego tak się stało?
-        </p> -->
-
-        <div class="bg-red-900 p-16 w-full text-center my-10">Wykresy</div>
+        <div class="grid grid-cols-3 gap-10 w-full my-10">
+            <img
+                src="/assets/34/ukraincy.svg"
+                alt=""
+                class="w-full h-full p-10"
+            />
+            <img
+                src="/assets/34/osoby-czarnoskore.svg"
+                alt=""
+                class="w-full h-full p-10"
+            />
+            <img src="/assets/34/geje.svg" alt="" class="w-full h-full p-10" />
+        </div>
 
         <img
             src="/assets/34/arrow.svg"

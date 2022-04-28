@@ -1,33 +1,53 @@
 <template>
     <Step class="" hide-skip-button>
-        <div
-            class="border rounded-xl border-black md:border-none md:bg-[url(/assets/44/frame.svg)] bg-no-repeat bg-contain md:pl-24 md:pr-16 md:py-5 p-10 mb-10 md:h-[136px] text-sm max-w-2xl"
-        >
-            <p>
-                Informacje o badaniach: kiedy zostały przeprowadzone te badania?
-                Czy pojawiły się inne badania w danym temacie, które je
-                potwierdzają bądź obalają? Kto przeprowadził te badania i na
-                czyje zlecenie? Jaki był kontekst badań?
-            </p>
-        </div>
-        <div
-            class="border rounded-xl border-black md:border-none md:bg-[url(/assets/44/frame.svg)] bg-no-repeat bg-contain md:pl-24 md:pr-16 md:py-5 p-10 mb-10 md:h-[136px] text-sm max-w-2xl"
-        >
-            <p>
-                Kto jest właścicielem/ką domeny, na której został opublikowany
-                artykuł? Jaka instytucja zajmuje się publikowaniem treści (czy
-                jest to portal informacyjny, blog, strona naukowa, portal
-                sprzedażowy)?
-            </p>
+        <div class="space-y-8">
+            <div class="flex flex-wrap md:flex-nowrap justify-between max-w-xl">
+                <p>
+                    Informacje o badaniach: kiedy zostały przeprowadzone te
+                    badania? Czy pojawiły się inne badania w danym temacie,
+                    które je potwierdzają bądź obalają? Kto przeprowadził te
+                    badania i na czyje zlecenie? Jaki był kontekst badań?
+                </p>
+                <FormRadio
+                    :options="radioOptions"
+                    v-model="answers['1']"
+                    horizontal
+                    class="flex-shrink-0 ml-4"
+                >
+                </FormRadio>
+            </div>
+
+            <div class="flex flex-wrap md:flex-nowrap justify-between max-w-xl">
+                <p>
+                    Kto jest właścicielem/ką domeny, na której został
+                    opublikowany artykuł? Jaka instytucja zajmuje się
+                    publikowaniem treści (czy jest to portal informacyjny, blog,
+                    strona naukowa, portal sprzedażowy)?
+                </p>
+                <FormRadio
+                    :options="radioOptions"
+                    v-model="answers['2']"
+                    horizontal
+                    class="flex-shrink-0 ml-4"
+                >
+                </FormRadio>
+            </div>
+
+            <div class="flex flex-wrap md:flex-nowrap justify-between max-w-xl">
+                <p>
+                    Czy strona zawiera dużo odnośników „share” (ikonki FB,
+                    Twitter)?
+                </p>
+                <FormRadio
+                    :options="radioOptions"
+                    v-model="answers['3']"
+                    horizontal
+                    class="flex-shrink-0 ml-4"
+                >
+                </FormRadio>
+            </div>
         </div>
 
-        <div
-            class="border rounded-xl border-black md:border-none md:bg-[url(/assets/44/frame-2.svg)] bg-no-repeat bg-contain md:pl-32 md:pr-20 md:py-10 p-10 mb-10 md:h-[136px] text-sm max-w-2xl w-full"
-        >
-            <p>
-                Czy strona zawiera dużo odnośników „share” (ikonki FB, Twitter)?
-            </p>
-        </div>
         <div
             class="border border-dashed rounded-xl border-black md:border-none md:bg-[url(/assets/44/frame-3.svg)] bg-no-repeat bg-contain md:p-24 p-10 w-full md:h-[300px] text-sm max-w-2xl"
         >
@@ -78,4 +98,19 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { ref, reactive } from "vue";
+import FormRadio from "@/components/FormRadio.vue";
+
+const radioOptions = {
+    tak: "tak",
+    nie: "nie",
+};
+
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    1: null,
+    2: null,
+    3: null,
+});
 </script>

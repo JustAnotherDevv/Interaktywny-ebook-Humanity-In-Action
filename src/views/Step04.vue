@@ -24,20 +24,26 @@
             </div>
         </div>
 
-        <div class="font-liber text-center mt-16 max-w-3xl">
-            <p class="text-3xl">Pssyt!</p>
-            <p class="text-lg mt-2 leading-9">
-                Czy zastanawiałeś/aś się kiedyś nad tym, czym właściwie jest
-                mowa nienawiści? Najpewniej masz intuicję lub/i doświadczenia
-                związane z tym tematem. A może czujesz, że niby wiesz o co
-                chodzi, ale w sumie to jednak masz trochę mętlik w głowie? Jeśli
-                tak, to nie przejmuj się:) To wcale nie jest łatwy temat! Jest
-                więcej osób, które są w podobnej sytuacji! Dlatego właśnie
-                powstała ta książka. Twoja dotychczas zdobyta wiedza, intuicja i
-                doświadczenia, wraz z pigułką wiedzy i inspiracji zawartych w
-                tej książce „poukładają” puzzle na temat mowy nienawiści i
-                sposobów jej przeciwdziałania w całość. No, to do dzieła!
-            </p>
+        <div class="w-full flex justify-center">
+            <div
+                class="font-liber mt-16 text-white p-10 md:bg-[url(/assets/4/bg.svg)] bg-black md:bg-transparent bg-no-repeat md:h-[300px] bg-contain"
+            >
+                <p
+                    class="md:text-sm leading-5 md:w-[600px] md:pl-[100px] px-4 py-4"
+                >
+                    Czy zastanawiałeś/aś się kiedyś nad tym, czym właściwie jest
+                    mowa nienawiści? Najpewniej masz intuicję lub/i
+                    doświadczenia związane z tym tematem. A może czujesz, że
+                    niby wiesz o co chodzi, ale w sumie to jednak masz trochę
+                    mętlik w głowie? Jeśli tak, to nie przejmuj się:) To wcale
+                    nie jest łatwy temat! Jest więcej osób, które są w podobnej
+                    sytuacji! Dlatego właśnie powstała ta książka. Twoja
+                    dotychczas zdobyta wiedza, intuicja i doświadczenia, wraz z
+                    pigułką wiedzy i inspiracji zawartych w tej książce
+                    „poukładają” puzzle na temat mowy nienawiści i sposobów jej
+                    przeciwdziałania w całość. <br />No, to do dzieła!
+                </p>
+            </div>
         </div>
 
         <div class="font-liber text-lg text-center mt-8 leading-9 max-w-3xl">

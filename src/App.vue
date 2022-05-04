@@ -32,22 +32,6 @@ watch(
     () => route.meta.bg,
     (val) => (style.backgroundColor = val)
 );
-
-const login = () => {
-    axios.get("/sanctum/csrf-cookie").then((response) => {
-        console.log("csrf", { response });
-        axios
-            .post("/login", {
-                email: "m@wp.pl",
-                password: "password",
-            })
-            .then((response) => {
-                router.push("/");
-            });
-    });
-};
-
-// login();
 </script>
 
 <style>

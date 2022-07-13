@@ -17,8 +17,8 @@
         </div>
         <div>
             <div class="flex border-2 border-white">
-                <div class="w-full md:w-1/3 bg-green-500">
-                    <!-- <img src="/assets/41/mem-1.svg" alt="" /> -->
+                <div class="w-full md:w-1/3 bg-black">
+                    <img src="/assets/41/mem1.svg" alt="" />
                 </div>
                 <div class="w-full md:w-2/3 p-4">
                     <p>
@@ -42,14 +42,14 @@
                         rows="6"
                     ></textarea>
                 </div>
-                <div class="w-full md:w-1/3 bg-green-500">
-                    <!-- <img src="/assets/41/mem-1.svg" alt="" /> -->
+                <div class="w-full md:w-1/3 bg-black">
+                    <img src="/assets/41/mem2.svg" alt="" />
                 </div>
             </div>
 
             <div class="flex border-2 border-white w-full">
-                <div class="w-full md:w-1/3 bg-green-500">
-                    <!-- <img src="/assets/41/mem-1.svg" alt="" /> -->
+                <div class="w-full md:w-1/3 bg-black">
+                    <img src="/assets/41/mem3.svg" alt="" />
                 </div>
                 <div class="w-full md:w-2/3 p-4">
                     <p>Czy mowa nienawiści to nowe zjawisko?</p>

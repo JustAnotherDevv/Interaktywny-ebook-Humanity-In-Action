@@ -1,45 +1,116 @@
 <template>
     <Step class="font-montserrat" hide-skip-button>
-        <div class="flex flex-wrap md:flex-nowrap">
-            <img src="/assets/69/ola.svg" alt="" class="mx-auto" />
-            <div class="md:pl-10 mt-10">
-                <p class="font-amatic text-4xl md:max-w-[280px] mb-10">
-                    Jak rozumiesz/definiujesz aktywizm i dlaczego jest Twoim
-                    zdaniem ważny?
-                </p>
-                <p>
-                    &bdquo;Aktywizm to działanie wspierające konkretny cel, idee
-                    lub sprawę. Można zaangażować się w sprawy, które
-                    bezpośrednio nas dotyczą lub też wspierać te, które
-                    oddziałują na nasze otoczenie lub naszych bliskich. Mogą być
-                    to zarówno tematy polityczne, społeczne. Takie działania
-                    podejmowane są zazwyczaj z potrzeby wyrażenia swojego głosu,
-                    manifestowania opinii. Nie jest to związane z żadnym zyskiem
-                    finansowym lub pracą. Robimy to, bo chcemy to robić. Chcemy
-                    zmienić świat i wyrazić swoje wsparcie dla tych, którzy tego
-                    potrzebują&rdquo;.
+        <img src="/assets/67/co-mozesz.svg" alt="" />
+        <div class="max-w-md space-y-16 sm:space-y-8 mt-10">
+            <!--  -->
+            <div class="relative">
+                <img
+                    src="/assets/67/arrow-1.svg"
+                    alt=""
+                    class="sm:absolute mx-auto mb-4 sm:mb-0 top-[-40px] left-[10px]"
+                />
+                <p class="sm:pl-24">
+                    Zacząć od siebie i świecić samemu/samej przykładem na tyle,
+                    na ile w danym momencie dasz radę.
                 </p>
             </div>
-        </div>
-        <div class="mt-10 w-full relative md:mb-20">
-            <p class="font-amatic text-4xl md:max-w-[280px] mb-10">
-                Jak być dobrym sojusznikiem/czką grup dyskryminowanych?
-            </p>
-            <p>
-                Przede wszystkim należy być odważnym. Nie bać się stanąć w
-                obronie tych, którzy czują się wykluczeni społecznie lub nie
-                mają równych praw. Ważne, by zapoznać się z tematem, o co te
-                grupy walczą, czego potrzebują, co stoi na ich przeszkodzie.
-                Należy pamiętać aby ich głos był podbijany naszym, a nie
-                zagłuszany. Zadawać pytania, uczyć się, a później przekazywać tą
-                wiedzę innym. Należy być otwartym na inność i
-                różnorodność&rdquo;.
-            </p>
-            <img
-                src="/assets/69/quote.svg"
-                class="hidden md:block absolute right-0 bottom-[-50px]"
-                alt=""
-            />
+            <!--  -->
+            <!--  -->
+            <div class="relative">
+                <img
+                    src="/assets/67/arrow-2.svg"
+                    alt=""
+                    class="sm:absolute mx-auto mb-4 sm:mb-0 top-0 left-[-30px]"
+                />
+                <p class="sm:pl-24">
+                    Włączać się na ile się da w działania przeciw mowie
+                    nienawiści i hejtowi, czerpać od innych inspiracje.
+                </p>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="relative">
+                <img
+                    src="/assets/67/arrow-3.svg"
+                    alt=""
+                    class="sm:absolute mx-auto mb-4 sm:mb-0 top-0 left-[-30px]"
+                />
+                <p class="sm:pl-24">
+                    Pokazywać innym, że mowa nienawiści i hejt mają realny
+                    negatywny wpływ na innych ludzi.
+                </p>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="relative">
+                <img
+                    src="/assets/67/arrow-4.svg"
+                    alt=""
+                    class="sm:absolute mx-auto mb-4 sm:mb-0 top-[20px] left-0"
+                />
+                <p class="sm:pl-24">
+                    Uświadamiać sprawcom/czyniom mowy nienawiści i hejtu, że ich
+                    poczucie anonimowości w sieci jest jedynie pozorne i że
+                    muszą się liczyć z konsekwencjami prawnymi.
+                </p>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="relative">
+                <img
+                    src="/assets/67/arrow-5.svg"
+                    alt=""
+                    class="sm:absolute mx-auto mb-4 sm:mb-0 top-[20px] left-[10px]"
+                />
+                <p class="sm:pl-24">
+                    Przyczyniać się do zmniejszania ilości mowy nienawiści i
+                    hejtu: dokumentować ich przykłady i zgłaszać administratorom
+                    portali, stosownym władzom czy organizacjom pozarządowym.
+                </p>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="relative">
+                <img
+                    src="/assets/67/arrow-6.svg"
+                    alt=""
+                    class="sm:absolute mx-auto mb-4 sm:mb-0 top-[20px] left-[10px]"
+                />
+                <p class="sm:pl-24">
+                    Reagować na mowę nienawiści i hejt i angażować innych do
+                    reagowania razem z Tobą, by większą grupą reagować na daną
+                    sytuację. Wtedy sprzeciw jest bardziej zdecydowany, a tym
+                    samym bardziej „słyszalny”.
+                </p>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="relative">
+                <img
+                    src="/assets/67/arrow-7.svg"
+                    alt=""
+                    class="sm:absolute mx-auto mb-4 sm:mb-0 top-0 left-[40px]"
+                />
+                <p class="sm:pl-24">
+                    Solidarnie wspierać osoby atakowane: uświadamiać, że nie są
+                    same, bo mają sojuszników/czki gotowych/we do pomocy.
+                </p>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="relative">
+                <img
+                    src="/assets/67/arrow-8.svg"
+                    alt=""
+                    class="sm:absolute mx-auto mb-4 sm:mb-0 top-0 left-[10px]"
+                />
+                <p class="sm:pl-24">
+                    Jeśli to Ty jesteś atakowany/a mową nienawiści i hejtem i
+                    nie masz już siły się z tym zmagać – porozmawiaj z kimś
+                    zaufanym. Zasygnalizuj, że potrzebujesz wsparcia!
+                </p>
+            </div>
+            <!--  -->
         </div>
     </Step>
 </template>

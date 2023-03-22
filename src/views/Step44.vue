@@ -1,116 +1,83 @@
 <template>
-    <Step class="" hide-skip-button>
-        <div class="space-y-8">
-            <div class="flex flex-wrap md:flex-nowrap justify-between max-w-xl">
-                <p>
-                    Informacje o badaniach: kiedy zostały przeprowadzone te
-                    badania? Czy pojawiły się inne badania w danym temacie,
-                    które je potwierdzają bądź obalają? Kto przeprowadził te
-                    badania i na czyje zlecenie? Jaki był kontekst badań?
-                </p>
-                <FormRadio
-                    :options="radioOptions"
-                    v-model="answers['1']"
-                    horizontal
-                    class="flex-shrink-0 ml-4"
-                >
-                </FormRadio>
-            </div>
-
-            <div class="flex flex-wrap md:flex-nowrap justify-between max-w-xl">
-                <p>
-                    Kto jest właścicielem/ką domeny, na której został
-                    opublikowany artykuł? Jaka instytucja zajmuje się
-                    publikowaniem treści (czy jest to portal informacyjny, blog,
-                    strona naukowa, portal sprzedażowy)?
-                </p>
-                <FormRadio
-                    :options="radioOptions"
-                    v-model="answers['2']"
-                    horizontal
-                    class="flex-shrink-0 ml-4"
-                >
-                </FormRadio>
-            </div>
-
-            <div class="flex flex-wrap md:flex-nowrap justify-between max-w-xl">
-                <p>
-                    Czy strona zawiera dużo odnośników „share” (ikonki FB,
-                    Twitter)?
-                </p>
-                <FormRadio
-                    :options="radioOptions"
-                    v-model="answers['3']"
-                    horizontal
-                    class="flex-shrink-0 ml-4"
-                >
-                </FormRadio>
+    <Step no-max-width no-padding class="pb-10">
+        <div class="w-full bg-black h-full">
+            <img src="/assets/42/img.svg" alt="" class="mx-auto p-10" />
+            <div class="w-full flex justify-center">
+                <div class="mb-4">
+                    <span class="block text-center text-white">scroll</span>
+                    <img src="/assets/42/scroll.svg" alt="" />
+                </div>
             </div>
         </div>
+        <div class="max-w-4xl pt-10 md:pt-16 px-6 md:px-10 relative">
+            <img
+                src="/assets/42/glasses.svg"
+                class="absolute top-[400px] right-[-270px] hidden md:block"
+                alt=""
+            />
+            <div class="flex flex-wrap md:flex-nowrap">
+                <img
+                    src="/assets/42/pewnie-sobie-myslisz.svg"
+                    width="268"
+                    height="240"
+                    class="mx-auto"
+                    alt=""
+                />
 
-        <div
-            class="border border-dashed rounded-xl border-black md:border-none md:bg-[url(/assets/44/frame-3.svg)] bg-no-repeat bg-contain md:p-24 p-10 w-full md:h-[300px] text-sm max-w-2xl"
-        >
-            <p>
-                Jeśli co chwilę pojawia się zachęta do udostępnienia (PODOBA CI
-                SIĘ? UDOSTĘPNIJ), wskazuje to, że strona została zaprojektowana
-                przede wszystkim po to, by udostępniać tę informację i by
-                wzbudzała skrajne emocje, a nie po to, by się z niej czegoś
-                dowiedzieć. To sprytny sposób autorów/ek fake newsów –
-                zapewniają w ten sposób, że wiele osób udostępni treści dalej.
-            </p>
-        </div>
-        <div class="max-w-lg md:text-center relative space-y-8">
-            <img
-                src="/assets/44/twitter.svg"
-                alt=""
-                class="hidden md:block absolute top-[-100px] right-[-200px]"
-            />
-            <img
-                src="/assets/44/tiktok-1.svg"
-                alt=""
-                class="hidden md:block absolute top-[50px] right-[-100px]"
-            />
-            <img
-                src="/assets/44/ig.svg"
-                alt=""
-                class="hidden md:block absolute top-[-100px] left-[-200px]"
-            />
-            <img
-                src="/assets/44/tiktok-2.svg"
-                alt=""
-                class="hidden md:block absolute top-[100px] left-[-200px]"
-            />
-            <p>
-                Gdy artykuł zawiera obraz, który wzbudza Twoje wątpliwości,
-                wyszukaj go, używając wyszukiwania obrazów w
-            </p>
-            <img src="/assets/44/google.svg" alt="" class="mx-auto" />
-            <p>
-                Tam możesz sprawdzić, jakie jest źródło obrazka. Jeżeli
-                znajdziesz podobną, lecz różniącą się istotnymi szczegółami
-                grafikę opublikowaną przez rzetelne źródło, wówczas masz szansę
-                zobaczyć, kto zmodyfikował ilustrację, kiedy to zrobił i po co.
-            </p>
+                <img
+                    src="/assets/42/jak-sie-ma.svg"
+                    width="362"
+                    height="200"
+                    class="mx-auto"
+                    alt=""
+                />
+            </div>
+
+            <div class="w-full mt-10">
+                <div class="max-w-2xl">
+                    <p class="mb-6">
+                        Wróć na stronę książki „Obcy w/z domu” i badań
+                        dotyczących mowy nienawiści przeprowadzonych przez
+                        Centrum Badań nad Uprzedzeniami. Czy dostrzegasz związek
+                        pomiędzy kampaniami nienawiści zainicjowanymi przez
+                        władzę, opartymi na insynuacjach, półprawdach,
+                        stereotypach i uprzedzeniach, a potem kontynuowanymi
+                        przez niektórych/e obywateli/ki?
+                    </p>
+                    <p class="mb-6">
+                        Zwróć uwagę na to, że „tylko” niektóre fake newsy to
+                        mowa nienawiści lub hejt. Te zjawiska czasami się
+                        przenikają i wzajemnie wzmacniają. <br />
+                        Właśnie dlatego wspominamy o tym w tej książce.<br />
+                        Mamy takie przekonanie, że w czasie pandemii
+                        spotkałeś/aś się już z fake newsami na niemałą skalę.
+                    </p>
+                    <p class="text-black py-1 px-2 mb-2">
+                        A może nie wiedziałeś/aś, że to były fake newsy?
+                    </p>
+                    <p class="text-black py-1 px-2 mb-2">
+                        Jak dowiedziałeś/aś się, że to nieprawdziwe informacje?
+                    </p>
+                    <p class="text-black py-1 px-2 mb-2">
+                        Jakich treści dotyczyły?
+                    </p>
+
+                    <textarea
+                        v-model="answers.first"
+                        class="w-full border-none notes focus:ring-0 focus:border-none mt-6"
+                        rows="6"
+                    ></textarea>
+                </div>
+            </div>
         </div>
     </Step>
 </template>
 
 <script setup>
 import Step from "@/components/Step.vue";
-import { ref, reactive } from "vue";
-import FormRadio from "@/components/FormRadio.vue";
-
-const radioOptions = {
-    tak: "tak",
-    nie: "nie",
-};
-
 import { useAnswers } from "@/composables/useAnswers";
 
 const { answers } = useAnswers({
-    1: null,
-    2: null,
-    3: null,
+    first: "",
 });
 </script>

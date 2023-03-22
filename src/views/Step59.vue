@@ -1,30 +1,51 @@
 <template>
-    <Step class="font-montserrat">
-        <h1 class="font-amatic text-5xl text-center max-w-md">
-            Przeciwdziałanie mowie nienawiści i hejtowi: prawo i praktyka w
-            Polsce
-        </h1>
-        <div class="mt-10 relative">
-            <img src="/assets/59/center.svg" alt="" />
-            <p class="absolute w-[200px] top-[75px] right-[-220px]">
-                <span class="font-bold">Katarzyna Cimek,</span><br />
-                aplikantka Adwokacka
-            </p>
-            <p class="absolute w-[200px] top-[175px] left-[-210px]">
-                <span class="font-bold">Eliza Rutynowska</span><br />
-                absolwentka Humanity in Action John Lewis Fellowship 2017
-            </p>
-            <p class="absolute w-[200px] bottom-[175px] right-[-220px]">
-                <span class="font-bold">Magdalena Pająk</span><br />
-                adwokatka, absolwentka Akademii Praw Człowieka Humanity in
-                Action 2007
-            </p>
-            <p class="absolute w-[200px] bottom-[55px] left-[-210px]">
-                <span class="font-bold">Marcelina Rosińska</span><br />
-                prawniczka, absolwentka Akademii Praw Człowieka Humanity in
-                Action 2019
+    <Step class="font-montserrat" hide-skip-button>
+        <img src="/assets/57/mowa.svg" alt="" height="64" />
+        <p>
+            dlatego na pewno doświadczyłeś/aś jej w rozmowach i komentarzach
+            bliskich czy znajomych. Co wtedy zrobić?
+        </p>
+
+        <div class="my-10 p-8 bg-black text-white w-full relative">
+            <div
+                class="bg-white rounded-full absolute top-0 right-0 w-3 h-3 mr-4 mt-4"
+            ></div>
+            <div
+                class="bg-white rounded-full absolute top-0 left-0 w-3 h-3 ml-4 mt-4"
+            ></div>
+            <div
+                class="bg-white rounded-full absolute bottom-0 left-0 w-3 h-3 ml-4 mb-4"
+            ></div>
+            <div
+                class="bg-white rounded-full absolute bottom-0 right-0 w-3 h-3 mr-4 mb-4"
+            ></div>
+            <img
+                src="/assets/57/w-walce.svg"
+                alt=""
+                height="122"
+                class="mx-auto"
+            />
+            <p class="text-xl text-center mt-8 font-bold uppercase">
+                stanowczy komunikat, którym pokażesz brak zgody na nienawistne
+                wypowiedzi w Twoim otoczeniu.
             </p>
         </div>
+
+        <p class="text-xl text-center mb-8">
+            Poniżej kilka pomysłów, co możesz powiedzieć. W puste dymki wpisz
+            swoje własne przykłady. Niezależnie od tego, co zdecydujesz się
+            powiedzieć, ważne że
+        </p>
+        <p class="font-amatic text-center text-4xl mb-8">
+            Pokażesz jasno swój sprzeciw i nazwiesz przejawy mowy nienawiści
+            wprost.
+        </p>
+        <p class="text-xl text-center mb-8">
+            Możesz odwoływać się do źródeł, np. badań na dany temat. W każdej
+            chwili możesz też uciąć rozmowę, jeśli osoba/osoby, z którą/którymi
+            dyskutujesz, nie przestaje/ą używać mowy nienawiści.
+        </p>
+        <img src="/assets/57/bottom.svg" height="345" alt="" />
     </Step>
 </template>
 

@@ -1,142 +1,86 @@
 <template>
-    <Step>
-        <img src="/assets/36/header.svg" alt="" class="mb-4" />
+    <Step hide-skip-button>
         <img
-            src="/assets/36/top.svg"
+            src="/assets/34/czy-wiesz-ze.svg"
             alt=""
-            class="fixed hidden sm:block top-[100px] sm:left-[-500px] md:left-[-500px] lg:left-[-400px] xl:left-[-300px] 2xl:left-[-100px]"
+            width="416"
+            height="91"
+            class="mb-10"
         />
-        <p class="max-w-md">
-            w której z Internetu została wyeliminowana mowa nienawiści. Jak
-            według Ciebie mogłyby wyglądać komentarze pod postem na Facebooku
-            dotyczącym migrantów/ek mieszkających w Polsce?
+        <p class="md:text-center max-w-2xl">
+            Najbardziej kompleksowe badania, które opisują skalę mowy nienawiści
+            w Polsce zostały przeprowadzone przez Centrum Badań nad
+            Uprzedzeniami Uniwersytetu Warszawskiego w 2014 i 2016 r. Ich celem
+            było m.in. sprawdzenie, w jakich miejscach Polacy i Polki spotykają
+            się z nienawistnymi wypowiedziami oraz czy skala mowy nienawiści
+            wzrosła, czy zmalała w stosunku do podobnych badań z 2014 r.
+        </p>
+
+        <div class="grid grid-cols-3 gap-10 w-full my-10">
+            <img src="/assets/34/zydzi.svg" alt="" class="w-full h-full p-10" />
+            <img
+                src="/assets/34/muzulmanie.svg"
+                alt=""
+                class="w-full h-full p-10"
+            />
+            <img
+                src="/assets/34/romowie.svg"
+                alt=""
+                class="w-full h-full p-10"
+            />
+        </div>
+
+        <div class="flex flex-row items-center center justify-around w-full">
+            <img
+                src="/assets/34/mlodziez_dorosli_legenda.svg"
+                alt=""
+                class="h-full"
+                width="250"
+            />
+        </div>
+
+        <div class="grid grid-cols-3 gap-10 w-full mb-10">
+            <img
+                src="/assets/34/ukraincy.svg"
+                alt=""
+                class="w-full h-full p-10"
+            />
+            <img
+                src="/assets/34/osoby-czarnoskore.svg"
+                alt=""
+                class="w-full h-full p-10"
+            />
+            <img src="/assets/34/geje.svg" alt="" class="w-full h-full p-10" />
+        </div>
+
+        <img
+            src="/assets/34/arrow.svg"
+            alt=""
+            width="264"
+            height="222"
+            class="mb-10"
+        />
+
+        <p class="md:text-center max-w-2xl">
+            W 2015 r. miały miejsce wybory parlamentarne i prezydenckie, a język
+            kampanii wyborczej przepełniony był nienawistnymi komentarzami w
+            stosunku do „Innych”, które wzmacniały negatywne, ksenofobiczne
+            postawy. W większości, ofiarami tej narracji byli uchodźcy, będący w
+            większości muzułmanami, którzy w tamtym czasie licznie przybywali do
+            Europy z Afryki Północnej.
         </p>
 
         <div
-            class="border border-black rounded-xl max-w-2xl p-6 md:px-16 px-8 mt-10 space-y-10"
+            class="bg-black text-white p-8 my-10 text-lg max-w-2xl text-center"
         >
-            <!-- Profile 1  -->
-
-            <div class="flex items-start">
-                <div class="relative flex-grow-0 flex-shrink-0 -ml-4">
-                    <img src="/assets/36/profile-1.png" alt="" class="" />
-                    <div
-                        class="absolute bottom-0 right-0 w-4 h-4 bg-[#9ACF00] rounded-full"
-                    ></div>
-                </div>
-                <div class="pl-4">
-                    <span class="uppercase text-2xl"> Nazwa profilu </span>
-                    <p>
-                        Migranci a wzrost PKB w Polsce. Migranci przyczyniają
-                        się do wzrostu gospodarczego
-                    </p>
-                </div>
-            </div>
-
-            <!-- Profile 2 -->
-            <div>
-                <div class="relative">
-                    <div class="absolute top-[-20px] left-[-20px]">
-                        <img src="/assets/36/profile-2.png" alt="" class="" />
-                        <div
-                            class="absolute bottom-0 right-0 w-4 h-4 bg-[#9ACF00] rounded-full"
-                        ></div>
-                    </div>
-                    <textarea
-                        v-model="answers['1']"
-                        class="w-full bg-gray-200 border focus:ring-0 border-gray-500 rounded-xl pl-10 focus:border-black"
-                        rows="2"
-                    ></textarea>
-                </div>
-                <div class="flex text-xs space-x-2 ml-4">
-                    <span>lubię to</span>
-                    <span>&#8226;</span>
-                    <span>Odpowiedz</span>
-                    <span>&#8226;</span>
-                    <span>14 min</span>
-                </div>
-            </div>
-            <!-- Profile 3 -->
-            <div>
-                <div class="relative">
-                    <div class="absolute top-[-20px] left-[-20px]">
-                        <img src="/assets/36/profile-3.png" alt="" class="" />
-                        <div
-                            class="absolute bottom-0 right-0 w-4 h-4 bg-[#9ACF00] rounded-full"
-                        ></div>
-                    </div>
-                    <textarea
-                        v-model="answers['2']"
-                        class="w-full bg-gray-200 border focus:ring-0 border-gray-500 rounded-xl pl-10 focus:border-black"
-                        rows="2"
-                    ></textarea>
-                </div>
-                <div class="flex text-xs space-x-2 ml-4">
-                    <span>lubię to</span>
-                    <span>&#8226;</span>
-                    <span>Odpowiedz</span>
-                    <span>&#8226;</span>
-                    <span>14 min</span>
-                </div>
-            </div>
-            <!-- Profile 4 -->
-            <div>
-                <div class="relative">
-                    <div class="absolute top-[-20px] left-[-20px]">
-                        <img src="/assets/36/profile-4.png" alt="" class="" />
-                        <div
-                            class="absolute bottom-0 right-0 w-4 h-4 bg-[#9ACF00] rounded-full"
-                        ></div>
-                    </div>
-                    <textarea
-                        v-model="answers['3']"
-                        class="w-full bg-gray-200 border focus:ring-0 border-gray-500 rounded-xl pl-10 focus:border-black"
-                        rows="2"
-                    ></textarea>
-                </div>
-                <div class="flex text-xs space-x-2 ml-4">
-                    <span>lubię to</span>
-                    <span>&#8226;</span>
-                    <span>Odpowiedz</span>
-                    <span>&#8226;</span>
-                    <span>14 min</span>
-                </div>
-            </div>
-            <!-- Profile 5 -->
-            <div>
-                <div class="relative">
-                    <div class="absolute top-[-20px] left-[-20px]">
-                        <img src="/assets/36/profile-5.png" alt="" class="" />
-                        <div
-                            class="absolute bottom-0 right-0 w-4 h-4 bg-[#9ACF00] rounded-full"
-                        ></div>
-                    </div>
-                    <textarea
-                        v-model="answers['4']"
-                        class="w-full bg-gray-200 border focus:ring-0 border-gray-500 rounded-xl pl-10 focus:border-black"
-                        rows="2"
-                    ></textarea>
-                </div>
-                <div class="flex text-xs space-x-2 ml-4">
-                    <span>lubię to</span>
-                    <span>&#8226;</span>
-                    <span>Odpowiedz</span>
-                    <span>&#8226;</span>
-                    <span>14 min</span>
-                </div>
-            </div>
+            A teraz zobacz, gdzie regularnie spotykasz mowę nienawiści, być może
+            tego nie zauważając:
         </div>
+
+        <img src="/assets/34/monitor.jpg" alt="" />
     </Step>
 </template>
 
 <script setup>
 import Step from "@/components/Step.vue";
-import { useAnswers } from "@/composables/useAnswers";
-
-const { answers } = useAnswers({
-    1: "",
-    2: "",
-    3: "",
-    4: "",
-});
 </script>

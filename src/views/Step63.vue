@@ -1,145 +1,67 @@
 <template>
-    <Step
-        class="font-montserrat md:px-10 py-10"
-        hide-skip-button
-        no-max-width
-        no-padding
-    >
-        <div class="flex flex-wrap max-w-5xl px-6 md:px-10 py-10">
-            <div class="w-full md:w-1/2 md:pr-4 mb-4">
-                <p>
-                    Dla zaistnienia przestępstwa nie jest istotne, czy sprawca
-                    osiągnął jakikolwiek skutek. Może zostać pociągnięty do
-                    odpowiedzialności karnej bez względu na to, czy udało mu się
-                    przekonać kogoś do faszyzmu lub innego ustroju
-                    totalitarnego. Nawoływanie do nienawiści również nie musi
-                    odnieść żadnego skutku, by doszło do popełnienia
-                    przestępstwa. Wyłączenie odpowiedzialności karnej występuje
-                    jedynie wtedy, gdy sprawca czynu określonego w § 2 dopuszcza
-                    się go w ramach działalności artystycznej, edukacyjnej,
-                    kolekcjonerskiej lub naukowej.
-                </p>
-            </div>
-            <div class="w-full md:w-1/2 md:pl-4">
-                <p>
-                    Nie będzie więc odpowiadał za przestępstwo malarz
-                    utrwalający wizerunek Adolfa Hitlera, jeśli robi to w celach
-                    artystycznych, ani nauczyciel historii prezentujący uczniom
-                    na lekcji film ukazujący faszyzm dla celów naukowych. Ich
-                    zachowania nie stanowią publicznego propagowania faszyzmu
-                    lub innego systemu totalitarnego.
-                </p>
-            </div>
-        </div>
+    <Step class="font-montserrat text-white" hide-skip-button>
+        <img src="/assets/61/top.svg" alt="" class="" />
 
-        <div
-            class="md:max-w-lg mx-auto md:text-center font-bold mt-4 relative px-6 md:px-10"
-        >
-            <p>Art. 257</p>
+        <div class="space-y-6 mt-10">
             <p>
-                Kto publicznie znieważa grupę ludności albo poszczególną osobę z
-                powodu jej przynależności narodowej, etnicznej, rasowej,
-                wyznaniowej albo z powodu jej bezwyznaniowości lub z takich
-                powodów narusza nietykalność cielesną innej osoby, podlega karze
-                pozbawienia wolności do lat 3.
+                W przypadku treści propagującej faszystowski lub inny
+                totalitarny ustrój państwa lub nawołującej do nienawiści na tle
+                różnic narodowościowych, etnicznych, rasowych, wyznaniowych albo
+                ze względu na bezwyznaniowość, akt oskarżenia wnosi do sądu
+                prokurator. Sprawca podlega wówczas karze grzywny, karze
+                ograniczenia wolności albo pozbawienia wolności do lat 2
+                <strong> (art. 256 § 1 Kodeksu karnego) </strong>.
             </p>
-
-            <img
-                src="/assets/63/kajdanki.svg"
-                alt=""
-                class="md:absolute top-0 right-[-250px] mx-auto"
-            />
+            <p>
+                Podobnie w przypadku publicznego nawoływania do popełnienia
+                przestępstwa, to prokurator będzie kierował akt oskarżenia do
+                sądu <strong>(art. 255 Kodeksu karnego)</strong>.
+            </p>
+            <p>
+                Jeżeli jednak dane treści wyczerpują znamiona zniesławienia
+                (pomawiają inną osobę, grupę osób, instytucję, osobę prawną lub
+                jednostkę organizacyjną niemającą osobowości prawnej o takie
+                postępowanie lub właściwości, które mogą poniżyć ją w opinii
+                publicznej lub narazić na utratę zaufania potrzebnego dla danego
+                stanowiska, zawodu lub rodzaju działalności) albo znieważenia
+                innej osoby, przestępstwa te są ścigane z oskarżenia prywatnego.
+                Oznacza to, że należy wnieść do sądu swój własny akt oskarżenia.
+                Sprawca zniesławienia i znieważenia za pomocą środków masowego
+                komunikowania podlega karze grzywny, karze ograniczenia wolności
+                albo pozbawienia wolności do roku
+                <strong>
+                    (art. 212 § 2 Kodeksu karnego i art. 216 § 2 Kodeksu
+                    karnego) </strong
+                >.
+            </p>
+            <p>
+                To rozróżnienie jest o tyle istotne, że w sprawach z oskarżenia
+                prywatnego trzeba samemu zadbać o dowody, a w sprawach ściganych
+                z oskarżenia publicznego wystarczy złożyć zawiadomienie o
+                możliwości popełnienia przestępstwa i organy ścigania powinny
+                zabezpieczyć dowody.
+            </p>
+            <p>
+                Możemy sobie wyobrazić sytuację, gdy ktoś publicznie nawołuje do
+                znieważania grupy osób z uwagi na orientację seksualną, to
+                będzie to ścigane z oskarżenia publicznego
+                <strong>
+                    (art. 255 § 1 Kodeksu karnego poprzez nawoływanie do
+                    popełniania występku z art. 216 Kodeksu karnego)
+                </strong>
+                i wtedy to policja powinna np. zabezpieczyć nagrania, na których
+                słychać słowa i widać sprawcę, po tym jak otrzyma zawiadomienie
+                o takim zdarzeniu.
+            </p>
         </div>
-
-        <div
-            class="bg-black text-white w-full px-6 md:px-10 py-16 relative mt-[250px]"
-        >
-            <img
-                src="/assets/63/section-top.svg"
-                class="absolute w-full top-[-50px] sm:top-[-100px] md:top-[-180px] lg:top-[-220px] left-0 height-[325px] -z-1"
-                alt=""
-            />
-            <div class="max-w-xl mx-auto z-0 relative space-y-4 text-center">
+        <div class="flex items-center flex-wrap md:flex-nowrap mt-10">
+            <img src="/assets/61/bottom.svg" alt="" />
+            <div class="md:w-1/2 ml-auto mt-10">
                 <p>
-                    Przepis ten jest tzw. przepisem szczególnym w odniesieniu do
-                    <strong>art. 216 Kodeksu karnego</strong>, o którym będzie
-                    mowa poniżej. Oznacza to, że dla zaistnienia przestępstwa
-                    zniewagi z art. 257 koniecznym jest, by zniewaga była
-                    związana z przynależnością narodową, etniczną, rasową,
-                    wyznaniową albo z bezwyznaniowością. Jeżeli zniewaga będzie
-                    związana z innymi cechami danej osoby, wtedy dojdzie do
-                    popełnienia przestępstwa z <strong>art. 216 </strong>(np.
-                    zniewaga z powodu orientacji seksualnej lub tożsamości
-                    płciowej, lub niepełnosprawności). Wymogiem zaistnienia
-                    przestępstwa jest, podobnie jak w<strong>
-                        art. 256 Kodeksu karnego </strong
-                    >, by znieważanie nastąpiło publicznie.
-                </p>
-                <p>
-                    Art. 190 Kodeksu karnego: <br />
-                    § 1. Kto grozi innej osobie popełnieniem przestępstwa na jej
-                    szkodę lub szkodę osoby najbliższej, jeżeli groźba wzbudza w
-                    zagrożonym uzasadnioną obawę, że będzie spełniona, podlega
-                    grzywnie, karze ograniczenia wolności albo pozbawienia
-                    wolności do lat 2.
-                </p>
-
-                <p>§ 2. Ściganie następuje na wniosek pokrzywdzonego.</p>
-                <p>
-                    Zgodnie z § 2 konieczne jest złożenie pisemnie albo ustnie
-                    do protokołu w trakcie przesłuchania na policji wniosku o
-                    to, by sprawcę ścigać za to przestępstwo. Należy zwrócić
-                    uwagę, że chodzi o groźbę popełnienia przestępstwa, np.
-                    groźba pobicia, ale też groźba zniesławienia.
-                </p>
-            </div>
-        </div>
-        <div class="mt-10 max-w-4xl mx-auto px-6 md:px-10">
-            <img
-                src="/assets/63/co-mozesz.svg"
-                height="64"
-                alt=""
-                class="mx-auto mb-6"
-            />
-            <div
-                class="border-dashed sm:border sm:p-10 rounded-xl border-black"
-            >
-                <ul class="space-y-6">
-                    <li class="flex items-start">
-                        <img src="/assets/63/1.svg" alt="" class="mr-4" />
-                        <p>
-                            Zbierz dowody na mowę nienawiści. Mogą to być
-                            wydrukowane zrzuty ekranu postów, zdjęć, memów,
-                            komentarzy itp. Jeżeli mowa nienawiści ma miejsce na
-                            wstawionym przez kogoś filmie – zapisz go na
-                            pendrivie lub płycie CD. Ważnym jest, aby ze zrzutów
-                            ekranu lub filmu z dołączonym zrzutem ekranu
-                            wynikała data ich wstawienia. Jest to konieczne, by
-                            organy ścigania mogły wnieść do sądu akt oskarżenia.
-                        </p>
-                    </li>
-                    <li class="flex items-start">
-                        <img src="/assets/63/2.svg" alt="" class="mr-4" />
-                        <p>
-                            Przekaż dowody policji. Dla uproszczenia możesz
-                            wypełnić gotowy wzór zawiadomienia o możliwości
-                            popełnienia przestępstwa, który znajdziesz w
-                            Internecie i dołączyć do niego zebrane dowody.
-                        </p>
-                    </li>
-                    <li class="flex items-start">
-                        <img src="/assets/63/3.svg" alt="" class="mr-4" />
-                        <p>
-                            Po złożeniu zawiadomienia policja lub prokuratura
-                            powinny ścigać dane przestępstwo z urzędu, więc na
-                            nich spoczywa obowiązek ewentualnego uzupełnienia
-                            materiału dowodowego i wniesienia do sądu aktu
-                            oskarżenia.
-                        </p>
-                    </li>
-                </ul>
-                <p class="text-center font-bold mt-6">
-                    Na mocy art. 212 oraz 216 Kodeksu karnego
+                    Kiedy jednak jesteśmy świadkami wprost zniewagi
+                    <strong> (art. 216 Kodeksu karnego) </strong>, to powinniśmy
+                    się liczyć z tym, że trzeba samodzielnie udokumentować to
+                    zdarzenie.
                 </p>
             </div>
         </div>

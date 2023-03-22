@@ -1,67 +1,84 @@
 <template>
-    <Step
-        class="font-montserrat py-10 md:py-16"
-        hide-skip-button
-        no-padding
-        no-max-width
-    >
-        <div
-            class="bg-black md:bg-transparent text-white md:text-center bg-cover bg-center px-6 md:px-10 py-10 md:bg-[url(/assets/66/header.svg)] md:h-[500px] w-full flex items-center justify-center"
-        >
-            <div class="max-w-4xl">
-                <h3 class="text-2xl mb-6">
-                    Jak bronią się sprawcy mowy nienawiści i hejterzy? Dlaczego
-                    ich argumentacja nie jest słuszna?
-                </h3>
-                <p>
-                    Mówią, że nie złamali prawa, ponieważ… mają prawo do krytyki
-                    na podstawie prawa prasowego. Prawo to przysługuje tylko
-                    dziennikarzom, którzy mogą krytykować konkretne działania,
-                    tylko w przypadku, gdy wcześniej przeanalizowali dany temat
-                    i znają fakty dotyczące danej sytuacji. W Polsce Konstytucja
-                    gwarantuje wolność słowa, ale prawo to nie ma charakteru
-                    absolutnego, ponieważ jej granice wyznaczają prawa innych
-                    osób.
-                </p>
+    <Step class="font-montserrat">
+        <div class="flex flex-wrap">
+            <div class="w-full md:w-1/2">
+                <img
+                    src="/assets/64/co-jesli.svg"
+                    alt=""
+                    height="305"
+                    class="mx-auto mb-10 md:mb-0"
+                />
+            </div>
+            <div class="w-full md:w-1/2">
+                <img
+                    src="/assets/64/w-takiej.svg"
+                    alt=""
+                    height="326"
+                    class="mx-auto"
+                />
             </div>
         </div>
-        <div class="mt-10 max-w-3xl mx-auto px-6 md:px-10">
-            <img
-                src="/assets/66/co-mozna-zrobic.svg"
-                width="432"
-                height="111"
-                alt=""
-                class="mx-auto mb-6"
-            />
-            <ul class="space-y-6 sm:border-2 sm:p-10 rounded-xl border-black">
-                <li class="flex items-start">
-                    <img src="/assets/63/1.svg" alt="" class="mr-4" />
-                    <p>
-                        Jeśli wpis dotyczy konkretnej osoby to możesz dodać
-                        jej/jemu otuchy. Powiedz, że nie zgadasz się z osobą,
-                        która ją zaatakowała i okaż jej/jemu wsparcie, którego
-                        potrzebuje.
-                    </p>
-                </li>
-                <li class="flex items-start">
-                    <img src="/assets/63/2.svg" alt="" class="mr-4" />
-                    <p>
-                        Jeśli sam/a jesteś twórcą/twórczynią i np. dostrzegasz
-                        hejt w komentarzach pod swoimi filmami/wpisami to usuwaj
-                        takie wypowiedzi i blokuj ich autorów/autorki. Daj dobry
-                        przykład swoim fanom i fankom. Mów głośno o tym, że nie
-                        zgadzasz się na takie traktowanie. Angażuj się w akcje
-                        propagujące sprzeciw wobec hejtu.
-                    </p>
-                </li>
-                <li class="flex items-start">
-                    <img src="/assets/63/3.svg" alt="" class="mr-4" />
-                    <p>
-                        Widzisz hejt w gazetach/stronach/portalach? Nie
-                        korzystaj z nich, nie kupuj ich i głośno mów, dlaczego!
-                    </p>
-                </li>
-            </ul>
+
+        <div
+            class="lg:bg-[url(/assets/64/bg-1.svg)] bg-white lg:bg-transparent bg-contain bg-no-repeat lg:h-[690px] flex flex-col p-10 lg:p-20 justify-center space-y-4 md:text-center mt-10"
+        >
+            <p class="font-bold">Art. 212 Kodeks karnego</p>
+            <p>
+                § 1. Kto pomawia inną osobę, grupę osób, instytucję, osobę
+                prawną lub jednostkę organizacyjną niemającą osobowości prawnej
+                o takie postępowanie lub właściwości, które mogą poniżyć ją w
+                opinii publicznej lub narazić na utratę zaufania potrzebnego dla
+                danego stanowiska, zawodu lub rodzaju działalności, podlega
+                grzywnie albo karze ograniczenia wolności.
+            </p>
+            <p>
+                § 2. Jeżeli sprawca dopuszcza się czynu określonego w § 1 za
+                pomocą środków masowego komunikowania, podlega grzywnie, karze
+                ograniczenia wolności albo pozbawienia wolności do roku.
+            </p>
+            <p>
+                § 3. W razie skazania za przestępstwo określone w § 1 lub 2 sąd
+                może orzec nawiązkę na rzecz pokrzywdzonego, Polskiego
+                Czerwonego Krzyża albo na inny cel społeczny wskazany przez
+                pokrzywdzonego.
+            </p>
+            <p>
+                § 4. Ściganie przestępstwa określonego w § 1. lub 2. odbywa się
+                z oskarżenia prywatnego. Dla zaistnienia przestępstwa
+                wystarczające jest, by dana wypowiedź narażała pomówionego na
+                utratę zaufania niezbędnego dla wykonywania przez niego zawodu
+                lub prowadzenia działalności. Wypowiedź nie musi być dobitna,
+                czy cechująca się ostrością.
+            </p>
+        </div>
+
+        <div
+            class="lg:bg-[url(/assets/64/bg-2.svg)] bg-white lg:bg-transparent bg-contain bg-no-repeat lg:h-[600px] flex flex-col p-10 lg:p-20 justify-center space-y-4 md:text-center mt-10"
+        >
+            <p class="font-bold">Art. 216 Kodeksu karnego</p>
+            <p>
+                § 1. Kto znieważa inną osobę w jej obecności albo choćby pod jej
+                nieobecność, lecz publicznie lub w zamiarze, aby zniewaga do
+                osoby tej dotarła, podlega grzywnie albo karze ograniczenia
+                wolności.
+            </p>
+            <p>
+                § 2. Kto znieważa inną osobę za pomocą środków masowego
+                komunikowania, podlega grzywnie, karze ograniczenia wolności
+                albo pozbawienia wolności do roku.
+            </p>
+            <p>
+                § 3. Jeżeli zniewagę wywołało wyzywające zachowanie się
+                pokrzywdzonego albo jeżeli pokrzywdzony odpowiedział naruszeniem
+                nietykalności cielesnej lub zniewagą wzajemną, sąd może odstąpić
+                od wymierzenia kary.
+            </p>
+            <p>
+                § 4. W razie skazania za przestępstwo określone w § 2 sąd może
+                orzec nawiązkę na rzecz pokrzywdzonego, Polskiego Czerwonego
+                Krzyża albo na inny cel społeczny wskazany przez pokrzywdzonego.
+            </p>
+            <p>§ 5. Ściganie odbywa się z oskarżenia prywatnego.</p>
         </div>
     </Step>
 </template>

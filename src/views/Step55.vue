@@ -1,176 +1,129 @@
 <template>
-    <Step class="font-montserrat" hide-skip-button>
-        <div
-            class="font-montserrat space-y-4 flex items-center flex-wrap md:flex-nowrap"
-        >
-            <div class="py-16">
-                <p>
-                    Decyzja jak reagować na mowę nienawiści i hejt zależy od
-                    danej sytuacji. <strong>To Ty</strong> decydujesz, co jesteś
-                    w stanie zrobić – w sposób, który uznasz za najlepszy dla
-                    Ciebie.
-                </p>
-                <p>
-                    Zazwyczaj najlepiej najpierw poinformować kogoś o swojej
-                    niezgodzie na mowę nienawiści i hejt. Jeśli spotykasz się z
-                    taką sytuacją w sieci, to poza poinformowaniem, możesz
-                    zgłosić takie treści lub konto jako naruszenie w mediach
-                    społecznościowych. W drugim kroku warto ostrzec, że zamierza
-                    się podjąć kroki prawne. A w trzecim kroku, jeśli te
-                    wcześniejsze działania nie przyniosą skutku, podjąć te kroki
-                    prawne. Na kolejnych stronach dowiesz się, jak to zrobić.
-                </p>
-            </div>
-            <img
-                src="/assets/55/right.svg"
-                alt=""
-                class="md:max-w-[50%] mx-auto"
-            />
-        </div>
-        <div>
-            <img
-                src="/assets/55/czy-wiesz.svg"
-                alt=""
-                width="197"
-                height="60"
-            />
-            <p class="text-white bg-black p-2 font-itim">
-                17.04.2018 r. Sąd Najwyższy uznał, że Internet jest miejscem
-                publicznym. Oznacza to, że sprawca/czyni nie może uchylić się od
-                odpowiedzialności karnej twierdząc, że np. „wpis opublikował/a
-                na stronie, którą obserwuje tylko 200 osób”.
+    <Step>
+        <div class="w-full">
+            <p class="text-xl mb-2">
+                Jak możesz reagować na mowę nienawiści w Twoim otoczeniu?
             </p>
-            <p class="p-2 border mt-8 text-center">
-                Jak zgłosić treści lub konto jako naruszenie regulaminu?
+            <p class="font-montserrat">
+                <span class="font-itim"
+                    >„Przede wszystkim – reagujmy, nie bądźmy obojętni.</span
+                >
+                <br />
+                Nie zachęcajmy hejtera poprzez lajkowanie jego komentarza lub
+                wdawanie się z nim w dyskusję. Jeśli boimy się wprost zareagować
+                poprzez konfrontację z atakującym, to zgłaszajmy takie incydenty
+                zaufanym dorosłym. Okażmy również wsparcie atakowanym – napiszmy
+                do nich dobre słowo, pocieszmy, zapewnijmy, że mogą na nas
+                liczyć. Pamiętajmy, że każdy w pewnym momencie może – niestety –
+                stać się ofiarą hejtu. Dbajmy wzajemnie o swoje bezpieczeństwo i
+                dobre samopoczucie”.
             </p>
-        </div>
-        <!-- INSTRAGRAM -->
-        <div class="md:my-16 my-8 mt-16 relative">
-            <img src="/assets/55/instagram.svg" alt="" class="mb-8 mx-auto" />
-            <div
-                class="flex w-full justify-center items-center relative flex-col sm:flex-row"
-            >
-                <div class="sm:w-[100px] text-right">
-                    <span>Post</span>
-                </div>
-                <div
-                    class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-                >
-                    <ol class="list-decimal">
-                        <li>Kliknij … nad postem.</li>
-                        <li>Kliknij opcję &bdquo;Zgłoś&rdquo;.</li>
-                        <li>Postępuj zgodnie z instrukcjami na ekranie.</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
 
-        <div
-            class="flex w-full justify-center items-center relative flex-col sm:flex-row"
-        >
-            <div class="sm:w-[100px] text-right">
-                <span>Konto</span>
-            </div>
-            <div
-                class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-            >
-                <ol class="list-decimal">
-                    <li>Kliknij nazwę profilu, który chcesz zgłosić.</li>
-                    <li>W prawym górnym rogu kliknij ...</li>
-                    <li>
-                        Kliknij &bdquo;Zgłoś&rdquo;, następnie &bdquo;Zgłoś
-                        konto&rdquo; i wybierz powód zgłoszenia.
-                    </li>
-                </ol>
-            </div>
-        </div>
-        <!-- facebook -->
-        <div class="md:my-10 my-8 mt-16 relative">
-            <img src="/assets/55/facebook.svg" alt="" class="mb-8 mx-auto" />
+            <p class="text-xl mt-6 mb-2">
+                Jaki jest Twój jeden tip/porada na hejt w sieci?
+            </p>
 
-            <div
-                class="flex w-full justify-center items-center relative flex-col sm:flex-row"
-            >
-                <div class="sm:w-[100px] text-right flex-grow">
-                    <span>Post</span>
+            <div class="flex flex-wrap font-montserrat">
+                <div class="w-full md:w-1/2 md:pr-4">
+                    <p>
+                        „Myślę, że każdy przed napisaniem w sieci jakiegokolwiek
+                        komentarza powinien sobie szczerze zadać jedno pytanie:
+                        «czy powiedział(a)bym to tej osobie prosto w twarz?»
+                        Jeśli nie, to nie powinniśmy tego również pisać. W
+                        Internecie znacznie łatwiej jest krzywdzić innych, bo
+                        czujemy się anonimowi, a przez to odważniejsi. Musimy
+                        jednak pamiętać o dwóch rzeczach – po pierwsze, że za
+                        tym drugim ekranem zawsze siedzi drugi człowiek, który
+                        ma uczucia i którego nie powinniśmy ranić. Po drugie, że
+                        nikt w Internecie nie jest anonimowy. Nasze komentarze
+                        mogą być widoczne dla naszych znajomych, rodziców,
+                        nauczycieli, a także osób postronnych.
+                    </p>
                 </div>
-                <div
-                    class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-                >
-                    <ol class="list-decimal">
-                        <li>Kliknij … obok posta.</li>
-                        <li>
-                            Kliknij opcję &bdquo;Uzyskaj wsparcie lub zgłoś
-                            post&rdquo;. FB umożliwia wybranie przyczyny
-                            zgłoszenia, np.: propagowanie nienawiści, przemoc,
-                            nękanie, fałszywa informacja, terroryzm.
-                        </li>
-                    </ol>
+                <div class="w-full md:w-1/2 md:pl-4 hidden md:block">
+                    <p class="mt-5 md:mt-0">
+                        Sprawdź jak w praktyce Janina
+                        <a
+                            href="https://www.facebook.com/janinadaily/"
+                            target="_blank"
+                            class="text-white bg-black p-1"
+                            >https://www.facebook.com/janinadaily/</a
+                        >
+                        stara się tworzyć treści, które bywają cięte czy są tzw.
+                        „beką”, ale nie są hejtem. W jaki sposób rozmawia, a
+                        nawet spiera się z ludźmi, którzy komentują jej wpisy?
+                    </p>
+                    <p class="text-white bg-black p-2 mt-5">
+                        Zwróć uwagę, jak ludzie zachowują się na kanałach Janiny
+                        i reagują na krytykę albo trollerskie treści innych? Co
+                        Ci się podoba? Które z tych reakcji warto powtarzać? Na
+                        podstawie swoich obserwacji wypisz top pięć zasad,
+                        którymi chciałbyś/abyś, żeby kierowali się ludzie,
+                        gdybyś prowadził/a mega popularnego vloga, bloga czy
+                        inny kanał w Internecie.
+                    </p>
                 </div>
             </div>
-        </div>
-
-        <div
-            class="flex w-full justify-center items-center relative flex-col sm:flex-row mb-10"
-        >
-            <div class="sm:w-[100px] text-right">
-                <span>Transmisja na żywo</span>
-            </div>
-            <div
-                class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-            >
-                <ol class="list-decimal">
-                    <li>Kliknij … na miniaturze filmiku.</li>
-                    <li>
-                        Kliknij opcję &bdquo;Zgłoś to video&rdquo; i wybierz
-                        przyczynę zgłoszenia.
-                    </li>
-                </ol>
-            </div>
-        </div>
-        <div
-            class="flex w-full justify-center items-center relative flex-col sm:flex-row mb-10"
-        >
-            <div class="sm:w-[100px] text-right">
-                <span>Komentarz</span>
-            </div>
-            <div
-                class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-            >
-                <ol class="list-decimal">
-                    <li>Znajdź komentarz, który chcesz zgłosić.</li>
-                    <li>Kliknij ... obok komentarza.</li>
-                    <li>Wybierz &bdquo;Zgłoś&rdquo;.</li>
-                    <li>Wybierz powód zgłoszenia.</li>
-                </ol>
-            </div>
-        </div>
-        <!-- Youtube -->
-        <div>
-            <div class="flex flex-wrap md:flex-no-wrap max-w-3xl">
-                <img src="/assets/55/youtube.svg" alt="" class="mb-8 mx-auto" />
-                <p class="md:pl-20 mb-10">
-                    Zgłaszanie hejtu na YT jest anonimowe, a więc autor/ka
-                    obraźliwego filmu nie będzie wiedzieć kto poinformował
-                    platformę o dokonanym przez niego naruszeniu.
+            <div class="mt-10 font-montserrat max-w-2xl">
+                <p>
+                    Ponadto w Internecie nic nie ginie - nawet gdy my skasujemy
+                    swój komentarz, to ktoś może posiadać jego skrin. Bądźmy
+                    życzyliwi dla innych osób w sieci i pamiętajmy, że w
+                    odwrotnym przypadku możemy kogoś bardzo skrzywdzić, a także
+                    zostać pociągnięci do odpowiedzialnośći za swoje zachowanie.
+                    Nie mówmy też innym niczego, czego sami nie chcielibyśmy
+                    usłyszeć.”
                 </p>
             </div>
 
-            <div
-                class="flex w-full justify-center items-center relative flex-col sm:flex-row"
-            >
-                <div class="sm:w-[100px] text-right">
-                    <span>Komentarz</span>
-                </div>
-                <div
-                    class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-                >
-                    <ol class="list-decimal">
-                        <li>Wyświetl film, który chcesz zgłosić.</li>
-                        <li>Kliknij &bdquo;Więcej&rdquo; u góry filmu.</li>
-                        <li>Wybierz opcję &bdquo;Zgłoś&rdquo;.</li>
-                        <li>Wybierz powód zgłoszenia.</li>
-                    </ol>
+            <div class="w-full md:hidden mt-10">
+                <p class="mt-5 md:mt-0">
+                    Sprawdź jak w praktyce Janina
+                    <a
+                        href="https://www.facebook.com/janinadaily/"
+                        target="_blank"
+                        class="text-white bg-black p-1"
+                        >https://www.facebook.com/janinadaily/</a
+                    >
+                    stara się tworzyć treści, które bywają cięte czy są tzw.
+                    „beką”, ale nie są hejtem. W jaki sposób rozmawia, a nawet
+                    spiera się z ludźmi, którzy komentują jej wpisy?
+                </p>
+                <p class="text-white bg-black p-2 mt-5">
+                    Zwróć uwagę, jak ludzie zachowują się na kanałach Janiny i
+                    reagują na krytykę albo trollerskie treści innych? Co Ci się
+                    podoba? Które z tych reakcji warto powtarzać? Na podstawie
+                    swoich obserwacji wypisz top pięć zasad, którymi
+                    chciałbyś/abyś, żeby kierowali się ludzie, gdybyś
+                    prowadził/a mega popularnego vloga, bloga czy inny kanał w
+                    Internecie.
+                </p>
+            </div>
+
+            <div class="max-w-md mx-auto mt-10">
+                <p class="text-xl">
+                    Na podstawie swoich obserwacji wypisz top pięć zasad,
+                    którymi chciałbyś/abyś, żeby kierowali się ludzie, gdybyś
+                    prowadził/a mega popularnego vloga, bloga czy inny kanał w
+                    Internecie.
+                </p>
+                <div class="mt-10 space-y-6 relative">
+                    <img
+                        src="/assets/53/top-5.svg"
+                        class="absolute top-0 left-[-250px] hidden md:block"
+                    />
+                    <div
+                        v-for="item in 5"
+                        :key="item"
+                        class="flex items-center"
+                    >
+                        <img :src="`/assets/53/${item}.svg`" alt="" />
+                        <input
+                            v-model="answers[item]"
+                            type="text"
+                            class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full ml-2 focus:ring-0 focus:border-black"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
@@ -179,4 +132,13 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    1: "",
+    2: "",
+    3: "",
+    4: "",
+    5: "",
+});
 </script>

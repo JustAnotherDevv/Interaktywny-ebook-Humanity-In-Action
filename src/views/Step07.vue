@@ -8,12 +8,12 @@
                 na mowę nienawiści?
             </p>
             <p class="mb-10">
-                <span class="bg-black p-4 text-white">
+                <span class="bg-black p-4 text-white leading-loose text-lg">
                     A czego chciałbyś/abyś dowiedzieć się z tej książki?
                 </span>
             </p>
             <p>
-                <span class="bg-black p-4 text-white"
+                <span class="bg-black p-4 text-white leading-loose text-lg"
                     >Tu możesz stworzyć swoją listę :)</span
                 >
             </p>

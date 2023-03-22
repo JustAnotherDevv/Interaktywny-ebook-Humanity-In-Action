@@ -1,69 +1,42 @@
 <template>
-    <Step class="font-montserrat text-white" hide-skip-button>
-        <img src="/assets/61/top.svg" alt="" class="" />
+    <Step class="font-montserrat">
+        <h1 class="font-amatic text-5xl text-center max-w-md">
+            Przeciwdziałanie mowie nienawiści i hejtowi: prawo i praktyka w
+            Polsce
+        </h1>
 
-        <div class="space-y-6 mt-10">
-            <p>
-                W przypadku treści propagującej faszystowski lub inny
-                totalitarny ustrój państwa lub nawołującej do nienawiści na tle
-                różnic narodowościowych, etnicznych, rasowych, wyznaniowych albo
-                ze względu na bezwyznaniowość, akt oskarżenia wnosi do sądu
-                prokurator. Sprawca podlega wówczas karze grzywny, karze
-                ograniczenia wolności albo pozbawienia wolności do lat 2
-                <strong> (art. 256 § 1 Kodeksu karnego) </strong>.
+        <div class="mt-10 relative">
+            <img
+                class="md:px-0 px-20 md:mt-0 mt-32 md:mb-0 mb-32"
+                src="/assets/59/center.svg"
+                alt=""
+            />
+            <p
+                class="absolute w-[200px] top-[0px] md:top-[75px] right-[-30px] md:right-[-220px]"
+            >
+                <span class="font-bold">Katarzyna Cimek</span><br />
+                aplikantka adwokacka
             </p>
-            <p>
-                Podobnie w przypadku publicznego nawoływania do popełnienia
-                przestępstwa, to prokurator będzie kierował akt oskarżenia do
-                sądu <strong>(art. 255 Kodeksu karnego)</strong>.
+            <p
+                class="absolute w-[200px] top-[75px] md:top-[175px] left-[-5px] md:left-[-210px]"
+            >
+                <span class="font-bold">Eliza Rutynowska</span><br />
+                absolwentka Humanity in Action John Lewis Fellowship 2017
             </p>
-            <p>
-                Jeżeli jednak dane treści wyczerpują znamiona zniesławienia
-                (pomawiają inną osobę, grupę osób, instytucję, osobę prawną lub
-                jednostkę organizacyjną niemającą osobowości prawnej o takie
-                postępowanie lub właściwości, które mogą poniżyć ją w opinii
-                publicznej lub narazić na utratę zaufania potrzebnego dla danego
-                stanowiska, zawodu lub rodzaju działalności) albo znieważenia
-                innej osoby, przestępstwa te są ścigane z oskarżenia prywatnego.
-                Oznacza to, że należy wnieść do sądu swój własny akt oskarżenia.
-                Sprawca zniesławienia i znieważenia za pomocą środków masowego
-                komunikowania podlega karze grzywny, karze ograniczenia wolności
-                albo pozbawienia wolności do roku
-                <strong>
-                    (art. 212 § 2 Kodeksu karnego i art. 216 § 2 Kodeksu
-                    karnego) </strong
-                >.
+            <p
+                class="absolute w-[160px] md:w-[200px] bottom-[10px] md:bottom-[175px] right-[-20px] md:right-[-220px]"
+            >
+                <span class="font-bold">Magdalena Pająk</span><br />
+                adwokatka, absolwentka Akademii Praw Człowieka Humanity in
+                Action 2007
             </p>
-            <p>
-                To rozróżnienie jest o tyle istotne, że w sprawach z oskarżenia
-                prywatnego trzeba samemu zadbać o dowody, a w sprawach ściganych
-                z oskarżenia publicznego wystarczy złożyć zawiadomienie o
-                możliwości popełnienia przestępstwa i organy ścigania powinny
-                zabezpieczyć dowody.
+            <p
+                class="absolute w-[160px] bottom-[-30px] left-[-10px] md:w-[200px] md:bottom-[55px] md:left-[-210px]"
+            >
+                <span class="font-bold">Marcelina Rosińska</span><br />
+                prawniczka, absolwentka Akademii Praw Człowieka Humanity in
+                Action 2019
             </p>
-            <p>
-                Możemy sobie wyobrazić sytuację, gdy ktoś publicznie nawołuje do
-                znieważania grupy osób z uwagi na orientację seksualną, to
-                będzie to ścigane z oskarżenia publicznego
-                <strong>
-                    (art. 255 § 1 Kodeksu karnego poprzez nawoływanie do
-                    popełniania występku z art. 216 Kodeksu karnego)
-                </strong>
-                i wtedy to policja powinna np. zabezpieczyć nagrania, na których
-                słychać słowa i widać sprawcę, po tym jak otrzyma zawiadomienie
-                o takim zdarzeniu.
-            </p>
-        </div>
-        <div class="flex items-center flex-wrap md:flex-nowrap mt-10">
-            <img src="/assets/61/bottom.svg" alt="" />
-            <div class="md:w-1/2 ml-auto mt-10">
-                <p>
-                    Kiedy jednak jesteśmy świadkami wprost zniewagi
-                    <strong> (art. 216 Kodeksu karnego) </strong>, to powinniśmy
-                    się liczyć z tym, że trzeba samodzielnie udokumentować to
-                    zdarzenie.
-                </p>
-            </div>
         </div>
     </Step>
 </template>

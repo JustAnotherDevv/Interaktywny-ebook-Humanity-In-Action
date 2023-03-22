@@ -1,203 +1,116 @@
 <template>
-    <Step
-        no-max-width
-        no-padding
-        class="pb-10 font-montserrat"
-        hide-skip-button
-    >
-        <div class="w-full bg-black h-full text-white p-6">
-            <img
-                src="/assets/46/mowa-nienawisci.svg"
-                alt=""
-                class="mx-auto mb-10"
-                width="277"
-                height="43"
-            />
-            <img
-                src="/assets/46/chip.svg"
-                alt=""
-                class="mx-auto"
-                width="458"
-                height="395"
-            />
-            <div
-                class="max-w-xl md:text-center mx-auto py-10 font-montserrat space-y-10"
-            >
-                <p class="tracking-[8px]">A NOWE TECHNOLOGIE</p>
+    <Step class="" hide-skip-button>
+        <div class="space-y-8">
+            <div class="flex flex-wrap md:flex-nowrap justify-between max-w-xl">
                 <p>
-                    Istnieją firmy, które za pieniądze zajmują się produkcją
-                    hejtu i fake newsów. Uderzają w polityków/czki,
-                    dziennikarzy/rki oraz inne osoby publiczne, czerpiąc zyski z
-                    działań prowadzących do podziałów w społeczeństwie. Ale są
-                    też takie firmy, które działają na rzecz bezpiecznego
-                    Internetu dla wszystkich, na przykład wykorzystując sztuczną
-                    inteligencję.
+                    Informacje o badaniach: kiedy zostały przeprowadzone te
+                    badania? Czy pojawiły się inne badania w danym temacie,
+                    które je potwierdzają bądź obalają? Kto przeprowadził te
+                    badania i na czyje zlecenie? Jaki był kontekst badań?
                 </p>
-                <p class="font-semibold">W jaki sposób?</p>
+                <FormRadio
+                    :options="radioOptions"
+                    v-model="answers['1']"
+                    horizontal
+                    class="flex-shrink-0 ml-4"
+                >
+                </FormRadio>
+            </div>
+
+            <div class="flex flex-wrap md:flex-nowrap justify-between max-w-xl">
+                <p>
+                    Kto jest właścicielem/ką domeny, na której został
+                    opublikowany artykuł? Jaka instytucja zajmuje się
+                    publikowaniem treści (czy jest to portal informacyjny, blog,
+                    strona naukowa, portal sprzedażowy)?
+                </p>
+                <FormRadio
+                    :options="radioOptions"
+                    v-model="answers['2']"
+                    horizontal
+                    class="flex-shrink-0 ml-4"
+                >
+                </FormRadio>
+            </div>
+
+            <div class="flex flex-wrap md:flex-nowrap justify-between max-w-xl">
+                <p>
+                    Czy strona zawiera dużo odnośników „share” (ikonki FB,
+                    Twitter)?
+                </p>
+                <FormRadio
+                    :options="radioOptions"
+                    v-model="answers['3']"
+                    horizontal
+                    class="flex-shrink-0 ml-4"
+                >
+                </FormRadio>
             </div>
         </div>
-        <div class="max-w-4xl pt-10 md:pt-16 px-6 md:px-10">
-            <div
-                class="relative md:p-10 p-6 pt-20 border border-gray-500 z-0 md:mb-48 mb-10"
-            >
-                <div
-                    class="absolute top-0 left-0 bg-white transform -translate-y-1/2 px-10 mt-2"
-                >
-                    <img
-                        src="/assets/46/samurai.svg"
-                        width="220"
-                        height="53"
-                        alt=""
-                    />
-                </div>
 
-                <p>
-                    Nasze życie w ostatnim czasie w większości przeniosło się do
-                    cyberprzestrzeni. Jeszcze do niedawna było to miejsce, gdzie
-                    ludzie robili, pisali, pokazywali co tylko chcieli, bez
-                    ponoszenia konsekwencji mogli obrażać się nawzajem czy też
-                    rozprzestrzeniać nieprawdziwe, prowokujące wiadomości. Dziś
-                    to się zmienia, jesteśmy coraz bardziej świadomi wpływu
-                    świata online na nasze życie poza nim, w realnym świecie.
-                    Okazuje się, że przykre słowa w sieci mogą ranić tak samo
-                    lub nawet bardziej niż te usłyszane na szkolnym podwórku.
-                    Sztuczna inteligencja ma za zadanie, po pierwsze
-                    automatycznie wykrywać wiadomości zawierające przemoc
-                    słowną, po drugie zablokować ją w przypadkach poważnych
-                    wykroczeń (np. szantaży, groźby) bądź też zwrócić na nie
-                    szczególną uwagę. Na przykład, taki system oparty o sztuczną
-                    inteligencję, może upomnieć daną osobę, która łamie
-                    regulamin, przypominając jej o standardach danej
-                    społeczności albo odwołać się do empatii.
-                </p>
-                <img
-                    src="/assets/46/historia.svg"
-                    alt=""
-                    width="1030"
-                    height="382"
-                    class="md:absolute left-0 bottom-[-245px] -z-10"
-                />
-            </div>
-
-            <div class="space-y-6">
-                <p>
-                    Na większości platform społecznościowych czy gamingowych
-                    standardowym sposobem moderowania agresywnych zachowań
-                    użytkowników jest ostrzeganie (<span class="italic"
-                        >warning</span
-                    >), ściszanie (<span class="italic">mute</span>) czy
-                    banowanie (<span class="italic">ban</span>). Krótko mówiąc,
-                    użytkownicy są karani lub wykluczani za przejawy
-                    antyspołecznych zachowań.
-                </p>
-                <p>
-                    Dziesiątki badań z zakresu wpływu społecznego pokazały
-                    jednak, że nawet zwykłe przypomnienie o tym, że po drugiej
-                    stronie jest człowiek czy spokojne zwrócenie uwagi na to, że
-                    przekroczone zostały normy danej społeczności, potrafi
-                    pozytywnie odmienić zachowanie „zagubionego użytkownika”.
-                </p>
-                <p>
-                    Dlatego właśnie, w Samurai Labs postanowiliśmy zbadać w
-                    jakim stopniu można zredukować hejt, reagując życzliwością,
-                    szacunkiem i zrozumieniem dla hejtera oraz przypominając o
-                    normach i zasadach danej społeczności czy życia społecznego
-                    w ogóle. Wraz z całym zespołem programistów, inżynierów
-                    zajmujących się przetwarzaniem języka naturalnego oraz
-                    badaczy społecznych przystąpiliśmy do działania.
-                </p>
-                <p>
-                    Programiści i inżynierowie dopracowali moduł sztucznej
-                    inteligencji zdolny wykrywać ataki personalne (obraźliwe,
-                    bezpośrednie zwroty do innych użytkowników) z prawie 100%
-                    skutecznością. Badacze społeczni stworzyli natomiast plan
-                    eksperymentu oraz wyróżnili dwa rodzaje interwencji, które
-                    będą wysyłane w odpowiedzi na ataki personalne: okazując
-                    komuś empatię albo odnosząc się do norm i reguł.
-                </p>
-                <p>
-                    Jako miejsce eksperymentu wybraliśmy platformę Reddit, z
-                    której wyłoniliśmy dwie społeczności czy inaczej subreddity,
-                    w których poziom ataków personalnych był odpowiednio wysoki.
-                    Wybrane subreddity były monitorowane przez nasz system 24
-                    godziny na dobę, dostarczając na bieżąco informacje o
-                    wygenerowanym hejcie.
-                </p>
-                <p>
-                    Pozostawało znaleźć kogoś, kto na każde zawołanie systemu
-                    będzie reagował interwencją, jednocześnie nie wzbudzając
-                    podejrzeń członków, że mogą uczestniczyć w eksperymencie. Ze
-                    względu na naturę badania oraz ponieważ manipulacja polegała
-                    na wyrażaniu współczucia i szacunku, uzyskaliśmy zgodę
-                    Komisji Etyki do poinformowania uczestników po zakończeniu
-                    eksperymentu. Jednak w zdecydowanej większości badań
-                    wymagana jest zgoda uczestnika przed ich rozpoczęciem.
-                </p>
-
-                <img src="/assets/46/tak-wlasnie.svg" alt="" height="146" />
-
-                <p>
-                    – poczciwy bot, wyposażony w sztuczną inteligencję oraz bazę
-                    100 tysięcy unikatowych interwencji. Zależało nam, by James
-                    wtopił się w wybrane społeczności, a jak wiemy – boty nie są
-                    zbyt lubiane, ponieważ często wykorzystywane są w
-                    szkodliwych celach. Urozmaiciliśmy więc jego aktywność o
-                    wpisy na grupach zrzeszających fanów jazzu, ośmiornic czy
-                    rzeźbienia w drewnie. W ten sposób JamesWalker43 stał się
-                    spokojnym mężczyzną przed pięćdziesiątką, zachwyconym naturą
-                    i sztuką, wypełnionym niezłomnym szacunkiem do drugiego
-                    człowieka.
-                </p>
-                <p>
-                    Pierwsze kroki nie były łatwe. W początkowych dniach
-                    eksperymentu, wielu użytkowników uznawało go za trolla, co
-                    wywołało efekt odwrotny do zamierzonego. Po pewnym czasie
-                    interpretacje zaczęły ewoluować, aż w końcu wszyscy
-                    przywykli, uznając Jamesa za nieszkodliwego, sympatycznego
-                    dziwaka, zafiksowanego na swojej misji.
-                </p>
-                <p>
-                    Przez osiem miesięcy James pracowicie rozdawał wyrazy
-                    współczucia i życzliwe porady wszystkim, którzy stracili
-                    głowę i zapomnieli o człowieku po drugiej stronie. W tym
-                    czasie nie tylko został przyjęty przez dość radykalną
-                    społeczność, ale nawet otrzymał propozycję bycia jej
-                    moderatorem. Nie brakowało też zabawnych zbiegów
-                    okoliczności, w których losowa odpowiedź Jamesa, była
-                    idealnie dopasowana do kontekstu. W jednej z takich sytuacji
-                    użytkownicy atakowali siebie nawzajem seriami obelg o bardzo
-                    podobnej treści.
-                </p>
-                <p class="text-white bg-black p-1 px-2 inline-block">
-                    Interwencja, której użył James brzmiała:
-                </p>
-                <img src="/assets/46/hej-ho.svg" alt="" />
-                <p>
-                    Po ośmiu miesiącach konto JamesWalker43 zostało zablokowane
-                    bez żadnego ostrzeżenia. Eksperyment został zakończony. Po
-                    przeanalizowaniu danych okazało się, że bez pomocy kar i
-                    banów
-                    <span class="text-lg font-semibold"
-                        >James obniżył poziom agresji o 20%</span
-                    >. Co więcej, aktywność antyspołeczna osób, które otrzymały
-                    interwencje, zmniejszyła się także na innych grupach. Jest
-                    to podstawa by podejrzewać, że interwencje pozytywnie
-                    wpłynęły na ogólne zachowanie, a nie tylko zmotywowały
-                    odbiorców do znalezienia innego miejsca do atakowania
-                    innych.
-                </p>
-                <p class="text-white bg-black p-1 px-2 inline-block">
-                    James odszedł nagle, ale zdążył nas nauczyć czegoś bardzo
-                    ważnego – warto reagować.
-                </p>
-                <p class="text-right italic">
-                    Patrycja Tempska, Maria Dowgiałło, Samurai Labs
-                </p>
-            </div>
+        <div
+            class="border border-dashed rounded-xl border-black md:border-none md:bg-[url(/assets/44/frame-3.svg)] bg-no-repeat bg-contain md:p-24 p-10 w-full md:h-[300px] text-sm max-w-2xl"
+        >
+            <p>
+                Jeśli co chwilę pojawia się zachęta do udostępnienia (PODOBA CI
+                SIĘ? UDOSTĘPNIJ), wskazuje to, że strona została zaprojektowana
+                przede wszystkim po to, by udostępniać tę informację i by
+                wzbudzała skrajne emocje, a nie po to, by się z niej czegoś
+                dowiedzieć. To sprytny sposób autorów/ek fake newsów –
+                zapewniają w ten sposób, że wiele osób udostępni treści dalej.
+            </p>
+        </div>
+        <div class="max-w-lg md:text-center relative space-y-8">
+            <img
+                src="/assets/44/twitter.svg"
+                alt=""
+                class="hidden md:block absolute top-[-100px] right-[-200px]"
+            />
+            <img
+                src="/assets/44/tiktok-1.svg"
+                alt=""
+                class="hidden md:block absolute top-[50px] right-[-100px]"
+            />
+            <img
+                src="/assets/44/ig.svg"
+                alt=""
+                class="hidden md:block absolute top-[-100px] left-[-200px]"
+            />
+            <img
+                src="/assets/44/tiktok-2.svg"
+                alt=""
+                class="hidden md:block absolute top-[100px] left-[-200px]"
+            />
+            <p>
+                Gdy artykuł zawiera obraz, który wzbudza Twoje wątpliwości,
+                wyszukaj go, używając wyszukiwania obrazów w
+            </p>
+            <img src="/assets/44/google.svg" alt="" class="mx-auto" />
+            <p>
+                Tam możesz sprawdzić, jakie jest źródło obrazka. Jeżeli
+                znajdziesz podobną, lecz różniącą się istotnymi szczegółami
+                grafikę opublikowaną przez rzetelne źródło, wówczas masz szansę
+                zobaczyć, kto zmodyfikował ilustrację, kiedy to zrobił i po co.
+            </p>
         </div>
     </Step>
 </template>
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { ref, reactive } from "vue";
+import FormRadio from "@/components/FormRadio.vue";
+
+const radioOptions = {
+    tak: "tak",
+    nie: "nie",
+};
+
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    1: null,
+    2: null,
+    3: null,
+});
 </script>

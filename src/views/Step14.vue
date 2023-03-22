@@ -72,7 +72,7 @@
             </div>
             <div class="sm:pl-24 mt-10 sm:mt-0">
                 <img
-                    src="/assets/14/podsumowujac.svg"
+                    src="/assets/14/FramePodsumowujac.svg"
                     alt=""
                     width="270"
                     height="81"

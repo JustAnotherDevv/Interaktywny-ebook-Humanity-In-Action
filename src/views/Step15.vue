@@ -17,7 +17,7 @@
                 <img src="/assets/15/stars.svg" alt="" />
             </div>
 
-            <div class="flex items-center">
+            <div class="flex items-center flex-col md:flex-row mb-6">
                 <p
                     class="font-amatic font-bold text-4xl transform scale-x-95 text-center tracking-widest"
                 >

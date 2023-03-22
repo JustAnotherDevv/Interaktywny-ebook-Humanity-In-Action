@@ -1,48 +1,85 @@
 <template>
-    <Step class="text-white" hide-skip-button>
-        <img src="/assets/39/uwaga.svg" alt="" width="274" height="120" />
-        <img
-            src="/assets/39/jesli-potrzebujesz-wsparcia.svg"
-            alt=""
-            width="490"
-            height="103"
-        />
-        <img src="/assets/39/zadzwon.svg" alt="" width="201" height="29" />
-        <div class="mt-10">
-            <p class="text-xl max-w-sm text-center">
-                Telefon zaufania dla dzieci i młodzieży Fundacji Dajemy Dzieciom
-                Siłę<br />
-                (całodobowo):
-            </p>
-            <a href="tel:116111" class="text-3xl text-center block">116 111</a>
+    <Step no-padding no-max-width class="pb-10 md:pb-16">
+        <div
+            class="bg-black flex justify-center text-white text-xl text-left p-10 w-full top-0 z-10"
+        >
+            <div class="flex items-center mx-auto flex-wrap md:flex-nowrap">
+                <img
+                    src="/assets/37/ostrzezenie.svg"
+                    alt=""
+                    width="229"
+                    height="75"
+                />
+                <p
+                    class="max-w-lg uppercase font-montserrat md:pl-10 pt-10 md:pt-0"
+                >
+                    Na tej stronie znajdują się treści dotyczące przemocy i
+                    śmierci, w tym samobójstwa.
+                </p>
+            </div>
         </div>
-        <div class="mt-10">
-            <p class="text-xl max-w-sm text-center">
-                Telefon zaufania Grupy Ponton <br />
-                (pt. 16:00 - 20:00):
-            </p>
-            <a href="tel:226359392" class="text-3xl text-center block"
-                >22 635 93 92</a
-            >
+
+        <div class="mt-10 bg-white w-full">
+            <div class="max-w-4xl mx-auto xl:pl-24 relative pt-10 pb-24 p-10">
+                <img
+                    src="/assets/37/dominik.svg"
+                    width="433"
+                    height="97"
+                    alt=""
+                />
+                <img
+                    src="/assets/37/person.svg"
+                    alt=""
+                    class="xl:absolute bottom-[-250px] left-[-200px] h-[600px] mx-auto"
+                />
+                <p class="xl:w-72 mt-10">
+                    W świecie bez mowy nienawiści, to co spotkało Dominika,
+                    raczej by się nie wydarzyło. Ale niestety mowa nienawiści
+                    miała i ma realny wpływ na konkretnych ludzi. Poznałeś/aś
+                    temat mowy nienawiści od strony teorii, badań i statystyk, a
+                    teraz poznaj historię Twojego rówieśnika.
+                </p>
+
+                <div
+                    class="xl:absolute xl:right-[-150px] xl:top-[100px] border border-black relative pl-10 sm:pr-48 py-10 sm:py-20 sm:w-[500px] mt-24 xl:mt-0"
+                >
+                    <div
+                        class="sm:absolute sm:top-[-80px] sm:right-[-100px] bg-white p-8"
+                    >
+                        <img
+                            src="/assets/37/mama.svg"
+                            alt=""
+                            width="215"
+                            height="282"
+                        />
+                        <p class="text-left sm:text-center">Mama Dominika</p>
+                    </div>
+                    <p>
+                        „Rówieśnicy prześladowali go od szkoły podstawowej ze
+                        względu na spodnie, jakie nosił, bo lubił
+                        &laquo;rurki&raquo;. A to dlatego, że &laquo;zrobił
+                        sobie fryzurę&raquo;. Nie przesadnie! Po prostu dbał o
+                        siebie. A oni nazywali go &laquo;pedziem&raquo;. Były
+                        dzieci, które go nawet szarpały.”
+                    </p>
+                    <img
+                        src="/assets/37/tvn.svg"
+                        alt=""
+                        class="absolute bottom-[-25px] left-0"
+                    />
+                </div>
+            </div>
         </div>
-        <div class="mt-10">
-            <p class="text-xl max-w-sm text-center">
-                Antydepresyjny Telefon Forum Przeciw Depresji: <br />
-                (śr. i czw. 17:00 - 19:00)
-            </p>
-            <a href="tel:225949100" class="text-3xl text-center block"
-                >22 594 91 00</a
-            >
-        </div>
-        <div class="mt-10">
-            <p class="text-xl max-w-sm text-center">
-                Ogólnopolski telefon dla ofiar przemocy w rodzinie
-                &bdquo;Niebieska Linia&rdquo;<br />
-                (całodobowo)
-            </p>
-            <a href="tel:800120002" class="text-3xl text-center block"
-                >800 12 00 02</a
-            >
+        <div class="w-full bg-black text-white py-20">
+            <div class="max-w-xl mx-auto">
+                <p class="">
+                    Dominik miał 14 lat, mieszkał w Bieżuniu. Lubił grać w gry
+                    komputerowe. „W klasie on czuł się fajnie. Był ulubieńcem
+                    dziewczyn. Miał więcej przyjaciółek, niż przyjaciół.”
+                </p>
+
+                <p class="text-right">Źródło: UWAGA TVN</p>
+            </div>
         </div>
     </Step>
 </template>

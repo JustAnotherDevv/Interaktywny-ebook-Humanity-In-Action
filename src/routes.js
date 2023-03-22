@@ -13,34 +13,34 @@ axios.defaults.baseURL = "http://localhost:80/";
 
 const steps = [];
 
-const lastStep = 80;
+const lastStep = 82;
 
 const meta = {
     15: { bg: "#013193", dark: true },
     16: { bg: "#3F8BD7", dark: true },
-    37: {
+    39: {
         topBarClass: "bg-black",
         darkTopBar: true,
         dark: true,
         bg: "#000",
     },
-    38: { bg: "#000", dark: true },
-    39: { bg: "#000", dark: true },
     40: { bg: "#000", dark: true },
     41: { bg: "#000", dark: true },
-    42: { mainClass: "bg-black", topBarClass: "bg-black", darkTopBar: true },
+    42: { bg: "#000", dark: true },
+    43: { bg: "#000", dark: true },
+    44: { mainClass: "bg-black", topBarClass: "bg-black", darkTopBar: true },
     // 44: { bg: "#000", dark: true },
     // 45: { bg: "#000", dark: true },
-    46: { mainClass: "bg-black", topBarClass: "bg-black", darkTopBar: true },
-    61: { bg: "#000", dark: true },
-    63: {
+    48: { mainClass: "bg-black", topBarClass: "bg-black", darkTopBar: true },
+    63: { bg: "#000", dark: true },
+    65: {
         topBarClass:
             "bg-[url(/assets/63/nav-bg.svg)] bg-no-repeat bg-cover bg-top sm:pb-48 pb-24",
         darkTopBar: true,
     },
-    64: { bg: "#000", dark: true },
-    65: { bg: "#000", dark: true },
-    72: { topBarClass: "bg-black", darkTopBar: true },
+    66: { bg: "#000", dark: true },
+    67: { bg: "#000", dark: true },
+    74: { topBarClass: "bg-black", darkTopBar: true },
 };
 
 for (let i = 1; i <= lastStep; i++) {

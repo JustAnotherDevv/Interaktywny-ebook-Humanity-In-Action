@@ -1,49 +1,92 @@
 <template>
-    <Step>
-        <img
-            src="/assets/73/moja-supermoc.svg"
-            alt=""
-            width="354"
-            height="170"
-        />
-        <p class="font-amatic text-3xl mt-4">
-            Ćwiczenia na aktywistyczne supermoce: do wyboru
-        </p>
-        <div class="w-full mt-10">
-            <div class="lg:w-[500px] lg:-mb-32 lg:pl-12 mb-10 lb:mb-0">
-                <p>
-                    1. Wyobraź sobie, że na jeden dzień zamieniasz się w
-                    aktywistę/kę przeciwdziałającego/cą mowie nienawiści. Której
-                    z Twoich supermocy chciałbyś/abyś najbardziej użyć? W jakiej
-                    formie działania czułbyś/abyś się najpewniej?
-                </p>
-                <p class="font-montserrat text-sm mt-2">
-                    [wpisz swoje odpowiedzi i narysuj logo swojej aktywistycznej
-                    supermocy]
-                </p>
-            </div>
-
+    <Step class="font-montserrat" hide-skip-button>
+        <div class="flex flex-wrap md:flex-no-wrap items-stretch">
             <div
-                class="lg:bg-[url(/assets/73/frame.svg)] border border-dashed lg:border-transparent border-black bg-contain lg:h-[700px] bg-no-repeat w-full lg:pt-64 lg:pl-12 lg:pb-12 p-10"
+                class="w-full md:w-1/2 py-4 md:px-8 flex flex-col items-center justify-between mb-8"
             >
-                <textarea
-                    v-model="answers.first"
-                    class="border-none notes focus:ring-0 focus:border-none w-full lg:w-[500px] resize-none"
-                    rows="10"
-                ></textarea>
+                <img
+                    src="/assets/71/hate_wars_logo.svg"
+                    alt=""
+                    class="mb-6 mx-auto"
+                />
+                <p class="font-semibold text-center">
+                    edukacyjna gra miejska dla młodzieży, zorganizowana przez
+                    Puławski Park Naukowo-Techniczny.
+                </p>
+                <a
+                    href="https://www.facebook.com/events/249573082075413"
+                    target="_blank"
+                    class="bg-black text-white rounded-full py-2 px-6 mt-4 font-semibold"
+                    >Zobacz na Facebooku</a
+                >
+            </div>
+            <div
+                class="w-full md:w-1/2 py-4 md:px-8 flex flex-col items-center justify-between mb-8"
+            >
+                <img
+                    src="/assets/71/co-kryje-hejt.svg"
+                    alt=""
+                    class="mb-6 mx-auto"
+                />
+                <p class="font-semibold text-center">
+                    escape room, w którym zadaniem młodzieży jest uratowanie
+                    dziewczyny przed samobójstwem.
+                </p>
+                <a
+                    href="https://wszczecinie.pl/aktualnosci,takiego_escape_roomu_nie_ma_nigdzie_w_polsce_zadanie_to_uratowanie_dziewczyny_przed_samobojstwem,id-33306.html"
+                    target="_blank"
+                    class="bg-black text-white rounded-full py-2 px-6 mt-4 font-semibold"
+                    >Więcej szczegółów</a
+                >
+            </div>
+            <div
+                class="w-full md:w-1/2 py-4 md:px-8 flex flex-col items-center justify-between mb-8"
+            >
+                <img
+                    src="/assets/71/who-is-weak.svg"
+                    alt=""
+                    class="mb-6 mx-auto"
+                />
+                <p class="font-semibold text-center">
+                    wymyślona i zrealizowana przez młodzież kampania pokazująca,
+                    że osoby doświadczające hejtu nie powinny brać do siebie
+                    nienawistnych komentarzy.
+                </p>
+                <a
+                    href="https://gazetacodzienna.pl/artykul/wydarzenia/mlodzi-dla-modych-z-waznym-przekazem"
+                    target="_blank"
+                    class="bg-black text-white rounded-full py-2 px-6 mt-4 font-semibold"
+                    >Więcej szczegółów</a
+                >
+            </div>
+            <div
+                class="w-full md:w-1/2 py-4 md:px-8 flex flex-col items-center justify-between mb-8"
+            >
+                <img
+                    src="/assets/71/hejt-school-musical.svg"
+                    alt=""
+                    class="mb-6 mx-auto"
+                />
+                <p class="font-semibold text-center">
+                    spektakl dla młodzieży poruszający problem hejtu.
+                </p>
+                <a
+                    href="https://kultura.trojmiasto.pl/Teatralna-walka-ze-szkolnym-hejtem-Udany-spektakl-Teatru-Valldal-n130852.html"
+                    target="_blank"
+                    class="bg-black text-white rounded-full py-2 px-6 mt-4 font-semibold"
+                    >Więcej szczegółów</a
+                >
             </div>
         </div>
-        <div>
-            <p class="mt-8">
-                2. Czy któryś z przykładów aktywizmu wziętego z życia przykuwa
-                szczególnie Twoją uwagę? A czy coś byś chciał/a zmienić lub
-                ulepszyć? Dopisz przykłady konkretnych działań, w których
-                najlepiej sprawdziłaby się Twoja supermoc.
-            </p>
+
+        <div
+            class="w-full max-w-3xl border-2 border-black md:border-0 md:bg-[url(/assets/71/przyklady.svg)] bg-contain bg-no-repeat py-10 md:py-2 px-10 md:h-[250px]"
+        >
+            <p class="md:hidden">miejsce na Twoje przykłady</p>
             <textarea
-                v-model="answers.second"
-                class="border-none notes focus:ring-0 focus:border-none w-full resize-none"
-                rows="10"
+                v-model="answers.first"
+                class="w-full border-none notes focus:ring-0 focus:border-none mt-2 resize-none"
+                rows="4"
             ></textarea>
         </div>
     </Step>
@@ -55,6 +98,5 @@ import { useAnswers } from "@/composables/useAnswers";
 
 const { answers } = useAnswers({
     first: "",
-    second: "",
 });
 </script>

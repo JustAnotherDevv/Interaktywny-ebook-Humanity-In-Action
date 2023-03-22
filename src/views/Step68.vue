@@ -1,36 +1,68 @@
 <template>
-    <Step class="font-montserrat" hide-skip-button>
-        <img src="/assets/68/aktywizm.svg" width="530" height="137" alt="" />
+    <Step
+        class="font-montserrat py-10 md:py-16"
+        hide-skip-button
+        no-padding
+        no-max-width
+    >
         <div
-            class="p-10 border-2 border-black mt-10 max-w-3xl md:text-center md:pb-40 relative z-0"
+            class="bg-black md:bg-transparent text-white md:text-center bg-cover bg-center px-6 md:px-10 py-10 md:bg-[url(/assets/66/header.svg)] md:h-[500px] w-full flex items-center justify-center"
         >
-            <p>
-                Aktywizm, to najprościej mówiąc, postawa motywująca i prowadząca
-                do działań, które mają uczynić świat trochę lepszym na mniejszą
-                lub większą skalę. To jest super, bo w praktyce oznacza, że
-                każdy/a może być aktywistą/ką czyli takim
-                trendsetterem/influencerką społeczną! Aktywiści/tki to ludzie w
-                różnym wieku i z różnych środowisk. Niektóre osoby zajmują się
-                aktywizmem zawodowo, inne w wolnym czasie. Jedni/e podejmują
-                działania bardziej spontanicznie i w różnych tematach. Inni/e
-                wdrażają długofalowe inicjatywy, koncentrując się na jednym
-                głównym problemie. Aktywizmem mogą być działania podnoszące
-                świadomość społeczną, o charakterze edukacyjnym, rzecznicze itp.
-                Tych konfiguracji: kto, co, kiedy, jak – jest wiele. Natomiast
-                każda forma aktywizmu ma sens, jeśli ma na celu dobro społeczne.
-            </p>
-            <div
-                class="hidden md:block left-[30px] h-[2px] w-[200px] bg-white absolute bottom-[-2px] -z-10"
-            ></div>
-            <div
-                class="hidden md:block right-[60px] h-[2px] w-[300px] bg-white absolute bottom-[-2px] -z-10"
-            ></div>
+            <div class="max-w-4xl">
+                <h3 class="text-2xl mb-6">
+                    Jak bronią się sprawcy mowy nienawiści i hejterzy? Dlaczego
+                    ich argumentacja nie jest słuszna?
+                </h3>
+                <p>
+                    Mówią, że nie złamali prawa, ponieważ… mają prawo do krytyki
+                    na podstawie prawa prasowego. Prawo to przysługuje tylko
+                    dziennikarzom, którzy mogą krytykować konkretne działania,
+                    tylko w przypadku, gdy wcześniej przeanalizowali dany temat
+                    i znają fakty dotyczące danej sytuacji. W Polsce Konstytucja
+                    gwarantuje wolność słowa, ale prawo to nie ma charakteru
+                    absolutnego, ponieważ jej granice wyznaczają prawa innych
+                    osób.
+                </p>
+            </div>
         </div>
-        <img
-            src="/assets/68/bottom.svg"
-            alt=""
-            class="md:-mt-40 mt-10 relative -z-1"
-        />
+        <div class="mt-10 max-w-3xl mx-auto px-6 md:px-10">
+            <img
+                src="/assets/66/co-mozna-zrobic.svg"
+                width="432"
+                height="111"
+                alt=""
+                class="mx-auto mb-6"
+            />
+            <ul class="space-y-6 sm:border-2 sm:p-10 rounded-xl border-black">
+                <li class="flex items-start">
+                    <img src="/assets/63/1.svg" alt="" class="mr-4" />
+                    <p>
+                        Jeśli wpis dotyczy konkretnej osoby to możesz dodać
+                        jej/jemu otuchy. Powiedz, że nie zgadasz się z osobą,
+                        która ją zaatakowała i okaż jej/jemu wsparcie, którego
+                        potrzebuje.
+                    </p>
+                </li>
+                <li class="flex items-start">
+                    <img src="/assets/63/2.svg" alt="" class="mr-4" />
+                    <p>
+                        Jeśli sam/a jesteś twórcą/twórczynią i np. dostrzegasz
+                        hejt w komentarzach pod swoimi filmami/wpisami to usuwaj
+                        takie wypowiedzi i blokuj ich autorów/autorki. Daj dobry
+                        przykład swoim fanom i fankom. Mów głośno o tym, że nie
+                        zgadzasz się na takie traktowanie. Angażuj się w akcje
+                        propagujące sprzeciw wobec hejtu.
+                    </p>
+                </li>
+                <li class="flex items-start">
+                    <img src="/assets/63/3.svg" alt="" class="mr-4" />
+                    <p>
+                        Widzisz hejt w gazetach/stronach/portalach? Nie
+                        korzystaj z nich, nie kupuj ich i głośno mów, dlaczego!
+                    </p>
+                </li>
+            </ul>
+        </div>
     </Step>
 </template>
 

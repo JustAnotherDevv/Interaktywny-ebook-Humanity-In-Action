@@ -42,7 +42,7 @@
                 <div class="max-w-md">
                     <p class="mt-10">
                         Może są one dla Ciebie niezrozumiałe czy wręcz nudne.
-                        Faktycznie są one sformułowane w języku prawniczym,
+                        Faktycznie, są one sformułowane w języku prawniczym,
                         który nie jest najłatwiejszy. Dlatego spróbujmy je razem
                         &bdquo;ROZPAKOWAĆ&rdquo; :)
                     </p>

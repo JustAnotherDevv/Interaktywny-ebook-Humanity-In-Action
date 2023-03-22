@@ -1,79 +1,54 @@
 <template>
-    <Step>
-        <div class="w-full relative">
-            <p class="text-white bg-black px-4 py-2 inline-block mb-8 text-xl">
-                Kolejnym powiązanym zjawiskiem jest
-            </p>
-            <div class="absolute right-[-150px] top-0 hidden md:block">
-                <img
-                    src="/assets/22/person-right.svg"
-                    alt=""
-                    width="330"
-                    height="570"
-                />
-            </div>
-            <div class="lg:ml-16">
-                <img
-                    src="/assets/22/cyberprzemoc.svg"
-                    alt=""
-                    width="320"
-                    height="42"
-                />
-                <div class="py-6">
-                    <p class="md:max-w-lg">
-                        (inne nazwy to cybermobbing, cyberbullying,
-                        elektroniczna przemoc rówieśnicza), która polega na
-                        stosowaniu przemocy przy użyciu Internetu i narzędzi
-                        elektronicznych (smsy, maile, media społecznościowe i
-                        komunikatory) poprzez prześladowanie, zastraszanie,
-                        nękanie czy wyśmiewanie. Osoba, która tak działa używa
-                        cyberprzemocy.
-                    </p>
-                </div>
+    <Step hide-skip-button>
+        <div class="w-full">
+            <img src="/assets/21/a-czym.svg" alt="" width="347" height="114" />
+            <div
+                class="bg-[url(assets/21/bg.svg)] p-10 md:bg-contain bg-cover bg-no-repeat"
+            >
+                <p class="max-w-lg">
+                    Nie jest łatwo wyznaczyć tę granicę, ale nie każda krytyka
+                    jest hejtem. Każdy/a może swobodnie wyrażać własną opinię.
+                    Ale każdy/a też ma swoją godność i dlatego krytyka nie
+                    powinna nikogo poniżać. Krytyka powinna raczej dotyczyć
+                    działań innych ludzi czy efektów ich pracy, czyli spraw na
+                    której mają oni wpływ i mogą je zmienić. Specyficznym
+                    rodzajem krytyki jest tzw. konstruktywna krytyka, która
+                    oprócz informacji zwrotnej zawiera jeszcze sugestie sposobu
+                    lub sposobów rozwiązania danego problemu. Jednocześnie
+                    trzeba pamiętać, że krytyka, która opiera się na uogólnieniu
+                    i niesprawiedliwym obwinianiu całej grupy za czyny
+                    niektórych jej przedstawicieli, jest z kolei mową
+                    nienawiści.
+                </p>
             </div>
         </div>
 
-        <div
-            class="relative md:flex flex-col md:items-center mt-10 md:max-w-md"
-        >
-            <div class="absolute left-[-450px] top-0 hidden md:block">
+        <div class="flex flex-wrap mt-10">
+            <div class="md:w-1/2">
                 <img
-                    src="/assets/22/person-left.svg"
+                    src="/assets/21/z-hejtem-powiazane.svg"
                     alt=""
-                    width="330"
-                    height="570"
+                    width="417"
+                    height="153"
                 />
             </div>
-            <img
-                src="/assets/22/czy-znasz-kogos.svg"
-                alt=""
-                width="325"
-                height="50"
-            />
-            <p class="py-6">
-                kto należy do jednej z grup, które spotyka mowa nienawiści? Czy
-                zdarzyło Ci sie kiedyś mieć jakąś opinię na temat osoby, która
-                należy do takiej grupy, zanim ją w ogóle poznałeś/aś? A może
-                zdarzyło Ci się zmienić zdanie na temat takiej osoby po tym, jak
-                poznałeś/aś ją bliżej?
-            </p>
-            <p class="text-white bg-black px-4 py-2 inline-block mb-8">
-                Opisz tę sytuację tutaj:
-            </p>
-            <textarea
-                v-model="answers.first"
-                class="w-full notes border-none focus:ring-0 focus:border-none resize-none max-w-md"
-                rows="6"
-            ></textarea>
+            <div class="md:w-1/2 mt-10 md:mt-0">
+                <p class="md:p-4 md:pl-10">
+                    które polega na zamierzonym wpływaniu na innych w celu ich
+                    ośmieszenia, obrażenia i/lub podniesienia poziomu emocji
+                    dyskusji czy sporu poprzez wysyłanie prowokujących,
+                    kontrowersyjnych, często wręcz nieprawdziwych i
+                    zmanipulowanych komunikatów. Osoby zamieszczające tego typu
+                    informacje czy komentarze nazywane są trollami. Część trolli
+                    pracuje na zlecenie wyspecjalizowanych podmiotów zajmujących
+                    się marketingiem politycznym i pobiera z tego tytułu
+                    wynagrodzenie.
+                </p>
+            </div>
         </div>
     </Step>
 </template>
 
 <script setup>
 import Step from "@/components/Step.vue";
-import { useAnswers } from "@/composables/useAnswers";
-
-const { answers } = useAnswers({
-    first: "",
-});
 </script>

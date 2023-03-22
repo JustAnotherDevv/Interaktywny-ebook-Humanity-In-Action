@@ -53,11 +53,31 @@
                     </div>
                 </div>
             </router-link>
-            <router-link to="/krok-75" class="group block">
+
+            <router-link to="/krok-60" class="group block">
                 <div class="flex flex-wrap md:flex-nowrap">
+                    <img
+                        src="/assets/table/Group313.svg"
+                        alt=""
+                        class="transform group-hover:-translate-x-3 transition-transform"
+                    />
                     <div
-                        class="w-[186px] h-[96px] flex-shrink-0 hidden md:block"
-                    ></div>
+                        class="w-full transform group-hover:translate-x-3 transition-transform"
+                    >
+                        <p class="md:ml-10 font-amatic text-5xl">
+                            Mowa nienawiści i hejt: moje własne podsumowanie
+                        </p>
+                    </div>
+                </div>
+            </router-link>
+
+            <router-link to="/krok-77" class="group block">
+                <div class="flex flex-wrap md:flex-nowrap">
+                    <img
+                        src="/assets/table/rozdzial-4.svg"
+                        alt=""
+                        class="transform group-hover:-translate-x-3 transition-transform"
+                    />
                     <div
                         class="w-full transform group-hover:translate-x-3 transition-transform"
                     >

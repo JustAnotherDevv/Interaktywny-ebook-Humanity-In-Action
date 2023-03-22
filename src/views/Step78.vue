@@ -1,5 +1,6 @@
 <template>
     <Step hide-skip-button>
+        <!-- <img src="/assets/75/slowniczek.svg" alt="" width="876" height="99" /> -->
         <div class="font-montserrat">
             <div v-for="item in list" :key="item.name" class="mb-10">
                 <span class="font-bold text-white p-1 bg-black px-2">{{
@@ -9,23 +10,20 @@
                 <div class="mt-4 text-sm">
                     <p v-if="item.sources.length > 1">Źródła:</p>
                     <p v-else>Źródło:</p>
-                    <div v-for="(source, index) in item.sources" :key="index">
-                        <a
-                            v-if="typeof source === 'string'"
-                            :href="source"
-                            target="_blank"
-                            class="hover:underline mb-2 block"
-                            style="
-                                overflow-wrap: break-word;
-                                word-wrap: break-word;
-                                word-break: break-word;
-                            "
-                        >
-                            {{ source }}
-                        </a>
-                        <span v-else>{{ source.text }}</span>
-                    </div>
-                    <template> </template>
+                    <a
+                        :href="source"
+                        v-for="(source, index) in item.sources"
+                        :key="index"
+                        target="_blank"
+                        class="hover:underline mb-2 block"
+                        style="
+                            overflow-wrap: break-word;
+                            word-wrap: break-word;
+                            word-break: break-word;
+                        "
+                    >
+                        {{ source }}
+                    </a>
                 </div>
             </div>
         </div>
@@ -37,62 +35,60 @@ import Step from "@/components/Step.vue";
 
 const list = [
     {
-        name: "Propagowanie",
-        desc: "prezentowanie danego ustroju w zamiarze przekonania do niego. Propagowanie może być połączone z pochwalaniem.",
+        name: "Chrystianofobia, chrystofobia",
+        desc: "niechęć lub strach wobec chrześcijaństwa; wroga postawa lub manifestowanie uprzedzeń wobec chrześcijan.",
         sources: [
-            {
-                link: false,
-                text: "M. Mozgawa [w:] M. Budyn-Kulik, P. Kozłowska-Kalisz, M. Kulik, M. Mozgawa, Kodeks karny. Komentarz aktualizowany, LEX/el. 2021, art. 256",
-            },
+            "https://www.lexico.com/definition/christophobia",
+            "https://sjp.pl/chrystianofobia",
+            "https://nowewyrazy.pl/haslo/chrystianofobia.html",
         ],
     },
     {
-        name: "Rasizm/dyskryminacja rasowa",
-        desc: "uprzedzenie, którego podstawą jest rasa, charakteryzujące się obecnością postaw i przekonań o gorszej naturze osób przynależnych do innej rasy. Rasizm nie jest jedynie poglądem jednostek, czy konkretnych grup, przekonanych o swojej wyższości rasowej nad innymi. Od lat 60. mówi się o instytucjonalnym charakterze rasizmu. Oznacza to, że rasizm odnajdziemy w funkcjonowaniu całego społeczeństwa i jego organizacjach, np. w policji, służbie zdrowia, polityce mieszkaniowej, edukacji, czy mediach.",
+        name: "Dyskryminacja",
+        desc: "to działanie i/lub sytuacja, w której dana osoba lub grupa osób jest traktowana gorzej przez np. władze publiczne albo inne osoby ze względu na swoją płeć, rasę, pochodzenie etniczne, narodowość, religię, wyznanie, światopogląd, niepełnosprawność, wiek czy orientację seksualną. ",
+        sources: ["https://bip.brpo.gov.pl/pl/content/czym-jest-dyskryminacja"],
+    },
+    {
+        name: "Dyskryminacja pozytywna",
+        desc: "odmienne traktowanie osób z grup mniejszościowych, mające na celu zmniejszenie nierówności i wyrównywanie ich szans. Ma zapobiegać nierównemu traktowaniu lub wyrównywać związane z nim niedogodności. Jest stosowana czasowo, do momentu wyrównania szans.",
 
         sources: [
-            "https://www.pah.org.pl/app/uploads/2021/02/RASIZM-bardziej-w-nas-czy-wokol-nas.pdf",
-            "https://sjp.pwn.pl/szukaj/rasizm.html",
-            "https://dictionary.cambridge.org/de/worterbuch/englisch/racism",
+            "https://bip.brpo.gov.pl/sites/default/files/BIULETYN_RPO_Materialy_nr_78.pdf",
+            "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjo287p3sz0AhVypIsKHbavBbk4ChAWegQIEhAB&url=https%3A%2F%2Fwww.gov.pl%2Fattachment%2Faf0a8f68-ab93-4c38-913f-6991ce65da51&usg=AOvVaw1JS_P6eyDi61l0Eb9RCcCG",
+            "https://poradnik.interwencjaprawna.pl/dyskryminacja/",
         ],
     },
     {
-        name: "Rzecznictwo",
-        desc: "działanie na rzecz innych (np. seniorów, młodzieży, grup mniejszościowych) lub idei (np. praw człowieka, godności, sprawiedliwości społecznej), żeby zbudować poparcie dla ważnej sprawy społecznej i/lub przeciwdziałać negatywnym zjawiskom społecznym (np. mowie nienawiści i/lub hejcie). Można być też rzecznikiem grupy, której się jest przedstawicielem/ką.",
+        name: "Faszyzm",
+        desc: "jest to skrajnie prawicowa doktryna polityczna wywodząca się z Włoch z okresu międzywojennego. Sprzeciwia się demokracji. Głosi kult państwa, terror państwowy. Podstawowymi cechami faszyzmu są militaryzm, walka z odmiennymi ideologiami, pełna kontrola partii rządzącej nad każdym, nawet najbardziej prywatnym aspektem życia, a także w skrajnych przypadkach szowinizm i rasizm.",
+
+        sources: ["https://encyklopedia.pwn.pl/haslo/faszyzm;3900060.html"],
+    },
+    {
+        name: "Homofobia (od: homoseksualność i fobia)",
+        desc: "negatywne postawy i uczucia wobec homoseksualności lub osób postrzeganych jako lesbijki lub geje. Jest definiowana jako nienawiść, pogarda, uprzedzenia, niechęć, wstręt lub antypatia wobec osób homoseksualnych, może być oparta na irracjonalnym lęku lub niewiedzy, często wiąże się z przekonaniami religijnymi oraz może skutkować dyskryminacją, prześladowaniem i innymi rodzajami przemocy.",
 
         sources: [
-            "https://www.macmillandictionary.com/dictionary/british/advocacy",
-            "https://pl.wiktionary.org/wiki/rzecznictwo",
+            "https://www.humanityinaction.org/wp-content/uploads/2019/07/20_updated_LGBT_book_OdAdoZoLGBTQIAP.pdf",
+            "https://www.merriam-webster.com/dictionary/homophobia",
+            "https://pl.wikipedia.org/wiki/Homofobia",
         ],
     },
     {
-        name: "Seksizm",
-        desc: "pogląd o wyższości jednej płci nad drugą. Według tego przekonania nierówność jest uzasadniana naturą lub kwestiami kulturowymi. Może dotyczyć wymiaru biologicznego, moralnego lub intelektualnego. Najczęściej pojęcie to stosowane jest w kontekście postrzegania kobiet ze względu na ich płeć. Jednak może być także używane w odniesieniu do negatywnego nastawienia, przekonań, działań wobec mężczyzn. Seksizm ma charakter oceny – odnosi się nie tylko do różnicowania, ale także do wartościowania osób ze względu na ich płeć.",
-
+        name: "Islamofobia",
+        desc: "antyspołeczne uprzedzenie i dyskryminacja w stosunku do islamu oraz jego wyznawców; najczęściej mające podłoże polityczne.",
         sources: [
-            "https://amnesty.org.pl/wp-content/uploads/2016/04/J%C4%99zyk-rownosciowy.pdf",
-            "https://businessinsider.com.pl/wiadomosci/seksizm-miedzynarodowa-definicja-przyjeta-przez-rade-europy/33fxfzz",
-            "https://dictionary.cambridge.org/de/worterbuch/englisch/sexism",
+            "https://pl.wikipedia.org/wiki/Islamofobia",
+            "https://dictionary.cambridge.org/de/worterbuch/englisch/islamophobia",
+            "https://newhumanist.org.uk/524",
         ],
     },
     {
-        name: "Stereotyp",
-        desc: "subiektywne, uproszczone przekonanie dotyczące pewnej grupy lub osoby (osób) do niej należącej. Stereotyp przypisuje wszystkim członkom i członkiniom danej grupy pewne cechy, postawy czy zachowania, generalizując i zacierając różnice pomiędzy poszczególnymi osobami. Stereotypy bazują na niewiedzy i lęku, a ich prostota i ogólność pozornie pomaga wyjaśniać rzeczywistość.",
-
+        name: "Klasizm",
+        desc: "dyskryminacja ze względu na przynależność do określonych klas społeczno-ekonomicznych, przejawiająca się w nierównym traktowaniu osób z klas uważanych za niższe (tj. zazwyczaj osób niezamożnych i należących do tzw. klasy pracującej).",
         sources: [
-            "https://www.nigdywiecej.org/docstation/com_docstation/62/antydyskryminacja.pdf",
-            "https://repozytorium.amu.edu.pl/bitstream/10593/16029/1/014%20JOLANTA%20MILUSKA.pdf",
-            "https://bazhum.muzhp.pl/media/files/Postscriptum_Polonistyczne/Postscriptum_Polonistyczne-r2008-t-n1(1)/",
-            "https://sjp.pwn.pl/slowniki/stereotyp.html",
-        ],
-    },
-    {
-        name: "Szowinizm",
-        desc: "skrajne przekonanie o wyższości danej osoby, grupy społecznej, narodu lub płci nad innymi; łączy się z pogardą lub wrogością wobec osób, które do niej nie należą.",
-
-        sources: [
-            "https://sjp.pwn.pl/szukaj/szowinizm.html",
-            "https://pl.wiktionary.org/wiki/szowinizm",
+            "https://classism.org/about-class/what-is-classism/",
+            "https://sjp.pl/klasizm",
         ],
     },
 ];

@@ -1,146 +1,78 @@
 <template>
-    <Step class="font-montserrat" hide-skip-button>
-        <!-- INSTRAGRAM -->
-        <div class="md:mb-10 relative">
-            <img src="/assets/56/snapchat.svg" alt="" class="mb-8 mx-auto" />
-            <div
-                class="flex w-full justify-center items-center relative flex-col sm:flex-row"
-            >
-                <div class="sm:w-[100px] text-right">
-                    <span>Story</span>
-                </div>
-                <div
-                    class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-                >
-                    <ol class="list-decimal">
-                        <li class="">
-                            <p class="">
-                                Naciśnij i przytrzymaj Snapa do momentu
-                                pojawienia się przycisku
-                            </p>
-                            <img
-                                src="/assets/56/flag.svg"
-                                class="float-left"
-                            />.
-                        </li>
-                        <li>
-                            Kliknij &bdquo;Story&rdquo;, aby ją zgłosić i
-                            poinformować o nim administrację Snapchata.
-                        </li>
-                    </ol>
+    <Step>
+        <div class="w-full">
+            <div>
+                <img
+                    src="/assets/54/top.svg"
+                    alt=""
+                    class="fixed top-0 left-0 md:max-w-[30%] hidden xl:block"
+                />
+            </div>
+            <div class="max-w-xl mx-auto text-center mb-10">
+                <p class="text-xl mb-2">
+                    Tutaj wpisuj inne inspirujące adresy w sieci.
+                </p>
+                <div>
+                    <div v-for="item in 4" :key="item">
+                        <input
+                            v-model="answers.first[item]"
+                            type="text"
+                            class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full ml-2 focus:ring-0 focus:border-black"
+                        />
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div
-            class="flex w-full justify-center items-center relative flex-col sm:flex-row mb-10"
-        >
-            <div class="sm:w-[100px] text-right">
-                <span>Snap wysłany przez innego użytkownika</span>
-            </div>
-            <div
-                class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-            >
-                <ol class="list-decimal">
-                    <li>
-                        <p class="">
-                            Naciśnij i przytrzymaj Snapa do momentu pojawienia
-                            się przycisku
-                        </p>
-                        <img src="/assets/56/flag.svg" class="float-left" />.
-                    </li>
-                    <li>
-                        Kliknij Story, aby ją zgłosić i poinformować o nim
-                        administrację Snapchata.
-                    </li>
-                </ol>
-            </div>
-        </div>
-
-        <div
-            class="flex w-full justify-center items-center relative flex-col sm:flex-row"
-        >
-            <div class="sm:w-[100px] text-right">
-                <span>Konto</span>
-            </div>
-            <div
-                class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-            >
-                <ol class="list-decimal">
-                    <li>Naciśnij i przytrzymaj nazwę Snapchattera.</li>
-                    <li>Stuknij przycisk ⚙.</li>
-                    <li>
-                        Stuknij &bdquo;Zgłoś&rdquo;, aby zgłosić konto i
-                        poinformować administrację Snapchata.
-                    </li>
-                </ol>
-            </div>
-        </div>
-        <!-- tiktok -->
-        <div class="md:my-10 my-8 mt-16 relative">
-            <img src="/assets/56/tiktok.svg" alt="" class="mb-8 mx-auto" />
-
-            <div
-                class="flex w-full justify-center items-center relative flex-col sm:flex-row"
-            >
-                <div class="sm:w-[100px] text-right flex-grow">
-                    <span>Film</span>
+            <div class="max-w-xl mx-auto">
+                <p class="font-amatic text-6xl mb-2">
+                    Wyobraź sobie <br />
+                    siebie za kilka lat
+                </p>
+                <p>
+                    Jesteś popularną i znaną osobą z powodu działalności w
+                    mediach społecznościowych, zwłaszcze ze względu na ilość
+                    interakcji młodzieży, która uważnie śledzi co masz do
+                    powiedzenia.
+                </p>
+                <div class="flex md:items-end mb-4 flex-col md:flex-row mt-2">
+                    <p class="text-lg flex-shrink-0">
+                        Prowadzisz mega kanał na:
+                    </p>
+                    <input
+                        v-model="answers.channel"
+                        type="text"
+                        class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full ml-2 focus:ring-0 focus:border-black max-w-sm"
+                    />
                 </div>
-                <div
-                    class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-                >
-                    <ol class="list-decimal">
-                        <li>
-                            Kliknij ikonę &bdquo;Udostępnij&rdquo; w prawym
-                            dolnym rogu strony.
-                        </li>
-                        <li>
-                            Wybierz opcję &bdquo;Zgłoś&rdquo; i wybierz powód
-                            zgłoszenia.
-                        </li>
-                    </ol>
+                <div class="flex md:items-end mb-4 flex-col md:flex-row">
+                    <p class="text-lg">o</p>
+                    <input
+                        v-model="answers.about"
+                        type="text"
+                        class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full mx-2 focus:ring-0 focus:border-black max-w-sm"
+                    />
+                    <span class="text-xs"
+                        >(Wypełnij tak, by to do Ciebie pasowało),</span
+                    >
                 </div>
+                <p>
+                    masz miliony followersów. Jakie ustalisz zasady
+                    komunikowania się Twoich fanów/ek? Wypisz 5 najważniejszych
+                    poniżej.
+                </p>
             </div>
-        </div>
 
-        <div
-            class="flex w-full justify-center items-center relative flex-col sm:flex-row mb-10"
-        >
-            <div class="sm:w-[100px] text-right">
-                <span>Komentarz</span>
-            </div>
-            <div
-                class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-            >
-                <ol class="list-decimal">
-                    <li>
-                        Kliknij i przytrzymaj dłużej komentarz, który chcesz
-                        zgłosić.
-                    </li>
-                    <li>
-                        Wybierz opcję &bdquo;Zgłoś&rdquo; i wybierz powód
-                        zgłoszenia.
-                    </li>
-                </ol>
-            </div>
-        </div>
-        <div
-            class="flex w-full justify-center items-center relative flex-col sm:flex-row mb-10"
-        >
-            <div class="sm:w-[100px] text-right">
-                <span>Konto</span>
-            </div>
-            <div
-                class="pl-8 ml-4 sm:border-l border-t sm:border-t-0 pt-4 mt-4 sm:pt-0 sm:mt-0 border-black sm:w-[350px] w-full max-w-[350px]"
-            >
-                <ol class="list-decimal">
-                    <li>
-                        Wejdź na profil Użytkownika/czki, którego/którą chcesz
-                        zgłosić.
-                    </li>
-                    <li>Kliknij … i wybierz opcję &bdquo;Zgłoś&rdquo;.</li>
-                    <li>Wybierz powód zgłoszenia.</li>
-                </ol>
+            <div class="mt-10 space-y-4 relative max-w-xl mx-auto">
+                <div v-for="item in 5" :key="item" class="flex items-center">
+                    <span
+                        class="block w-8 h-8 bg-black text-white rounded-full text-center leading-[32px]"
+                        >{{ item }}.</span
+                    >
+                    <input
+                        v-model="answers.list[item]"
+                        type="text"
+                        class="border-bottom border-dotted border-l-0 border-r-0 border-t-0 w-full ml-2 focus:ring-0 focus:border-black"
+                    />
+                </div>
             </div>
         </div>
     </Step>
@@ -148,4 +80,23 @@
 
 <script setup>
 import Step from "@/components/Step.vue";
+import { useAnswers } from "@/composables/useAnswers";
+
+const { answers } = useAnswers({
+    first: {
+        1: "",
+        2: "",
+        3: "",
+        4: "",
+    },
+    channel: "",
+    about: "",
+    list: {
+        1: "",
+        2: "",
+        3: "",
+        4: "",
+        5: "",
+    },
+});
 </script>

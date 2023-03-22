@@ -1,51 +1,32 @@
 <template>
     <Step hide-skip-button>
-        <div class="w-full">
-            <img src="/assets/21/a-czym.svg" alt="" width="347" height="114" />
-            <div
-                class="bg-[url(assets/21/bg.svg)] p-10 md:bg-contain bg-cover bg-no-repeat"
-            >
-                <p class="max-w-lg">
-                    Nie jest łatwo wyznaczyć tę granicę, ale nie każda krytyka
-                    jest hejtem. Każdy/a może swobodnie wyrażać własną opinię.
-                    Ale każdy/a też ma swoją godność i dlatego krytyka nie
-                    powinna nikogo poniżać. Krytyka powinna raczej dotyczyć
-                    działań innych ludzi czy efektów ich pracy, czyli spraw na
-                    której mają oni wpływ i mogą je zmienić. Specyficznym
-                    rodzajem krytyki jest tzw. konstruktywna krytyka, która
-                    oprócz informacji zwrotnej zawiera jeszcze sugestie sposobu
-                    lub sposobów rozwiązania danego problemu. Jednocześnie
-                    trzeba pamiętać, że krytyka, która opiera się na uogólnieniu
-                    i niesprawiedliwym obwinianiu całej grupy za czyny
-                    niektórych jej przedstawicieli, jest z kolei mową
-                    nienawiści.
-                </p>
-            </div>
-        </div>
-
-        <div class="flex flex-wrap mt-10">
-            <div class="md:w-1/2">
-                <img
-                    src="/assets/21/z-hejtem-powiazane.svg"
-                    alt=""
-                    width="417"
-                    height="153"
-                />
-            </div>
-            <div class="md:w-1/2 mt-10 md:mt-0">
-                <p class="md:p-4 md:pl-10">
-                    które polega na zamierzonym wpływaniu na innych w celu ich
-                    ośmieszenia, obrażenia i/lub podniesienia poziomu emocji
-                    dyskusji czy sporu poprzez wysyłanie prowokujących,
-                    kontrowersyjnych, często wręcz nieprawdziwych i
-                    zmanipulowanych komunikatów. Osoby zamieszczające tego typu
-                    informacje czy komentarze nazywane są trollami. Część trolli
-                    pracuje na zlecenie wyspecjalizowanych podmiotów zajmujących
-                    się marketingiem politycznym i pobiera z tego tytułu
-                    wynagrodzenie.
-                </p>
-            </div>
-        </div>
+        <img
+            src="/assets/20/mamy-nadzieje.svg"
+            alt=""
+            width="358"
+            height="241"
+        />
+        <img
+            src="/assets/20/pamietaj.svg"
+            alt=""
+            width="470"
+            height="152"
+            class="my-10"
+        />
+        <p class="max-w-xl md:text-center">
+            Z jednej strony są to niewątpliwie zjawiska wzajemnie powiązane,
+            częściowo do siebie podobne i często współistniejące. Z drugiej
+            jednak strony atak na osoby z powodu ich tożsamości jest naruszeniem
+            praw człowieka, stawia je w znacznie trudniejszej sytuacji, dlatego
+            wymaga odrębnego potraktowania i specjalnej ochrony. Ich pozycja w
+            społeczeństwie i możliwości obrony dobrego imienia czy praw są
+            zupełnie inne w porównaniu do osób publicznych. Oczywiście część
+            osób publicznych również należy do grup mniejszościowych, które są
+            często dyskryminowane - więc one również mogą doświadczać zarówno
+            mowy nienawiści, jak i hejtu. Jak podkreślają aktywiści i aktywistki
+            na rzecz praw człowieka, rozróżnienie obu zjawisk jest potrzebne, bo
+            umożliwia też właściwą reakcję.
+        </p>
     </Step>
 </template>
 

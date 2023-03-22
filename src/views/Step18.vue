@@ -67,11 +67,11 @@ import { useAnswers } from "@/composables/useAnswers";
 const list = {
     1: "to ostra, a czasem wręcz wulgarna krytyka osób publicznych (np. polityków/czek lub celebrytów/ek) dotycząca ich działalności publicznej lub zawodowej;",
     2: "to nie tylko słowa, ale też i grafiki, memy, filmy i żarty, które są odresowane do osób lub grup ze względu na to kim są lub jakie są, czyli ze względu na pewną cechę lub status danej osoby czy grupy ludzi, jak np. rasę, kolor skóry, język, religię lub wyznanie, narodowość lub pochodzenie narodowe i etniczne, rodowód, wiek, niepełnosprawność, płeć, społeczno-kulturową tożsamość płciową i orientację psychoseksualną;",
-    3: "występuje tylko w internecie;",
+    3: "występuje tylko w Internecie;",
     4: "może przyjmować różne formy, np. podżeganie do nienawiści i oskarżanie lub szkalowanie danej osoby lub grupy ludzi, a także prześladowanie, obraza, stosowanie negatywnych stereotypów, stygmatyzowanie lub grożenie danej osobie lub grupie ludzi oraz usprawiedliwianie wyżej wymienionych czynów;",
     5: "występuje wtedy, kiedy ktoś kogoś chce skrytykować publicznie;",
     6: "ma na celu odczłowieczenie, poniżenie lub zastraszenie danej osoby lub grupy ze względu na posiadaną przez nie cechę;",
-    7: "jest przejawiem bardziej złożonych zjawisk, jak np. nietolerancja, dyskryminacja, stygmatyzacja, ksnefobia, które w stosunku do wybranych grup mogą przyjmować formę np. antysemityzmu, islamofobii, chrystianofobii. rasizmu, homofobii, ableizmu, ageizmu. adultyzmu, szowinizmu lub klasizmu. <br> Pssyt... Jeśli nie znasz tych słów albo nie jesteś pewny/a ich znaczenia, to zerknij do słowniczka na końcu książki.",
+    7: "jest przejawiem bardziej złożonych zjawisk, jak np. nietolerancja, dyskryminacja, stygmatyzacja, ksnefobia, które w stosunku do wybranych grup mogą przyjmować formę np. antysemityzmu, islamofobii, chrystianofobii. rasizmu, homofobii, ableizmu, ageizmu. adultyzmu, szowinizmu lub klasizmu. <br> Pssyt... Jeśli nie znasz tych słów albo nie jesteś pewny/a ich znaczenia, to zerknij do Słowniczka na końcu książki.",
 };
 
 const radioOptions = {

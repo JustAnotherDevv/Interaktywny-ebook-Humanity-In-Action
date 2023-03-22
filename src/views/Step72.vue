@@ -1,70 +1,89 @@
 <template>
-    <Step
-        class="font-montserrat pb-10 md:pb-16"
-        hide-skip-button
-        no-max-width
-        no-padding
-    >
-        <div
-            class="w-full xl:bg-[url(/assets/72/header.svg)] bg-black xl:bg-transparent px-6 -mt-20 xl:h-[700px] 2xl:h-[800px] pt-32 xl:px-20 bg-no-repeat bg-contain relative pb-10"
-        >
-            <div class="xl:absolute xl:w-[400px] text-white">
+    <Step class="font-montserrat" hide-skip-button>
+        <div class="flex flex-wrap md:flex-no-wrap md:space-x-4">
+            <img
+                src="/assets/70/jak-mozna.svg"
+                width="335"
+                height="126"
+                alt=""
+                class="mx-auto mb-6 md:mb-0"
+            />
+            <img
+                src="/assets/70/ciekawe.svg"
+                width="335"
+                height="126"
+                alt=""
+                class="mx-auto"
+            />
+        </div>
+
+        <div class="max-w-3xl mt-10">
+            <div
+                class="md:bg-[url(/assets/70/mowa-milosci-frame.svg)] bg-contain bg-no-repeat md:h-[200px] md:px-16 md:py-12 lg:py-16 p-10 md:text-center border-2 border-black md:border-0"
+            >
                 <img
-                    src="/assets/72/wiemy.svg"
+                    src="/assets/70/mowa-milosci.svg"
                     alt=""
-                    class="mb-10 xl:ml-auto xl:mr-20 mx-auto"
+                    class="mb-6 md:hidden"
                 />
                 <p>
-                    że w ostatnich latach wzrósł (i może ciągle wzrasta – jak
-                    myślisz?) odsetek osób mających do czynienia z mową
-                    nienawiści w mediach i sytuacjach codziennych. Telewizja,
-                    Internet, nasze rozmowy wypełniły się dość intensywnie
-                    hejtem, naskakiwaniem na siebie nawzajem, na swoich
-                    „przeciwników”, na Innych, na Obcych. Powstało też bardzo
-                    wiele publikacji o tym, czym jest mowa nienawiści.
+                    to akcja Fundacji Klamra polegająca na tworzeniu murali,
+                    które przeciwstawiają się mowie nienawiści wobec grup na nią
+                    narażonych.
                 </p>
-            </div>
-
-            <div
-                class="xl:w-[400px] xl:absolute bottom-[250px] right-[50px] text-white xl:text-black mt-10"
-            >
-                Cytowane są co i rusz paragrafy Kodeksu karnego, które
-                przynajmniej część przykładów mowy nienawiści określają
-                przestępstwem, za które może człowieka spotkać dość wysoka kara,
-                łącznie z więzieniem.
             </div>
         </div>
-        <div class="max-w-5xl px-6 md:px-10 py-10 w-full">
-            <p>
-                Karanie, banowanie, wykluczanie osób stosujących mowę
-                nienawiści, jak już pewnie wiecie z książki, nie zawsze jest
-                skuteczne. Opisany w publikacji eksperyment z użyciem
-                JamesWalker43 – poczciwego bota gotowego użyć aż 100 tysięcy
-                unikatowych interwencji na mowę nienawiści i hejt, pokazał jak
-                wiele można zdziałać empatią, szacunkiem do drugiego człowieka i
-                przypominaniem zasad odpowiedzialnej komunikacji między ludźmi.
-                Czy tak właśnie się komunikujesz? Czy starasz się odzywać do
-                innych z szacunkiem i godnością? Czy pamiętasz, że po drugiej
-                stronie jest zawsze człowiek? Ta książka jest wspaniała, bo
-                stawia te i wiele innych pytań, uczy o tym czym jest mowa
-                nienawiści i hejt, ale przede wszystkim podsuwa pomysły na
-                reagowanie i pokazuje czemu tak ważne jest by działać.
-            </p>
-            <p class="font-amatic text-4xl text-center my-10">
-                Zostawiam was z książką oraz szacunkiem, empatią i troską o
-                siebie nawzajem!
-            </p>
-            <div class="relative inline-block">
-                <p class="font-bold">Dominika Cieślikowska</p>
-                <p>
-                    Psycholożka, trenerka umiejętności międzykulturowych i
-                    antydyskryminacyjnych
-                </p>
-                <img
-                    src="/assets/72/quote.svg"
-                    class="absolute md:bottom-[-40px] md:right-[-20px] right-0 bottom-[-50px]"
-                    alt=""
-                />
+
+        <div class="max-w-3xl mt-10 w-full">
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-3/5">
+                    <div
+                        class="md:bg-[url(/assets/70/zamaluj-frame.svg)] bg-contain bg-no-repeat md:h-[250px] p-10 md:pt-24 border-2 border-black md:border-0"
+                    >
+                        <img
+                            src="/assets/70/zamaluj.svg"
+                            alt=""
+                            class="mb-6 md:hidden"
+                        />
+                        <p class="md:w-[350px]">
+                            inicjatywy w różnych miastach polegające na
+                            namierzaniu nienawistnych napisów na budynkach,
+                            dokumentowanie ich i doprowadzanie do legalnego ich
+                            zamalowywania.
+                        </p>
+                    </div>
+                    <div
+                        class="md:bg-[url(/assets/70/pisanie-frame.svg)] bg-contain bg-no-repeat md:h-[250px] mt-10 p-10 md:pt-24 border-2 border-black md:border-0"
+                    >
+                        <img
+                            src="/assets/70/pisanie.svg"
+                            alt=""
+                            class="mb-6 md:hidden"
+                        />
+                        <p class="md:w-[350px]">
+                            wpadających w ucho piosenek np. hip-hopowych, które
+                            wspierają działania anty-hejtowe i mogą np. być
+                            ustawione jako dzwonek w telefonie.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full md:w-2/5">
+                    <div
+                        class="md:bg-[url(/assets/70/tworzenie-frame.svg)] bg-contain bg-no-repeat md:h-[450px] mt-10 md:mt-0 p-10 md:pt-32 sm:pt-24 border-2 border-black md:border-0"
+                    >
+                        <img
+                            src="/assets/70/zamaluj.svg"
+                            alt=""
+                            class="mb-6 md:hidden"
+                        />
+                        <p class="md:w-[240px] transform -rotate-[3deg]">
+                            których chętne osoby mogą łatwo użyć, gdy chcą
+                            przeciwstawić się np. jakiemuś wpisowi czy
+                            komentarzowi w mediach społecznościowych, który
+                            promuje lub zawiera elementy mowy nienawiści.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </Step>

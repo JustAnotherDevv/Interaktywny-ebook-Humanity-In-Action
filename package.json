@@ -12,7 +12,7 @@
     "vue-axios": "^3.4.1",
     "vue-router": "^4.0.12",
     "vue-slick-carousel": "^1.0.6",
-    "vue3-carousel": "^0.1.36"
+    "vue3-carousel": "^0.3.1"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.4.3",
